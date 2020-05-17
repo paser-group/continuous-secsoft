@@ -4,9 +4,10 @@
 ## Instructor 
 
 > Akond Rahman, PhD 
-> arahman@tntech.edu 
 > Foundation Hall, Room#132
 > Office hours: 9:30 AM – 10:30 AM , Friday (Tentative) 
+
+> arahman@tntech.edu 
 > Web: https://akondrahman.github.io/ 
 
 
@@ -24,8 +25,8 @@
 
 
 
-| Date    | Tentative Schedule                                                                                                                                              |
-|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date    | Tentative Schedule                                     |
+|---------|--------------------------------------------------------|
 | Aug 25  | Introduction, Workshop#0                               |
 | Aug 27  | Insecure coding patterns                               |
 | Sep 01  | Security static analysis tools                         |
