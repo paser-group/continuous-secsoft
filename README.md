@@ -20,9 +20,6 @@
 
 > Recommended Textbook:  Software Security: Building Security In, Gary McGraw, Addison-Wesley.
 
-## Schedule 
-
-
 
 ## Schedule 
 
@@ -93,8 +90,8 @@
 ## Other instructions 
 - All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
 - One project per student.  
+- For workshop save your work in a Tenn. Tech. Gitlab repository and share the link in designated iLearn assignments. 
 - Project source code must be maintained in Tenn. Tech Gitlab repos (https://gitlab.csc.tntech.edu/). 
 - If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course .  
 - Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
 - Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
-- Every regrade request is due within 48 hours. 
