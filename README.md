@@ -75,10 +75,9 @@
 
 ## Project Grade Distribution 
 - Final Report: 30%
-  - Mandatory sections: Introduction, Research Questions, Methodology, Findings, References => 25% 
+  - Mandatory sections: Introduction, Research Questions, Methodology, Findings, References => 50% 
   - Report must be in Latex => 25% 
   - Report must be free of typos, grammaticall errors, and passive voices => 25% 
-  - Report must discuss who did what part of the project => 25% 
 - Code: 30% 
 - Short presentations: 15% 
 - Demo: create video of developed tool or research findings: 25%
@@ -91,12 +90,11 @@
   - D: 60–79 
   - F: less than 59
 
-## Guidelines
+## Other instructions 
 - All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
+- One project per student.  
 - Project source code must be maintained in Tenn. Tech Gitlab repos (https://gitlab.csc.tntech.edu/). 
 - If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course .  
 - Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
-- Final project report should be spell-checked, typo-free, without passive voice. 
-- Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility teams are allowed to use Docker containers.   
+- Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
 - Every regrade request is due within 48 hours. 
-- One project report per student.  
