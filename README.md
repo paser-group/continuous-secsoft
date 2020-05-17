@@ -5,9 +5,11 @@
 
 > Akond Rahman, PhD 
 > Foundation Hall, Room#132
+
 > Office hours: 9:30 AM – 10:30 AM , Friday (Tentative) 
 
 > arahman@tntech.edu 
+
 > Web: https://akondrahman.github.io/ 
 
 
@@ -15,6 +17,7 @@
 ## Materials 
 
 > Required Textbook: Required: Software Security Engineering: A Guide for Project Managers (SEI Series in Software Engineering Series), Julia H. Allen, Sean J. Barnum, Robert J. Ellison, Addison-Wesley. 
+
 > Recommended Textbook:  Software Security: Building Security In, Gary McGraw, Addison-Wesley.
 
 ## Schedule 
