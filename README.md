@@ -31,10 +31,10 @@
 | Aug 27  | Insecure coding patterns                               |
 | Sep 01  | Security static analysis tools                         |
 | Sep 03  | Workshop#1:insecure coding patterns                    |
-| Sep 08  | Fuzzing                                                |
-| Sep 10  | Workshop#2:fuzzing                                     |
-| Sep 15  | IEEE Software Security Design Flaws                    |
-| Sep 17  | Threat modeling                                        |
+| Sep 08  | Model checking                                         |
+| Sep 10  | Workshop#2:model checking                              |
+| Sep 15  | Fuzzing                                                |
+| Sep 17  | Workshop#3:fuzzing, Threat modeling                    |
 | Sep 22  | Project presentation day#1                             |
 | Sep 24  | Exam#1                                                 |
 | Sep 29  | Security requirements, Exam#1 grades distributed       |
@@ -43,20 +43,20 @@
 | Oct 08  | Vulnerabilities:detection                              |
 | Oct 13  | Fall break, no class                                   |
 | Oct 15  | Vulnerabilities:repair                                 |
-| Oct 20  | Workshop#3:vulnerabilities                             |
+| Oct 20  | Workshop#4:vulnerabilities                             |
 | Oct 22  | Privacy:GDPR                                           |
 | Oct 27  | Privacy:NIST privacy framework                         |                                             
-| Oct 29  | Workshop#4:privacy                                     |                 
+| Oct 29  | Workshop#5:privacy                                     |                 
 | Nov 03  | Privilege escalation                                   |
 | Nov 05  | Programming language security                          |
-| Nov 10  | Workshop#5:programming language security               |
+| Nov 10  | Workshop#6:programming language security               |
 | Nov 12  | Project presentation day#2                             |
-| Nov 17  | Adverserial machine learning                           |
+| Nov 17  | IEEE Software Security Design Flaws                    |
 | Nov 19  | Exam#2                                                 |
 | Nov 24  | Thanks giving                                          |
 | Nov 26  | Thanks giving, Exam#2 grades distributed               |    
-| Dec 01  | Workshop#6:adverserial machine learning                |
-| Dec 03  | Last day of classes: Compliance                        |
+| Dec 01  | Adverserial machine learning                           |
+| Dec 03  | Last day: Workshop#7:adverserial machine learning      |
 | Dec 05  | Project report and demo due                            |
 | Dec 06  | Tentative course grades released                       |
 | Dec 07  | Grades released                                        |
