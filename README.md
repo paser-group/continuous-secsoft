@@ -47,7 +47,7 @@
 | Oct 22  | Privacy:GDPR                                           |
 | Oct 27  | Privacy:NIST privacy framework                         |                                             
 | Oct 29  | Workshop#5:privacy                                     |                 
-| Nov 03  | Privilege escalation                                   |
+| Nov 03  | Privilege escalation (or Industry Guest Lecture)       |
 | Nov 05  | Programming language security                          |
 | Nov 10  | Workshop#6:programming language security               |
 | Nov 12  | Project presentation day#2                             |
