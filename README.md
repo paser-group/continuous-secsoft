@@ -76,8 +76,8 @@
   - Report must be in Latex => 25% 
   - Report must be free of typos, grammaticall errors, and passive voices => 25% 
 - Code: 30% 
-- Short presentations: 15% 
-- Demo: create video of developed tool or research findings: 25%
+- Elevator pitches: 10% 
+- Demo: create video of developed tool or research findings: 30%
 
 
 ## Grading scale: 
@@ -95,3 +95,6 @@
 - If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course .  
 - Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
 - Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
+- For workshops and projects you can consult your peers but the work needs to be solo. 
+
+
