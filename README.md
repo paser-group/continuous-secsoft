@@ -71,13 +71,14 @@
 - Some extra credit 
 
 ## Project Grade Distribution 
-- Final Report: 30%
+- Project Tasks: 60%
+- Final Report: 20%
   - Mandatory sections: Introduction, Research Questions, Methodology, Findings, References => 50% 
   - Report must be in Latex => 25% 
   - Report must be free of typos, grammaticall errors, and passive voices => 25% 
-- Code: 30% 
-- Elevator pitches: 10% 
-- Demo: create video of developed tool or research findings: 30%
+- Code: 10% 
+- Elevator pitches: 5% 
+- Demo: create video of developed tool or research findings: 5%
 
 
 ## Grading scale: 
@@ -87,14 +88,20 @@
   - D: 60–79 
   - F: less than 59
 
-## Other instructions 
-- All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
+
+## Instructions related to Project 
 - One project per student.  
-- For workshop save your work in a Tenn. Tech. Gitlab repository and share the link in designated iLearn assignments. 
 - Project source code must be maintained in Tenn. Tech Gitlab repos (https://gitlab.csc.tntech.edu/). 
-- If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course .  
 - Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
 - Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
+- Throughout the semester you will be completing 3/4 tasks as part of your individual project. Each of these tasks will have a deadline. If you miss the deadline you will be penalized 5 points allocated for the project for each day of delay. 
+- For sharing results and demisntrating completion of tasks you will use issues and share screenshots and links of your work. For example, if your task is to find a hard-coded password in source code, you need to share the link of the code where you found the hard-coded password. 
+
+
+## Other instructions 
+- All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
+- For workshop save your work in a Tenn. Tech. Gitlab repository and share the link in designated iLearn assignments. 
+- If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course .  
 - For workshops and projects you can consult your peers but the work needs to be solo. 
 
 
