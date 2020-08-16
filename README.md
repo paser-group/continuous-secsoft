@@ -99,6 +99,7 @@
 
 
 ## Other instructions 
+- Bring your own laptop. You can't work with your peer. 
 - All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
 - For workshop save your work in a Tenn. Tech. Gitlab repository and share the link in designated iLearn assignments. 
 - If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course .  
