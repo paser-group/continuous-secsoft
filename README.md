@@ -31,8 +31,8 @@
 | Aug 27  | Insecure coding patterns                               |
 | Sep 01  | Security static analysis tools                         |
 | Sep 03  | Workshop#1:insecure coding patterns                    |
-| Sep 08  | Model checking                                         |
-| Sep 10  | Workshop#2:model checking                              |
+| Sep 08  | Forensics                                              |
+| Sep 10  | Workshop#2:forensics                                   |
 | Sep 15  | Fuzzing                                                |
 | Sep 17  | Workshop#3:fuzzing, Threat modeling                    |
 | Sep 22  | Project presentation day#1                             |
@@ -64,10 +64,10 @@
  
 ## Grade Distribution 
 
-- Exam#1: 20%
-- Exam#2: 20% 
-- Project: 50% 
-- In-class workshops: 10% 
+- Exam#1: 15%
+- Exam#2: 15% 
+- Project: 55% 
+- In-class workshops: 15% 
 - Some extra credit 
 
 ## Project Grade Distribution 
