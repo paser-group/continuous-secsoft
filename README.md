@@ -4,9 +4,8 @@
 ## Instructor 
 
 > Akond Rahman, PhD 
-> Foundation Hall, Room#132
 
-> Office hours: 9:30 AM – 10:30 AM , Friday (Tentative) 
+> Office hours: 10:00 AM – 10:30 AM , Friday (Zoom link shared on iLearn)  
 
 > arahman@tntech.edu 
 
