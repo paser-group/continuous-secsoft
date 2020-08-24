@@ -20,18 +20,16 @@ from collections import Counter
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'PATH2JSON'
 
 def getBranch(path):
-    dict_ = {'/Users/arahman/ICSE2021_REPOS/IMRAN_REPOS/eShopOnContainers':'dev', 
-             '/Users/arahman/TEACHING_REPOS/KUBE_REPOS/scality@metalk8s':'development/2.6'
+    dict_ = {'eShopOnContainers':'dev', 
+             'scality@metalk8s':'development/2.6'
     } 
     if path in dict_:
         return dict_[path] 
     else:
         return 'master' 
 
-def getDevDayCommits(full_path_to_repo, branchName='master', explore=1000):
-    repo_emails = []
+def getDurationAndCommits(full_path_to_repo, branchName='master'):
     all_commits = []
-    repo_emails = []
     all_time_list = []
     if os.path.exists(full_path_to_repo):
         repo_  = Repo(full_path_to_repo)
@@ -40,21 +38,16 @@ def getDevDayCommits(full_path_to_repo, branchName='master', explore=1000):
         except exc.GitCommandError:
            print('Skipping this repo ... due to branch name problem', full_path_to_repo )
         for commit_ in all_commits:
-                commit_hash = commit_.hexsha
-
-                emails = getDevEmailForCommit(full_path_to_repo, commit_hash)
-                repo_emails = repo_emails + emails
-
                 timestamp_commit = commit_.committed_datetime
                 str_time_commit  = timestamp_commit.strftime('%Y-%m-%d') ## date with time 
                 all_time_list.append( str_time_commit )
+    all_day_list   = [datetime(int(x_.split('-')[0]), int(x_.split('-')[1]), int(x_.split('-')[2]), 12, 30) for x_ in all_time_list] + [datetime(int(2019), int(12), int(15), 12, 30)]
+    min_day        = min(all_day_list) 
+    max_day        = max(all_day_list) 
+    ds_life_days   = days_between(min_day, max_day)
+    ds_life_months = round(float(ds_life_days)/float(30), 5)
 
-    else:
-        repo_emails = [ str(x_) for x_ in range(10) ]
-    all_day_list   = [datetime(int(x_.split('-')[0]), int(x_.split('-')[1]), int(x_.split('-')[2]), 12, 30) for x_ in all_time_list]
-
-    repo_emails = np.unique( repo_emails ) 
-    return len(repo_emails) , len(all_commits) , all_day_list
+    return  len(all_commits) , ds_life_days, ds_life_months 
 
 def getAllCommits(all_repos):
     total_commits  = 0 
@@ -62,7 +55,7 @@ def getAllCommits(all_repos):
     all_days       = []
     for repo_ in all_repos:
         branchName = getBranch(repo_) 
-        dev_cnt, com_cnt, _days = getDevDayCommits(repo_, branchName)  
+        dev_cnt, com_cnt, _days = getDevDayCount(repo_, branchName)   
         total_commits = total_commits + com_cnt 
         total_devs    = total_devs + dev_cnt 
         all_days      = all_days + _days 
@@ -118,7 +111,7 @@ def cloneRepos(repo_list, elixirThreshold = 0.1):
         for repo_ in repo_batch:
             counter += 1 
             print('Cloning ', repo_ )
-
+            dirName = '/ELIXIR_REPOS/' + repo_.split('/')[-3] + '@' + repo_.split('/')[-2] ## '/' at the end messes up the index 
             cloneRepo(repo_, dirName ) 
             all_fil_cnt = sum([len(files) for r_, d_, files in os.walk(dirName)])
             all_fil_cnt = all_fil_cnt + 1 
@@ -136,7 +129,6 @@ def cloneRepos(repo_list, elixirThreshold = 0.1):
             elif((counter % 1000) == 0):
                 print(str_)                
             print('#'*100)
-
 
 def giveTimeStamp():
   tsObj = time.time()
@@ -214,42 +206,58 @@ def getDevDayCount(full_path_to_repo, branchName='master', explore=1000):
 
     else:
         repo_emails = [ str(x_) for x_ in range(10) ]
-    all_day_list   = [datetime(int(x_.split('-')[0]), int(x_.split('-')[1]), int(x_.split('-')[2]), 12, 30) for x_ in all_time_list]
+    all_day_list   = [datetime(int(x_.split('-')[0]), int(x_.split('-')[1]), int(x_.split('-')[2]), 12, 30) for x_ in all_time_list] + [datetime(int(2019), int(12), int(15), 12, 30)]
     min_day        = min(all_day_list) 
     max_day        = max(all_day_list) 
     ds_life_days   = days_between(min_day, max_day)
     ds_life_months = round(float(ds_life_days)/float(30), 5)
-    
+    repo_emails = np.unique(repo_emails) 
     return len(repo_emails) , len(all_commits) , ds_life_days, ds_life_months 
 
-def checkEurekaStatus(root_dir_path):
-    list_subfolders_with_paths = [f.path for f in os.scandir(root_dir_path) if f.is_dir()]
+
+def checkFilteringStatus(file_path_elixir_status):
     all_list = []
     count    = 0 
-    for dirName in list_subfolders_with_paths:
+    df_   = pd.read_csv(file_path_elixir_status)
+    repos = np.unique( df_['PATH'].tolist()  )
+    for dirName in repos:
+      if os.path.exists(dirName):
         count += 1
         print(dirName)  
         dev_count, all_file_count, elixir_count  = 0 , 0 , 0 
         all_file_count                                 = sum([len(files) for r_, d_, files in os.walk(dirName)]) 
-        elixir_count                                   = getElixirUsage(dirName) 
-        dev_count, commit_count, age_days, age_months  = getDevDayCount( root_dir_path )
+        elixir_count, elixir_file_list                 = getElixirUsage(dirName) 
+        dev_count, commit_count, age_days, age_months  = getDevDayCount( dirName )
+        # commit_count, age_days, age_months  = getDurationAndCommits( dirName )
         tup = ( count,  dirName, elixir_count, dev_count, all_file_count, commit_count, age_months)
-        print('*'*10)
+        print(tup) 
         all_list.append( tup ) 
         if dev_count < 5: 
-            deleteRepo(dirName, 'LOW_DEVELOPER_THRESHOLD')            
+            deleteRepo(dirName, 'LOW_DEV_THRESHOLD')
+        print('*'*10)
+        temp_df = pd.DataFrame( all_list )
+        temp_df.to_csv('TEMP_DEVS_THRESHOLD_BREAKDOWN.csv', header=['INDEX', 'DIR', 'ELIXIR_COUNT', 'DEV_COUNT', 'ALL_FILE_COUNT', 'COMMITS', 'DURA_MONTHS'], index=False, encoding='utf-8') 
     full_df = pd.DataFrame( all_list ) 
-    full_df.to_csv('THRESHOLD_BREAKDOWN.csv', header=['INDEX', 'DIR', 'ELIXIR_COUNT', 'DEV_COUNT', 'ALL_FILE_COUNT', 'COMMITS', 'DURA_MONTHS'], index=False, encoding='utf-8') 
+    full_df.to_csv('DEVS_THRESHOLD_BREAKDOWN.csv', header=['INDEX', 'DIR', 'ELIXIR_COUNT', 'DEV_COUNT', 'ALL_FILE_COUNT', 'COMMITS', 'DURA_MONTHS'], index=False, encoding='utf-8') 
 
 
 if __name__=='__main__':
     # fetchElixirFromBigQuery() 
     # 
-    repos_df = pd.read_csv('../../../ProjectExploration/PRELIM_ELIXIR_REPOS.csv')
-    list_    = repos_df['GITHUB_URL'].tolist()
-    list_ = np.unique(list_)
-    list_ = getRedactedRepoList( list_ ) 
-    print('Repos to download:', len(list_)) 
-    ## need to create chunks as too many repos 
-    chunked_list = list(makeChunks(list_, 1000))  ### list of lists, at each batch download 1000 repos 
-    cloneRepos(chunked_list)
+    # repos_df = pd.read_csv('../../../ProjectExploration/PRELIM_ELIXIR_REPOS.csv')
+    # list_    = repos_df['GITHUB_URL'].tolist()
+    # list_ = np.unique(list_)
+    # list_ = getRedactedRepoList( list_ ) 
+    # print('Repos to download:', len(list_)) 
+    # ## need to create chunks as too many repos 
+    # chunked_list = list(makeChunks(list_, 1000))  ### list of lists, at each batch download 1000 repos 
+    # cloneRepos(chunked_list)
+
+
+    
+    '''
+    All: 7,858
+    At least 10% Elixir: 4,885
+    Nuthan : 1,151
+    Devs >= 5: 
+    '''
