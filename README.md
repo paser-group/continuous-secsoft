@@ -58,7 +58,7 @@
 | Dec 03  | Last day: Workshop#7:adverserial machine learning      |
 | Dec 05  | Project report and demo due                            |
 | Dec 06  | Tentative course grades released                       |
-| Dec 07  | Grades released                                        |
+| Dec 07  | Final grades released                                  |
 
  
 ## Grade Distribution 
@@ -67,7 +67,7 @@
 - Exam#2: 15% 
 - Project: 55% 
 - In-class workshops: 15% 
-- Some extra credit 
+- Some extra credit (tentative) 
 
 ## Project Grade Distribution 
 - Project Tasks: 60%
