@@ -36,7 +36,7 @@ All workshop-related materials, if applicable will be searched in `workshop`.
 
 #### Docker setup 
 
-After installing Docker you will pull the following Docker image ``. 
+After installing Docker you will pull the following Docker image `akondrahman/sec-soft-edu-materials`. You will use the following command: `docker pull akondrahman/sec-soft-edu-materials`.  
 
 Next, you will run the image and create a directory called `MY_WORKSHOP_WORK`. Then, save this image to Docker Hub. You will need to create an account on DockerHub. It is free.  
 
