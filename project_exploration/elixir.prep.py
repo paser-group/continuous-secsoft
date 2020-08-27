@@ -241,6 +241,51 @@ def checkFilteringStatus(file_path_elixir_status):
     full_df.to_csv('DEVS_THRESHOLD_BREAKDOWN.csv', header=['INDEX', 'DIR', 'ELIXIR_COUNT', 'DEV_COUNT', 'ALL_FILE_COUNT', 'COMMITS', 'DURA_MONTHS'], index=False, encoding='utf-8') 
 
 
+
+def checkForkStatus(file_path_elixir_status):
+    count    = 0 
+    df_   = pd.read_csv(file_path_elixir_status)
+    repos = np.unique( df_['PATH'].tolist()  )
+    for dirName in repos:
+      json_content  = '' 
+      if os.path.exists(dirName):
+        repo_df  = df_[df_['PATH']==dirName] 
+        repo_url = repo_df['URL'].tolist()[0]
+        repo_json = repo_url.replace('https://github.com/', '').replace('/', '@')
+        repo_json = '/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/course-repo/continuous-secsoft/project_exploration/JSONS/' + repo_json[:-1] + '.json'
+        if os.path.exists(repo_json):
+            with open(repo_json, 'r') as file_:
+                json_content = file_.read()
+                if '"fork": false,' in json_content:
+                    print("{} is a non-clone repository".format(dirName)) 
+                    count += 1
+                else:
+                    deleteRepo(dirName, 'CLONED_REPOSITORY')
+        print('*'*10)
+    print('Total non-cloned repos are:', count) 
+
+
+def checkCIStatus(file_path_elixir_status):
+    count    = 0 
+    df_   = pd.read_csv(file_path_elixir_status)
+    repos = np.unique( df_['PATH'].tolist()  )
+    for dirName in repos:
+      if os.path.exists(dirName):
+        print(dirName)  
+        ci_list = []
+        for root_, dirnames, filenames in os.walk(dirName): 
+            for file_ in filenames:
+                full_path_file = os.path.join(root_, file_) 
+                if( '.travis.yml' in full_path_file   ):        
+                            ci_list.append(full_path_file)
+        if (len(ci_list) > 0):
+            count += 1 
+        else: 
+            deleteRepo(dirName, 'NO_TRAVIS_CI')                         
+    print('Repos with CI:', count) 
+
+
+
 if __name__=='__main__':
     # fetchElixirFromBigQuery() 
     # 
@@ -253,11 +298,18 @@ if __name__=='__main__':
     # chunked_list = list(makeChunks(list_, 1000))  ### list of lists, at each batch download 1000 repos 
     # cloneRepos(chunked_list)
 
+    # checkFilteringStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
 
-    
+    # checkForkStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
+
+
+    checkCIStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
+
     '''
     All: 7,858
     At least 10% Elixir: 4,885
     Nuthan : 1,151
-    Devs >= 5: 
+    Devs >= 5: 806   
+    Non-cloned repos: 696 
+    With Travis CI: 513
     '''
