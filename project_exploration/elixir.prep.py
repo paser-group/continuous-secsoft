@@ -100,7 +100,7 @@ def getElixirUsage(path2dir):
             full_path_file = os.path.join(root_, file_) 
             if(os.path.exists(full_path_file)):
                 if (file_.endswith('ex')  or file_.endswith('exs') )  :
-                    elixir_file_list.append( file_  )
+                    elixir_file_list.append( full_path_file  )
     usageCount = len( elixir_file_list ) 
     return usageCount , elixir_file_list                         
 
@@ -285,6 +285,83 @@ def checkCIStatus(file_path_elixir_status):
     print('Repos with CI:', count) 
 
 
+def getRelPathOfFiles(all_ext_param, repo_dir_absolute_path):
+  common_path = repo_dir_absolute_path
+  files_relative_paths = [os.path.relpath(path, common_path) for path in all_ext_param]
+  return files_relative_paths 
+
+def getElixirRelatedCommits(repo_dir_absolute_path, extListInRepo, branchName='master'):
+  mappedList=[]
+  track_exec_cnt = 0
+  repo_  = Repo(repo_dir_absolute_path)
+  all_commits = list(repo_.iter_commits(branchName))
+  for each_commit in all_commits:
+    track_exec_cnt = track_exec_cnt + 1
+
+    cmd_of_interrest1  = 'cd ' + repo_dir_absolute_path + " ; "
+    cmd_of_interrest2  = "git show --name-status " + str(each_commit)  +  "  | awk '/.exs/ {print $2}'" + " ; "
+    cmd_of_interrest3  = "git show --name-status " + str(each_commit)  +  "  | awk '/.ex/ {print $2}'" 
+    cmd_of_interrest   = cmd_of_interrest1 + cmd_of_interrest2 + cmd_of_interrest3 
+    commit_of_interest = str(subprocess.check_output(['bash', '-c', cmd_of_interrest])) #in Python 3 subprocess.check_output returns byte
+
+
+    for extFile in extListInRepo:
+        # print(extFile, commit_of_interest)
+        if extFile in commit_of_interest:
+            file_with_path = os.path.join(repo_dir_absolute_path, extFile)
+            mapped_tuple = (file_with_path, each_commit)
+            mappedList.append(mapped_tuple)
+
+  return mappedList  
+
+def buildElixirDataset(repo_path, mapping_tuple):
+    full_tuple_list = []
+    for tuple_ in mapping_tuple:
+
+        file_ = tuple_[0]
+        commit_ = tuple_[1]
+        msg_commit =  commit_.message 
+
+        msg_commit = msg_commit.replace('\r', ' ')
+        msg_commit = msg_commit.replace('\n', ' ')
+        msg_commit = msg_commit.replace(',',  ';')    
+        msg_commit = msg_commit.replace('\t', ' ')
+        msg_commit = msg_commit.replace('&',  ';')  
+        msg_commit = msg_commit.replace('#',  ' ')
+        msg_commit = msg_commit.replace('=',  ' ')      
+
+        commit_hash = commit_.hexsha
+
+        timestamp_commit = commit_.committed_datetime
+        str_time_commit  = timestamp_commit.strftime("%Y-%m-%dT%H-%M-%S") 
+
+        temp_tup = (repo_path, commit_hash, str_time_commit, file_, msg_commit  )
+        print(temp_tup) 
+        full_tuple_list.append(temp_tup)
+    return full_tuple_list 
+
+
+
+
+def runElixirMiner(repo_list ):
+    all_dataset_list = []
+    for repo_path in repo_list: 
+        if (os.path.exists( repo_path )):
+            print(repo_path) 
+            repoBranch = getBranch(repo_path) 
+            ext_count, all_ext_files_in_repo  = getElixirUsage(repo_path)   
+            rel_path_yaml_files               = getRelPathOfFiles(all_ext_files_in_repo, repo_path)
+            yaml_commits_in_repo              = getElixirRelatedCommits(repo_path, rel_path_yaml_files, repoBranch)
+            dataset_yaml_list                 = buildElixirDataset( repo_path, yaml_commits_in_repo  )
+            all_dataset_list                  = all_dataset_list + dataset_yaml_list 
+    df_ = pd.DataFrame( all_dataset_list ) 
+    # print(df_.head())
+    df_.to_csv('FULL_ELIXIR_COMMIT_DATASET.csv', header=['REPO', 'HASH', 'TIMESTAMP', 'FILE_PATH', 'MESSAGE_TEXT'], index=False, encoding='UTF-8')     
+
+
+
+
+
 
 if __name__=='__main__':
     # fetchElixirFromBigQuery() 
@@ -303,7 +380,7 @@ if __name__=='__main__':
     # checkForkStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
 
 
-    checkCIStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
+    # checkCIStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
 
     '''
     All: 7,858
@@ -313,3 +390,8 @@ if __name__=='__main__':
     Non-cloned repos: 696 
     With Travis CI: 513
     '''
+    elixir_repos = 'elixir.top25.repos.csv' 
+    repo_df      = pd.read_csv(elixir_repos) 
+    repo_list    = list(np.unique(  repo_df['NAMES'].tolist() ) )
+
+    runElixirMiner(repo_list)

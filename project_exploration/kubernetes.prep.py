@@ -16,7 +16,17 @@ import _pickle as pickle
 import pandas as pd 
 
 
-
+def getBranch(proj_):
+    branch_name = ''
+    proj_branch = {'/Users/arahman/K8S_REPOS/GITLAB_REPOS/basic-microservice-for-learning':'Development', 
+                   '/Users/arahman/K8S_REPOS/GITLAB_REPOS/koris':'dev', 
+                   '/Users/arahman/K8S_REPOS/GITLAB_REPOS/stackgres':'development' 
+                  } 
+    if proj_ in proj_branch:
+        branch_name = proj_branch[proj_]
+    else:
+        branch_name = 'master'
+    return branch_name
 def getYAMLFilesOfRepo(repo_dir_absolute_path):
     yaml_list =  []
     for root_, dirs, files_ in os.walk(repo_dir_absolute_path):
@@ -106,7 +116,7 @@ def runMiner(repo_list, root_repo ):
 
 
 if __name__=='__main__':
-    
+    root_repo = '/Users/arahman/K8S_REPOS/GITLAB_REPOS/'
     gitlab_repos = 'gitlab.k8s.repos.csv' 
 
     df_ = pd.read_csv(gitlab_repos)
