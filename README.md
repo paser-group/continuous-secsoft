@@ -44,7 +44,7 @@
 | Oct 15  | Vulnerabilities:repair                                 |
 | Oct 20  | Workshop#4:vulnerabilities                             |
 | Oct 22  | Privacy:GDPR                                           |
-| Oct 27  | Privacy:NIST privacy framework                         |                                             
+| Oct 27  | Guest lecture (Chris Theisen, Microsoft)               |                                             
 | Oct 29  | Workshop#5:privacy                                     |                 
 | Nov 03  | Privilege escalation (or Industry Guest Lecture)       |
 | Nov 05  | Programming language security                          |
