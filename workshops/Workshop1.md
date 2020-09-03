@@ -12,4 +12,4 @@
 - Push your code in your repository 
 - Show your output in `WORK4WORKSHOP#1.md`
 - Write instructions on how to reproduce your work  in `WORK4WORKSHOP#1.md`
-- Answer questions for Workshop#1 in iLearn
+- Answer questions for Mini-workshop#1 in iLearn
