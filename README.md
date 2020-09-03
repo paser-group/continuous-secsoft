@@ -29,12 +29,12 @@
 | Aug 25  | Introduction, Workshop#0                               |
 | Aug 27  | Insecure coding patterns                               |
 | Sep 01  | Security static analysis tools                         |
-| Sep 03  | Workshop#1:insecure coding patterns                    |
+| Sep 03  | Workshop#1:Security static analysis tools              |
 | Sep 08  | Forensics                                              |
-| Sep 10  | Workshop#2:forensics                                   |
+| Sep 10  | Workshop#2:Forensics                                   |
 | Sep 15  | Fuzzing                                                |
-| Sep 17  | Workshop#3:fuzzing, Threat modeling                    |
-| Sep 22  | Project presentation day#1                             |
+| Sep 17  | Workshop#3:fuzzing                                     |
+| Sep 22  | Project presentation day#1: Elevator pitch             |
 | Sep 24  | Exam#1                                                 |
 | Sep 29  | Security requirements, Exam#1 grades distributed       |
 | Oct 01  | Secure Software Development Lifecycle                  |

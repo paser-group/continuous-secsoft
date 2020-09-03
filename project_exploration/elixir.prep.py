@@ -18,6 +18,7 @@ import subprocess
 from collections import Counter
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'PATH2JSON'
+prem_bug_kw_list      = ['error', 'bug', 'fix', 'issue', 'mistake', 'incorrect', 'fault', 'defect', 'flaw', 'solve' ]
 
 def getBranch(path):
     dict_ = {'eShopOnContainers':'dev', 
@@ -317,7 +318,6 @@ def getElixirRelatedCommits(repo_dir_absolute_path, extListInRepo, branchName='m
 def buildElixirDataset(repo_path, mapping_tuple):
     full_tuple_list = []
     for tuple_ in mapping_tuple:
-
         file_ = tuple_[0]
         commit_ = tuple_[1]
         msg_commit =  commit_.message 
@@ -328,7 +328,8 @@ def buildElixirDataset(repo_path, mapping_tuple):
         msg_commit = msg_commit.replace('\t', ' ')
         msg_commit = msg_commit.replace('&',  ';')  
         msg_commit = msg_commit.replace('#',  ' ')
-        msg_commit = msg_commit.replace('=',  ' ')      
+        msg_commit = msg_commit.replace('=',  ' ')   
+        msg_commit = msg_commit.lower()    
 
         commit_hash = commit_.hexsha
 
@@ -337,7 +338,8 @@ def buildElixirDataset(repo_path, mapping_tuple):
 
         temp_tup = (repo_path, commit_hash, str_time_commit, file_, msg_commit  )
         print(temp_tup) 
-        full_tuple_list.append(temp_tup)
+        if (any(x_ in msg_commit for x_ in  prem_bug_kw_list ) ): 
+            full_tuple_list.append(temp_tup)
     return full_tuple_list 
 
 
@@ -356,10 +358,7 @@ def runElixirMiner(repo_list ):
             all_dataset_list                  = all_dataset_list + dataset_yaml_list 
     df_ = pd.DataFrame( all_dataset_list ) 
     # print(df_.head())
-    df_.to_csv('FULL_ELIXIR_COMMIT_DATASET.csv', header=['REPO', 'HASH', 'TIMESTAMP', 'FILE_PATH', 'MESSAGE_TEXT'], index=False, encoding='UTF-8')     
-
-
-
+    df_.to_csv('FULL_ELIXIR_BUG_COMMIT_DATASET.csv', header=['REPO', 'HASH', 'TIMESTAMP', 'FILE_PATH', 'MESSAGE_TEXT'], index=False, encoding='UTF-8')     
 
 
 
@@ -375,12 +374,12 @@ if __name__=='__main__':
     # chunked_list = list(makeChunks(list_, 1000))  ### list of lists, at each batch download 1000 repos 
     # cloneRepos(chunked_list)
 
-    # checkFilteringStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
+    # checkFilteringStatus('~/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
 
-    # checkForkStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
+    # checkForkStatus('~/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
 
 
-    # checkCIStatus('/Users/arahman/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
+    # checkCIStatus('~/Documents/OneDriveWingUp/OneDrive-TennesseeTechUniversity/Teaching/Fall2020/ProjectExploration/Elixir/FULL_ELIXIR_THRESHOLD_BREAKDOWN.csv') 
 
     '''
     All: 7,858
@@ -393,5 +392,5 @@ if __name__=='__main__':
     elixir_repos = 'elixir.top25.repos.csv' 
     repo_df      = pd.read_csv(elixir_repos) 
     repo_list    = list(np.unique(  repo_df['NAMES'].tolist() ) )
-
+    repo_list    = [ '~/ELIXIR_REPOS/TOP25_STARS/'  + x_ for x_ in repo_list]
     runElixirMiner(repo_list)
