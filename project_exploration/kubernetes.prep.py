@@ -18,9 +18,9 @@ import pandas as pd
 
 def getBranch(proj_):
     branch_name = ''
-    proj_branch = {'/Users/arahman/K8S_REPOS/GITLAB_REPOS/basic-microservice-for-learning':'Development', 
-                   '/Users/arahman/K8S_REPOS/GITLAB_REPOS/koris':'dev', 
-                   '/Users/arahman/K8S_REPOS/GITLAB_REPOS/stackgres':'development' 
+    proj_branch = {'~/K8S_REPOS/GITLAB_REPOS/basic-microservice-for-learning':'Development', 
+                   '~/K8S_REPOS/GITLAB_REPOS/koris':'dev', 
+                   '~/K8S_REPOS/GITLAB_REPOS/stackgres':'development' 
                   } 
     if proj_ in proj_branch:
         branch_name = proj_branch[proj_]
@@ -116,7 +116,7 @@ def runMiner(repo_list, root_repo ):
 
 
 if __name__=='__main__':
-    root_repo = '/Users/arahman/K8S_REPOS/GITLAB_REPOS/'
+    root_repo = ''
     gitlab_repos = 'gitlab.k8s.repos.csv' 
 
     df_ = pd.read_csv(gitlab_repos)
