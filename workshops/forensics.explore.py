@@ -3,34 +3,26 @@ Akond Rahman
 Sep 04, 2020 
 Friday 
 '''
-import logging 
-LOGFORMAT = '%(asctime)s:::%(levelname)s:::%(message)s'
-# logging.basicConfig(filename='practice.log') 
+import pandas as pd 
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
 
-# logging.basicConfig(format='%(asctime)s %(message)s') ## this will not work to get time stamp 
+def doLoggingInML(file_, nn_ ):
 
-def doLogging():
-    # logging.basicConfig(filename='practice.log', level=logging.DEBUG, format=LOGFORMAT) :: working 
-    logging.info('Before variables ... datetime not enabled ' )
-    fName  = 'init.sls' 
-    logging.debug('After variable ... datetime not enabled ' +  fName) 
-    logging.warning('Now we have date time')   
+    df_ = pd.read_csv(file_)
+    # print(df_.head()) 
+    I, D = df_.drop(columns=['ICP_STATUS', 'FILE_PATH']) , df_['ICP_STATUS'].values 
 
-def getLogging():
-    ## logging with log object 
-    loggerObj = logging.getLogger('EXAMPLE')
-    # print(loggerObj.__dict__) 
-    loggerObj.setLevel(logging.DEBUG) 
+    #split dataset into train and test data
+    I_train, I_test, D_train, D_test = train_test_split(I, D, test_size=0.2, random_state=1) 
+    knn = KNeighborsClassifier(n_neighbors = nn_ ) 
+    knn.fit(I_train, D_train) 
+    model_accu = knn.score(I_test, D_test)
+    print( model_accu ) 
 
-    file_handler = logging.FileHandler('practice.log') 
-    formatter = logging.Formatter(LOGFORMAT) 
-    file_handler.setFormatter(formatter) 
-    loggerObj.addHandler(file_handler) 
 
-    loggerObj.debug('Got the logger (debug) ... ')
-    loggerObj.info('Got the logger (info) ... ')    
- 
+
 
 if __name__=='__main__':
-    # doLogging() 
-    getLogging() 
+    malicious_dataset , wrong_neighbors  = 'ML_DATASET.csv' , 5
+    doLoggingInML(malicious_dataset, wrong_neighbors) 
