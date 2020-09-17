@@ -16,7 +16,7 @@ install Apache Tomcat server on 1,000 AWS instances then you can do it using a f
 
 In Ansible YAML files are specified using key value pairs ... for example in `sklearn-install.yaml`, `name` is a key and `numpy` and `scikit-learn` are values for the key `name` 
 
-The YAML file specifies how to execute the `pip3` command using Ansible. Instead of manually doing `pip3` to install Python libraries, just run the YAMl script with Ansible and it will install everything you specify under `name`. For example, the script should install the following pip3 packages: *numpy*, *scikit-learn*, *scipy*, and *pandas*.  
+The YAML file specifies how to execute the `pip3` command using Ansible. Instead of manually doing `pip3` to install Python libraries, just run the YAMl script with Ansible and it will install everything you specify under `name`. For example, the script should install the following pip3 packages: *numpy*, *scikit-learn*, *scipy*, and *ZZZ*.  
 
 ## The Tasks 
 
