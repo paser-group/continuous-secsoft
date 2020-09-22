@@ -36,10 +36,10 @@
 | Sep 17  | Workshop#3:Fuzzing                                     |
 | Sep 22  | Project presentation day#1: Elevator pitch             |
 | Sep 24  | Exam#1                                                 |
-| Sep 29  | Security requirements, Exam#1 grades distributed       |
-| Oct 01  | Secure Software Development Lifecycle                  |
-| Oct 06  | Vulnerabilities:categorization                         |
-| Oct 08  | Vulnerabilities:detection                              |
+| Sep 29  | Data flow analysis                                     |
+| Oct 01  | Workshop#4: Data flow analysis                         |
+| Oct 06  | Security Requirements Engineering                      |
+| Oct 08  | Workshop#5: Security requirements engineering          |
 | Oct 13  | Fall break, no class                                   |
 | Oct 15  | Vulnerabilities:repair                                 |
 | Oct 20  | Workshop#4:Vulnerabilities                             |

@@ -15,7 +15,7 @@ Imagine this scenario: Dolly, a data science specialist at Tennessee Tech. Unive
 ML models are susceptible to security issues:  
 
 1. `poisoning attacks` that are introduced through passing in erroneous dataset files into ML code 
-2. `model tricking` that are results of models that are being attacked, which gives erroneous results. Model results are indicators of ML models being attacked.  
+2. `model tricking` that are results of models that are being attacked, which gives erroneous results. Incorrect prediction performance is an indicator of ML models being attacked.  
 
 Assist Dolly by writing logging code in the correct locations in `ML.py` with comments so that the two above-mentioned issues are logged 
-for all provided ML examples. After writing the code, first, make sure it compiles, save `ML.py` and then push it to your repository. Then, complete `Mini-workshop#2` on ILearn. For questions please let me know. 
+for all provided ML examples. After writing the code, first, make sure it compiles. Second, put in comments to justify your code, save `ML.py`, and then push it to your repository. Then, complete `Mini-workshop#2` on ILearn. For questions please let me know. 
