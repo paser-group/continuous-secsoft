@@ -25,4 +25,4 @@ Step#2: 70%
 Step#3:  4% 
 Step#4:  1% 
 
-For questions please let me know. 
+For questions please let me know. Due date Oct 01, 2020, 8 PM CST. 
