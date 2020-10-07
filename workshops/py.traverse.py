@@ -5,6 +5,7 @@ Python variable tracking
 '''
 import ast 
 import os 
+import pandas as pd 
 
 
 def getBinOpDetails(assiTarget, assiValue, element_type = 'SINGLE_ASSIGNMENT' ): 
@@ -91,11 +92,10 @@ def getFunctionAssignments(full_tree):
                     for target in targets:
                         if( isinstance(target, ast.Name) ):
                             lhs = target.id 
-                    for x_ in funcArgs:
-                        if( isinstance(x_, ast.Name ) ) and ( isinstance(funcName, ast.Name ) ):
-                            arg_index =  1
-                            call_list.append( ( lhs, funcName.id, x_.id, 'FUNC_CALL_ARG:' + str(arg_index) )  )
-                            arg_index = arg_index + 1
+                    for x_ in range(len(funcArgs)):
+                        funcArg = funcArgs[x_] 
+                        if( isinstance(funcArg, ast.Name ) ) and ( isinstance(funcName, ast.Name ) ):
+                            call_list.append( ( lhs, funcName.id, funcArg.id, 'FUNC_CALL_ARG:' + str(x_ + 1) )  )
     return call_list 
 
 def giveVarsInIf(body_):
@@ -155,19 +155,58 @@ def getFunctionDefinitions(path2program):
     return call_sequence_ls, func_var_list 
 
 
+def trackTaint(val2track, df_list_param): 
+    var_, call_, func_def, func_var = df_list_param[0], df_list_param[1], df_list_param[2], df_list_param[3]
+    
+    track_val_df = var_[var_['RHS']==val2track]
+    var2track    = track_val_df['LHS'].tolist()[0]
+    # print(var2track, val2track) 
+
+    var_in_call_df = call_[call_['ARG_NAME']==var2track]
+    call_lhs , call_arg_type = var_in_call_df['LHS'].tolist()[0], var_in_call_df['TYPE'].tolist()[0] 
+    call_arg_index = call_arg_type.split(':')[-1]
+    call_func      = var_in_call_df['FUNC_NAME'].tolist()[0]
+    # print( val2track, var2track ) 
+    # print( call_lhs, call_func, call_arg_index ) 
+
+    var_in_func_def_df = func_def[(func_def['FUNC_NAME']==call_func)  & (func_def['TYPE']=='FUNC_DEFI:'+str(call_arg_index) )]
+    func_param2track   = var_in_func_def_df['ARG_NAME'].tolist()[0] 
+
+    # print( val2track, var2track ) 
+    # print( call_lhs, call_func, call_arg_index ) 
+    # print( func_param2track )
+
+    # print(func_var) 
+    needed_func_var_df = func_var[  ( func_var['TYPE']=='FUNC_VAR_ASSIGNMENT' ) & ( func_var['RHS'].str.contains( func_param2track ) ) ]
+    print( needed_func_var_df )
+    lhs_ = needed_func_var_df['LHS'].tolist()[0] 
+
+    print( val2track, var2track ) 
+    print( call_lhs, call_func, call_arg_index ) 
+    print( func_param2track )
+    print( lhs_  )
+
+
+
 if __name__=='__main__':
     input_program = 'fuzz.py' 
     full_tree = None 
     if os.path.exists(input_program):
         full_tree = ast.parse( open( input_program  ).read() )    
-        print('*'*25)
+        # print('*'*25)
         fullVarList = getVariables(full_tree, 'VAR_ASSIGNMENT')  
-        print(fullVarList) 
-        print('*'*25)
+        var_df = pd.DataFrame( fullVarList, columns =['LHS', 'RHS', 'TYPE']  )
+        # print(fullVarList) 
+        # print('*'*25)
         call_list = getFunctionAssignments( full_tree ) 
-        print(call_list) 
-        print('*'*25)
+        call_df   = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
+        # print(call_list) 
+        # print('*'*25)
         funcDefList, funcvarList = getFunctionDefinitions(input_program) 
-        print(funcDefList)
-        print(funcvarList)
-        print('*'*25)
+        func_def_df = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
+        func_var_df = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
+        # print(funcDefList)
+        # print(funcvarList)
+        # print('*'*25)
+        info_df_list = [var_df, call_df, func_def_df, func_var_df]
+        trackTaint( 2 , info_df_list )
