@@ -41,11 +41,11 @@
 | Oct 06  | Security Requirements Engineering                      |
 | Oct 08  | Workshop#5: Security requirements engineering          |
 | Oct 13  | Fall break, no class                                   |
-| Oct 15  | Vulnerabilities:repair                                 |
-| Oct 20  | Workshop#4:Vulnerabilities                             |
-| Oct 22  | Privacy:GDPR                                           |
+| Oct 15  | Threat Modeling                                        |
+| Oct 20  | Privacy:GDPR                                           |
+| Oct 22  | Workshop#5:Privacy                                     |
 | Oct 27  | Guest lecture (Chris Theisen, Microsoft)               |                                             
-| Oct 29  | Workshop#5:Privacy                                     |                 
+| Oct 29  | Vulnerabilities                                        |                 
 | Nov 03  | Privilege escalation                                   |
 | Nov 05  | Programming language security                          |
 | Nov 10  | Workshop#6:Programming language security               |
