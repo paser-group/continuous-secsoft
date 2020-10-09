@@ -42,7 +42,7 @@
 | Oct 08  | Workshop#5: Security requirements engineering          |
 | Oct 13  | Fall break, no class                                   |
 | Oct 15  | Threat Modeling                                        |
-| Oct 20  | Privacy:GDPR                                           |
+| Oct 20  | Privacy                                                |
 | Oct 22  | Workshop#5:Privacy                                     |
 | Oct 27  | Guest lecture (Chris Theisen, Microsoft)               |                                             
 | Oct 29  | Vulnerabilities                                        |                 
