@@ -5,7 +5,7 @@
 
 > Akond Rahman, PhD 
 
-> Office hours: 10:00 AM – 10:30 AM , Friday (Zoom link shared on iLearn)  
+> Office hours:  Upon request 
 
 > arahman@tntech.edu 
 
@@ -43,22 +43,22 @@
 | Oct 13  | Fall break, no class                                   |
 | Oct 15  | Threat Modeling                                        |
 | Oct 20  | Privacy                                                |
-| Oct 22  | Workshop#5:Privacy                                     |
+| Oct 22  | Workshop#6:Privacy                                     |
 | Oct 27  | Guest lecture (Chris Theisen, Microsoft)               |                                             
 | Oct 29  | Vulnerabilities                                        |                 
 | Nov 03  | Privilege escalation                                   |
 | Nov 05  | Programming language security                          |
-| Nov 10  | Workshop#6:Programming language security               |
+| Nov 10  | Workshop#7:Programming language security               |
 | Nov 12  | Project presentation day#2                             |
 | Nov 17  | IEEE Software Security Design Flaws                    |
 | Nov 19  | Exam#2                                                 |
 | Nov 24  | Thanks giving                                          |
 | Nov 26  | Thanks giving, Exam#2 grades distributed               |    
 | Dec 01  | Adverserial machine learning                           |
-| Dec 03  | Last day: Workshop#7:Adverserial machine learning      |
+| Dec 03  | Last day: Workshop#8:Adverserial machine learning      |
 | Dec 05  | Project report and demo due                            |
-| Dec 06  | Tentative course grades released                       |
-| Dec 07  | Final grades released                                  |
+| Dec 08  | Final exam                                             |
+| Dec 11  | Final grade released                                   |
 
  
 ## Grade Distribution 
