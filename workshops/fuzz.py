@@ -28,9 +28,9 @@ def simpleCalculator(v1, v2, operation):
 
 
 if __name__=='__main__':
-    # val1, val2, op = 2, 1, '+'
+    val1, val2, op = 100000000000, 1, '+'
     # val1, val2, op = 1, 0, '/' 
-    val1, val2, op = fuzzer(), fuzzer(), fuzzer()     
+    # val1, val2, op = fuzzer(), fuzzer(), fuzzer()     
 
     data = simpleCalculator(val1, val2, op)
     print('Operation:{} \nresults:{}'.format(  op, data  ) )

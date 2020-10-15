@@ -2,6 +2,7 @@
 Akond Rahman 
 Oct 06, 2020 
 Python variable tracking 
+Source: https://docs.python.org/3/library/ast.html
 '''
 import ast 
 import os 
@@ -178,13 +179,22 @@ def trackTaint(val2track, df_list_param):
 
     # print(func_var) 
     needed_func_var_df = func_var[  ( func_var['TYPE']=='FUNC_VAR_ASSIGNMENT' ) & ( func_var['RHS'].str.contains( func_param2track ) ) ]
-    print( needed_func_var_df )
     lhs_ = needed_func_var_df['LHS'].tolist()[0] 
 
-    print( val2track, var2track ) 
-    print( call_lhs, call_func, call_arg_index ) 
-    print( func_param2track )
-    print( lhs_  )
+    # print( val2track, var2track ) 
+    # print( call_lhs, call_func, call_arg_index ) 
+    # print( func_param2track )
+    # print( lhs_  )
+
+    list_ = [ val2track, var2track, call_func, func_param2track, lhs_, call_lhs ] 
+    track_str = ""
+    for i_ in range(len(list_)):
+        elem = list_[i_]
+        if (i_ < len(list_) - 1  ):
+            track_str = track_str + str(elem) + "---------->" 
+        else:
+            track_str = track_str + str(elem) 
+    print(track_str )
 
 
 
@@ -209,4 +219,4 @@ if __name__=='__main__':
         # print(funcvarList)
         # print('*'*25)
         info_df_list = [var_df, call_df, func_def_df, func_var_df]
-        trackTaint( 2 , info_df_list )
+        trackTaint( 100000000000 , info_df_list )
