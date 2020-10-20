@@ -51,7 +51,7 @@
 | Nov 10  | Workshop#7:Programming language security               |
 | Nov 12  | Project presentation day#2                             |
 | Nov 17  | IEEE Software Security Design Flaws                    |
-| Nov 19  | Exam#2                                                 |
+| Nov 19  | TBD                                                    |
 | Nov 24  | Thanks giving                                          |
 | Nov 26  | Thanks giving, Exam#2 grades distributed               |    
 | Dec 01  | Adverserial machine learning                           |
