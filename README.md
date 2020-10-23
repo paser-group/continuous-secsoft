@@ -50,12 +50,12 @@
 | Nov 05  | Programming language security                          |
 | Nov 10  | Workshop#7:Programming language security               |
 | Nov 12  | Project presentation day#2                             |
-| Nov 17  | IEEE Software Security Design Flaws                    |
-| Nov 19  | TBD                                                    |
+| Nov 17  | Adverserial machine learning                           |
+| Nov 19  | Workshop#8:Adverserial machine learning                |
 | Nov 24  | Thanks giving                                          |
-| Nov 26  | Thanks giving, Exam#2 grades distributed               |    
-| Dec 01  | Adverserial machine learning                           |
-| Dec 03  | Last day: Workshop#8:Adverserial machine learning      |
+| Nov 26  | Thanks giving                                          |    
+| Dec 01  | IEEE Software Security Design Flaws                    |
+| Dec 03  | Last day: Misc. topics: BSIMM, Insider Threats, SDLs   |
 | Dec 05  | Project report and demo due                            |
 | Dec 08  | Final exam                                             |
 | Dec 11  | Final grade released                                   |
@@ -94,7 +94,7 @@
 - Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
 - Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
 - Throughout the semester you will be completing 3/4 tasks as part of your individual project. Each of these tasks will have a deadline. If you miss the deadline you will be penalized 5 points allocated for the project for each day of delay. 
-- For sharing results and demisntrating completion of tasks you will use issues and share screenshots and links of your work. For example, if your task is to find a hard-coded password in source code, you need to share the link of the code where you found the hard-coded password. 
+- For sharing results and demonstrating completion of tasks you will use issues and share screenshots and links of your work. For example, if your task is to find a hard-coded password in source code, you need to share the link of the code where you found the hard-coded password. 
 
 
 ## Other instructions 
