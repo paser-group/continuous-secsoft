@@ -61,12 +61,12 @@
 | Dec 11  | Final grade released                                   |
 
  
-## Grade Distribution 
+## Grade Distribution (Subject to Change)
 
 - Exam#1: 15%
 - Exam#2: 15% 
-- Project: 55% 
-- In-class workshops: 15% 
+- Project: 50% 
+- In-class workshops: 20% 
 - Some extra credit (tentative) 
 
 ## Project Grade Distribution 
