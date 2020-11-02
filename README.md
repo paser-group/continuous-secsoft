@@ -46,7 +46,7 @@
 | Oct 22  | Workshop#6:Privacy                                     |
 | Oct 27  | Guest lecture (Chris Theisen, Microsoft)               |                                             
 | Oct 29  | Vulnerabilities                                        |                 
-| Nov 03  | Privilege escalation                                   |
+| Nov 03  | Principle of Privilege                                 |
 | Nov 05  | Programming language security                          |
 | Nov 10  | Workshop#7:Programming language security               |
 | Nov 12  | Project presentation day#2                             |
@@ -74,7 +74,7 @@
 - Final Report: 20%
   - Mandatory sections: Introduction, Research Questions, Methodology, Findings, References => 50% 
   - Report must be in Latex => 25% 
-  - Report must be free of typos, grammaticall errors, and passive voices => 25% 
+  - Report must be free of typos and passive voices => 25% 
 - Code: 10% 
 - Elevator pitches: 5% 
 - Demo: create video of developed tool or research findings: 5%
