@@ -1,5 +1,5 @@
 # CSC 6903: Continuous Secure Software Development 
-> TR, 3:00-4:30 PM CST, LIBR 248, Fall 2020 
+> TR, 3:00-4:20 PM CST, LIBR 248, Fall 2020 
 
 ## Instructor 
 
