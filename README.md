@@ -17,7 +17,7 @@
 
 > Required Textbook: Software Security Engineering: A Guide for Project Managers (SEI Series in Software Engineering Series), Julia H. Allen, Sean J. Barnum, Robert J. Ellison, Addison-Wesley. 
 
-> Recommended Textbook:  Software Security: Building Security In, Gary McGraw, Addison-Wesley.
+> Recommended Textbook:  Software Security: Building Security In, Gary McGraw, Addison-Wesley.    
 
 
 ## Schedule 
