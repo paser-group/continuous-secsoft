@@ -23,7 +23,6 @@
 ## Schedule 
 
 
-
 | Date    | Tentative Schedule                                     |
 |---------|--------------------------------------------------------|
 | Aug 25  | Introduction, Workshop#0                               |
