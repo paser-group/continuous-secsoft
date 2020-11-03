@@ -5,7 +5,7 @@
 
 > Akond Rahman, PhD 
 
-> Office hours:  Upon request 
+> Office hours: Upon request 
 
 > arahman@tntech.edu 
 
