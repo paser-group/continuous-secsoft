@@ -47,8 +47,8 @@
 | Oct 27  | Guest lecture (Chris Theisen, Microsoft)               |                                             
 | Oct 29  | Vulnerabilities                                        |                 
 | Nov 03  | Principle of Privilege                                 |
-| Nov 05  | Programming language security                          |
-| Nov 10  | Workshop#7:Programming language security               |
+| Nov 05  | Secure Software Development Lifecycle (SSDL)           |
+| Nov 10  | Workshop#7:SSDL                                        |
 | Nov 12  | Project presentation day#2                             |
 | Nov 17  | Adverserial machine learning                           |
 | Nov 19  | Workshop#8:Adverserial machine learning                |
