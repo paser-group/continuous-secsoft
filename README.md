@@ -22,8 +22,6 @@
 
 
 
-
-
 ## Schedule 
 
 
@@ -58,7 +56,7 @@
 | Nov 24  | Thanks giving                                          |
 | Nov 26  | Thanks giving                                          |    
 | Dec 01  | IEEE Software Security Design Flaws                    |
-| Dec 03  | Last day: Misc. topics: BSIMM, Insider Threats, Others |
+| Dec 03  | Last day: Misc. topics: BSIMM, Insider Threats         |
 | Dec 05  | Project report and demo due                            |
 | Dec 08  | Final exam                                             |
 | Dec 11  | Final grade released                                   |
