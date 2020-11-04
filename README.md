@@ -28,7 +28,7 @@
 | Date    | Tentative Schedule                                     |
 |---------|--------------------------------------------------------|
 | Aug 25  | Introduction, Workshop#0                               |
-| Aug 27  | Insecure coding patterns                               |
+| Aug 27  | Insecure coding pattern                                |
 | Sep 01  | Security static analysis tools                         |
 | Sep 03  | Workshop#1:Security static analysis tools              |
 | Sep 08  | Software Forensics                                     |
