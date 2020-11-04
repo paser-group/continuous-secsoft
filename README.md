@@ -56,7 +56,7 @@
 | Nov 24  | Thanks giving                                          |
 | Nov 26  | Thanks giving                                          |    
 | Dec 01  | IEEE Software Security Design Flaws                    |
-| Dec 03  | Last day: Misc. topics: BSIMM, Insider Threats, Other  |
+| Dec 03  | Last day: Misc. topics: BSIMM, Insider Threats, Others |
 | Dec 05  | Project report and demo due                            |
 | Dec 08  | Final exam                                             |
 | Dec 11  | Final grade released                                   |
@@ -102,7 +102,7 @@
 - Bring your own laptop. You can't work with your peer. 
 - All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
 - For workshop save your work in a Tenn. Tech. Gitlab repository and share the link in designated iLearn assignments. 
-- If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course .  
+- If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course.  
 - For workshops and projects you can consult your peers but the work needs to be solo. 
 
 
