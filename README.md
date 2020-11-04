@@ -49,14 +49,14 @@
 | Oct 29  | Vulnerabilities                                        |                 
 | Nov 03  | Principle of Privilege                                 |
 | Nov 05  | Secure Software Development Lifecycle (SSDL)           |
-| Nov 10  | Workshop#7:SSDL                                        |
+| Nov 10  | Workshop#7:SSDL (Hint of DevSecOps)                    |
 | Nov 12  | Project presentation day#2                             |
 | Nov 17  | Adverserial machine learning                           |
 | Nov 19  | Workshop#8:Adverserial machine learning                |
 | Nov 24  | Thanks giving                                          |
 | Nov 26  | Thanks giving                                          |    
 | Dec 01  | IEEE Software Security Design Flaws                    |
-| Dec 03  | Last day: Misc. topics: BSIMM, Insider Threats, Other  |
+| Dec 03  | Last day: Misc. topics: BSIMM, Insider Threats         |
 | Dec 05  | Project report and demo due                            |
 | Dec 08  | Final exam                                             |
 | Dec 11  | Final grade released                                   |
