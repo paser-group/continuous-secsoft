@@ -25,7 +25,7 @@
 ## Schedule 
 
 
-| Date    | Tentative Schedule                                     |
+| Date    |  Schedule                                              |
 |---------|--------------------------------------------------------|
 | Aug 25  | Introduction, Workshop#0                               |
 | Aug 27  | Insecure coding pattern                                |
