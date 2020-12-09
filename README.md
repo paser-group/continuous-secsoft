@@ -59,7 +59,7 @@
 | Dec 03  | Last day: Misc. topics: BSIMM                          |
 | Dec 05  | Project report and demo due                            |
 | Dec 08  | Final exam                                             |
-| Dec 11  | Final grade released                                   |
+| Dec 12  | Final grade released                                   |
 
  
 ## Grade Distribution 
