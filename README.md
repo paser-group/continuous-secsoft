@@ -51,8 +51,8 @@
 | Nov 05  | Secure Software Development Lifecycle (SSDL)           |
 | Nov 10  | Workshop#7:SSDL (Hint of DevSecOps)                    |
 | Nov 12  | Project presentation day#2                             |
-| Nov 17  | Adverserial machine learning                           |
-| Nov 19  | Workshop#8:Adverserial machine learning                |
+| Nov 17  | Adversarial machine learning                           |
+| Nov 19  | Workshop#8:adversarial machine learning                |
 | Nov 24  | Thanks giving                                          |
 | Nov 26  | Thanks giving                                          |    
 | Dec 01  | IEEE Software Security Design Flaws                    |
@@ -62,13 +62,13 @@
 | Dec 11  | Final grade released                                   |
 
  
-## Grade Distribution (Subject to Change)
+## Grade Distribution 
 
 - Exam#1: 15%
 - Exam#2: 15% 
 - Project: 50% 
 - In-class workshops: 20% 
-- Some extra credit (tentative) 
+- Extra credit: 1%
 
 ## Project Grade Distribution 
 - Project Tasks: 60%
@@ -85,7 +85,7 @@
   - A: 90-100 
   - B: 80-89 
   - C: 70–79 
-  - D: 60–79 
+  - D: 60–69
   - F: less than 59
 
 

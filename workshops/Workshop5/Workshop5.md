@@ -19,7 +19,7 @@ to run `python calc_test.py` and all test cases related to the the following sec
 - Write code in `calc_test.py` and `simpleCalc.py` to satisfy the following requirements:
     - The calculator must be able to multiply and divide 
     - All methods related to mathemetical operations should sanitize input 
-    - All methods related to mathemetical operations should handle divison by zero exceptions 
+    - All methods related to mathemetical operations should handle division by zero exceptions 
     - All methods related to mathemetical operations should be fast 
 - Push your code in your repository 
 - Show your output in `WORK4WORKSHOP#5.md`
