@@ -1,5 +1,5 @@
-# CSC 6903: Continuous Secure Software Development 
-> TR, 3:00-4:20 PM CST, LIBR 248, Fall 2020 
+# CSC 4585/5585: Software and Systems Security 
+> MWF, 12:00 -12:50 PM CST, BRUN 327, Fall 2021
 
 ## Instructor 
 
@@ -16,9 +16,11 @@
 
 ## Materials 
 
-> Required Textbook: Software Security Engineering: A Guide for Project Managers (SEI Series in Software Engineering Series), Julia H. Allen, Sean J. Barnum, Robert J. Ellison, Addison-Wesley. 
+> Required Textbook: None. 
 
-> Recommended Textbook:  Software Security: Building Security In, Gary McGraw, Addison-Wesley.    
+> Recommended Textbook:  
+- Software Security: Building Security In, Gary McGraw, Addison-Wesley.    
+- Software Engineering at Google: Lessons Learned from Programming Over Time, Hyrum Wright, Titus Winters, and Tom Manshreck, Oreilly.    
 
 
 
@@ -27,48 +29,58 @@
 
 | Date    |  Schedule                                              |
 |---------|--------------------------------------------------------|
-| Aug 25  | Introduction, Workshop#0                               |
-| Aug 27  | Insecure coding pattern                                |
-| Sep 01  | Security static analysis tools                         |
-| Sep 03  | Workshop#1:Security static analysis tools              |
-| Sep 08  | Software Forensics                                     |
-| Sep 10  | Workshop#2:Software Forensics                          |
-| Sep 15  | Fuzzing                                                |
-| Sep 17  | Workshop#3:Fuzzing                                     |
-| Sep 22  | Project presentation day#1: Elevator pitch             |
-| Sep 24  | Exam#1                                                 |
-| Sep 29  | Data flow analysis                                     |
-| Oct 01  | Workshop#4: Data flow analysis                         |
-| Oct 06  | Security Requirements Engineering                      |
-| Oct 08  | Workshop#5: Security requirements engineering          |
-| Oct 13  | Fall break, no class                                   |
-| Oct 15  | Threat Modeling                                        |
-| Oct 20  | Privacy                                                |
-| Oct 22  | Workshop#6:Privacy                                     |
-| Oct 27  | Guest lecture (Chris Theisen, Microsoft)               |                                             
-| Oct 29  | Vulnerabilities                                        |                 
-| Nov 03  | Principle of Privilege                                 |
-| Nov 05  | Secure Software Development Lifecycle (SSDL)           |
-| Nov 10  | Workshop#7:SSDL (Hint of DevSecOps)                    |
-| Nov 12  | Project presentation day#2                             |
-| Nov 17  | Adversarial machine learning                           |
-| Nov 19  | Workshop#8:adversarial machine learning                |
-| Nov 24  | Thanks giving                                          |
-| Nov 26  | Thanks giving                                          |    
-| Dec 01  | IEEE Software Security Design Flaws                    |
-| Dec 03  | Last day: Misc. topics: BSIMM                          |
-| Dec 05  | Project report and demo due                            |
-| Dec 08  | Final exam                                             |
-| Dec 12  | Final grade released                                   |
+| Aug 20  | Introduction                                           |
+| Aug 23  | Software Testing: Unit, Integration                    |
+| Aug 25  | Software Testing: Fuzzing, Concolic Testing            |
+| Aug 27  | _Software Testing: Workshop_                           |
+| Aug 30  | Software Forensics                                     |
+| Sep 01  | _Software Forensics: Workshop_                         |
+| Sep 03  | Software Vulnerabilities: Categorization               |
+| Sep 06  | **Labor Day: No classes**                              |
+| Sep 08  | _Project presentation day#1: Elevator pitch_           |
+| Sep 10  | _Exam#1_                                               |
+| Sep 13  | Static Code Analysis  (Programs, Compilers)            |
+| Sep 15  | _Static Code Analysis: Workshop_                       |
+| Sep 17  | Security Requirements Engineering                      |
+| Sep 20  | _Security Requirements engineering: Workshop_          |
+| Sep 22  | Access Control                                         |
+| Sep 24  | Threat Modeling                                        |
+| Sep 27  | Privacy                                                |
+| Sep 29  | _Privacy: Workshop_                                    |
+| Oct 04  | Guest lecture (TBD)                                    |                                             
+| Oct 06  | _Project presentation day#2: Elevator pitch_           |                 
+| Oct 08  | System Calls for Software Security                     |
+| Oct 11  | **Fall Break: No classes**                             |
+| Oct 13  | System Calls for Software Security                     |
+| Oct 15  | _System Calls: Workshop_                               |
+| Oct 18  | Domain-specific software security                      |
+| Oct 20  | AI for Software Security                               |
+| Oct 22  | _AI for Software Security: Workshop_                   |
+| Oct 25  | Security Misconfigurations                             |    
+| Oct 27  | Container Security                                     |
+| Oct 29  | _Container Security: Workshop_                         |
+| Nov 01  | _Project presentation day#3: Elevator pitch_           |
+| Nov 03  | TBD                                                    |
+| Nov 05  | TBD                                                    |
+| Nov 08  | TBD                                                    |
+| Nov 10  | TBD                                                    |
+| Nov 12  | TBD                                                    |
+| Nov 15  | TBD                                                    |
+| Nov 17  | TBD                                                    |
+| Nov 19  | TBD                                                    |
+| Nov 22  | _Project presentation day#4: Elevator pitch_           |
+| Nov 24  | Thanksgiving Break: No classes                         |
+| Nov 26  | Thanksgiving Break: No classes                         |
+| Nov 29  | Project report due: No classes                         |
+| Dec 01  | _Final Exam_                                           |
 
  
 ## Grade Distribution 
 
-- Exam#1: 15%
-- Exam#2: 15% 
-- Project: 50% 
-- In-class workshops: 20% 
-- Extra credit: 1%
+- Exam#1: 20%
+- Exam#2: 20% 
+- Project: 45% 
+- In-class workshops: 15% 
 
 ## Project Grade Distribution 
 - Project Tasks: 60%
@@ -77,8 +89,10 @@
   - Report must be in Latex => 25% 
   - Report must be free of typos and passive voices => 25% 
 - Code: 10% 
-- Elevator pitches: 5% 
-- Demo: create video of developed tool or research findings: 5%
+- Elevator pitches: 10% 
+  - Eye contact: 25%
+  - Timely completion: 50%
+  - Motivation: 15% 
 
 
 ## Grading scale: 
@@ -90,7 +104,7 @@
 
 
 ## Instructions related to Project 
-- One project per student.  
+- One project per student for the graduate section. For the undergraduate section a team can have three members.   
 - Project source code must be maintained in Tenn. Tech Gitlab repos (https://gitlab.csc.tntech.edu/). 
 - Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
 - Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
@@ -99,10 +113,12 @@
 
 
 ## Other instructions 
-- Bring your own laptop. You can't work with your peer. 
+- Bring your own laptop for workshops. You can't work with your peer. 
 - All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
-- For workshop save your work in a Tenn. Tech. Gitlab repository and share the link in designated iLearn assignments. 
+- For workshop save your work in a Tenn. Tech. Gitlab repository. 
 - If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course.  
-- For workshops and projects you can consult your peers but the work needs to be solo. 
+- For workshops you can consult your peers but the work needs to be solo. 
+- All classes are in-person. 
+- Workshops are in-person as well as take home. 
 
 
