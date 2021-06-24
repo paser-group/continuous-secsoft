@@ -33,17 +33,17 @@
 | Aug 23  | Software Testing: Unit, Integration                    |
 | Aug 25  | Software Testing: Fuzzing, Concolic Testing            |
 | Aug 27  | _Software Testing: Workshop_                           |
-| Aug 30  | Chaos Engineering                                      |
-| Sep 01  | _Chaos Engineering: Workshop_                          |
-| Sep 03  | Software Vulnerabilities: Categorization               |
+| Aug 30  | Software Forensics                                     |
+| Sep 01  | _Software Forensics: Workshop_                         |
+| Sep 03  | _Project presentation day#1: Elevator pitch_           |
 | Sep 06  | **Labor Day: No classes**                              |
-| Sep 08  | _Project presentation day#1: Elevator pitch_           |
-| Sep 10  | _Exam#1_                                               |
-| Sep 13  | Static Code Analysis  (Programs, Compilers)            |
-| Sep 15  | _Static Code Analysis: Workshop_                       |
+| Sep 08  |  Static Code Analysis  (Programs)                      |
+| Sep 10  |  Static Code Analysis  (Compilers)                     |
+| Sep 13  | _Static Code Analysis: Workshop_                       |
+| Sep 15  | Access Control                                         |
 | Sep 17  | Security Requirements Engineering                      |
 | Sep 20  | _Security Requirements engineering: Workshop_          |
-| Sep 22  | Access Control                                         |
+| Sep 22  | _Exam#1_                                               |
 | Sep 24  | Threat Modeling                                        |
 | Sep 27  | Privacy                                                |
 | Sep 29  | _Privacy: Workshop_                                    |
@@ -60,10 +60,10 @@
 | Oct 27  | Container Security                                     |
 | Oct 29  | _Container Security: Workshop_                         |
 | Nov 01  | _Project presentation day#3: Elevator pitch_           |
-| Nov 03  | Software Forensics                                     |
-| Nov 05  | _Software Forensics: Workshop_                         |
-| Nov 08  | TBD                                                    |
-| Nov 10  | TBD                                                    |
+| Nov 03  | Chaos Engineering                                      |
+| Nov 05  | _Chaos Engineering: Workshop_                          |
+| Nov 08  | Software Vulnerabilities: Categorization, Templates    |
+| Nov 10  | _Software Vulnerabilities: Workshop_                   |
 | Nov 12  | TBD                                                    |
 | Nov 15  | TBD                                                    |
 | Nov 17  | TBD                                                    |
