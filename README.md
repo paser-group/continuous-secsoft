@@ -122,3 +122,18 @@
 - Workshops are in-person as well as take home. 
 
 
+## Disability Accommodation
+
+Students with a disability requiring accommodations should contact the Office of Disability Services (ODS).  
+An Accommodation Request (AR) should be completed as soon as possible, preferably by the end of the first week of the course.  
+The ODS is located in the Roaden University Center, Room 112; phone 372-6119. 
+For details, view the Tennessee Tech’s Policy 340 – Services for Students with Disabilities at Policy Central.
+
+
+## Diversity Statement
+
+We are diverse in many ways, and this is pivotal to build an inclusive campus community.
+To me diversity refers to our identities that includes but are not limited to race, color, national origin, language,
+sex, disability, age, sexual orientation, gender identity, religion, creed, ancestry, belief, veteran status, or genetic
+information. In this class, we will collaboratively work to promote diversity and inclusion. We acknowledge
+our imperfections while we also fully commit ourselves for creating a more inclusive environment.
