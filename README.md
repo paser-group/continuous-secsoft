@@ -47,7 +47,7 @@
 | Sep 24  | Threat Modeling                                        |
 | Sep 27  | Privacy                                                |
 | Sep 29  | _Privacy: Workshop_                                    |
-| Oct 04  | Guest lecture (TBD)                                    |                                             
+| Oct 04  | Guest lecture by Rahul Pandita (Phase Change Software) |                                             
 | Oct 06  | _Project presentation day#2: Elevator pitch_           |                 
 | Oct 08  | System Calls for Software Security                     |
 | Oct 11  | **Fall Break: No classes**                             |
@@ -64,10 +64,10 @@
 | Nov 05  | _Chaos Engineering: Workshop_                          |
 | Nov 08  | Software Vulnerabilities: Categorization, Templates    |
 | Nov 10  | _Software Vulnerabilities: Workshop_                   |
-| Nov 12  | TBD                                                    |
-| Nov 15  | TBD                                                    |
-| Nov 17  | TBD                                                    |
-| Nov 19  | TBD                                                    |
+| Nov 12  | Reserve Day                                            |
+| Nov 15  | Reserve Day                                            |
+| Nov 17  | Reserve Day                                            |
+| Nov 19  | Reserve Day                                            |
 | Nov 22  | _Project presentation day#4: Elevator pitch_           |
 | Nov 24  | Thanksgiving Break: No classes                         |
 | Nov 26  | Thanksgiving Break: No classes                         |
