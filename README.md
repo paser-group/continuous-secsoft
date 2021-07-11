@@ -104,7 +104,7 @@
 
 
 ## Instructions related to Project 
-- One project per student for the graduate section. For the undergraduate section a team can have three members.   
+- For the graduate section a team must have at least one and at most two members. For the undergraduate section a team must have at least three and at most four members.   
 - Project source code must be maintained in Tenn. Tech Gitlab repos (https://gitlab.csc.tntech.edu/). 
 - Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
 - Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
