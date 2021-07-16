@@ -57,10 +57,10 @@
 | Oct 20  | AI for Software Security                               |
 | Oct 22  | _AI for Software Security: Workshop_                   |
 | Oct 25  | Security Misconfigurations                             |    
-| Oct 27  | Container Security                                     |
-| Oct 29  | _Container Security: Workshop_                         |
+| Oct 27  | Docker Security                                        |
+| Oct 29  | _Docker Security: Workshop_                            |
 | Nov 01  | _Project presentation day#3: Elevator pitch_           |
-| Nov 03  | Chaos Engineering                                      |
+| Nov 03  | Software Fault Injection and Chaos Engineering         |
 | Nov 05  | _Chaos Engineering: Workshop_                          |
 | Nov 08  | Software Vulnerabilities: Categorization, Templates    |
 | Nov 10  | _Software Vulnerabilities: Workshop_                   |
