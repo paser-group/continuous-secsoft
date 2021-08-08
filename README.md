@@ -40,7 +40,7 @@
 | Sep 08  |  Static Code Analysis  (Programs)                      |
 | Sep 10  |  Static Code Analysis  (Compilers)                     |
 | Sep 13  | _Static Code Analysis: Workshop_                       |
-| Sep 15  | Access Control                                         |
+| Sep 15  | Project Inquiry Day                                    |
 | Sep 17  | Security Requirements Engineering                      |
 | Sep 20  | _Security Requirements engineering: Workshop_          |
 | Sep 22  | _Exam#1_                                               |
@@ -64,9 +64,9 @@
 | Nov 05  | _Chaos Engineering: Workshop_                          |
 | Nov 08  | Software Vulnerabilities: Categorization, Templates    |
 | Nov 10  | _Software Vulnerabilities: Workshop_                   |
-| Nov 12  | Reserve Day                                            |
-| Nov 15  | Reserve Day                                            |
-| Nov 17  | Reserve Day                                            |
+| Nov 12  | Access Control                                         |
+| Nov 15  | Secret Management                                      |
+| Nov 17  | _Secret Management: Workshop_                          |
 | Nov 19  | Reserve Day                                            |
 | Nov 22  | _Project presentation day#4: Elevator pitch_           |
 | Nov 24  | Thanksgiving Break: No classes                         |
@@ -106,7 +106,7 @@
 ## Instructions related to Project 
 - For the graduate section a team must have at least one and at most two members. For the undergraduate section a team must have at least three and at most four members.   
 - Project source code must be maintained in Tenn. Tech Gitlab repos (https://gitlab.csc.tntech.edu/). 
-- Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program in the Markdown file. The required libraries needed to run code should be written.  
+- Each project update will include updates so far as a Markdown file which will reside in the repo. Instructions on how to run the program must be written in a Markdown file. The required libraries needed to run code should be written.  
 - Mismatch between reported output and source code results will be inspected. The instructor will download repos, install libraries, and run the code based on the instruction provided in the mentioned Markdown file. For reproducibility students are allowed to use Docker containers.   
 - Throughout the semester you will be completing 3/4 tasks as part of your individual project. Each of these tasks will have a deadline. If you miss the deadline you will be penalized 5 points allocated for the project for each day of delay. 
 - For sharing results and demonstrating completion of tasks you will use issues and share screenshots and links of your work. For example, if your task is to find a hard-coded password in source code, you need to share the link of the code where you found the hard-coded password. 
