@@ -51,11 +51,11 @@
 | Oct 06  | _Project presentation day#2: Elevator pitch_           |                 
 | Oct 08  | System Calls for Software Security                     |
 | Oct 11  | **Fall Break: No classes**                             |
-| Oct 13  | System Calls for Software Security                     |
-| Oct 15  | _System Calls: Workshop_                               |
-| Oct 18  | Domain-specific software security                      |
-| Oct 20  | AI for Software Security                               |
-| Oct 22  | _AI for Software Security: Workshop_                   |
+| Oct 13  | _System Calls: Workshop_                               |
+| Oct 15  | Domain-specific software security (Robotics)           |
+| Oct 18  | Security for ML Software                               |
+| Oct 20  | ML for Software Security                               |
+| Oct 22  | _Security for ML Software: Workshop_                   |
 | Oct 25  | Security Misconfigurations                             |    
 | Oct 27  | Docker Security                                        |
 | Oct 29  | _Docker Security: Workshop_                            |
@@ -90,6 +90,7 @@
   - Report must be free of typos and passive voices => 25% 
 - Code: 10% 
 - Elevator pitches: 10% 
+  - Work completed so far: 10%
   - Eye contact: 25%
   - Timely completion: 50%
   - Motivation: 15% 
