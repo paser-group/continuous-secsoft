@@ -115,13 +115,13 @@
 
 ## Other instructions 
 - Bring your own laptop for workshops. You can't work with your peer. 
-- All exams are open book, one page both side handwritten cheat sheet allowed, Cheat sheets need to be submitted with exam scripts. 
-- For workshop save your work in a Tenn. Tech. Gitlab repository. 
-- If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course.  
-- For workshops you can consult your peers but the work needs to be solo. 
+- In both exams you are allowed to bring a 1-page, hand-written cheastsheet is allowed, Cheat sheets need to be submitted with exam scripts. 
+- For workshop save your work in a Tenn. Tech. Gitlab repository (https://gitlab.csc.tntech.edu/).  
+- If the instructor detects copy-paste in workshops or exams then that will result in direct **F** for the course.  
 - All classes are in-person. 
-- Workshops are in-person as well as take home. Before the start of every workshop I will ask the class on how much time students want. 
+- Workshops are in-person as well as take home. Before the start of every workshop I will ask the class on how much time students want, and based on the feedback will determine a due time.  
 - For workshop and projects, I will determine submission time based on latest commit timestamp as determined by GitLab. For example, if an assignment is due Aug 20, then I will check the lastest commit for your assignment in your repository.    
+
 
 
 ## Disability Accommodation
