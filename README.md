@@ -120,7 +120,8 @@
 - If the instructor detects copy-paste in source code or exams then that will result in direct **F** for the course.  
 - For workshops you can consult your peers but the work needs to be solo. 
 - All classes are in-person. 
-- Workshops are in-person as well as take home. 
+- Workshops are in-person as well as take home. Before the start of every workshop I will ask the class on how much time students want. 
+- For workshop and projects, I will determine submission time based on latest commit timestamp as determined by GitLab. For example, if an assignment is due Aug 20, then I will check the lastest commit for your assignment in your repository.    
 
 
 ## Disability Accommodation
@@ -138,3 +139,9 @@ To me diversity refers to our identities that includes but are not limited to ra
 sex, disability, age, sexual orientation, gender identity, religion, creed, ancestry, belief, veteran status, or genetic
 information. In this class, we will collaboratively work to promote diversity and inclusion. We acknowledge
 our imperfections while we also fully commit ourselves for creating a more inclusive environment.
+
+
+
+## COVID-19 Updates 
+- Always wear a mask in class 
+- Get COVID-related updates from this website: https://www.tntech.edu/infullflight/index.php#updates 
