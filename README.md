@@ -31,7 +31,7 @@
 |---------|--------------------------------------------------------|
 | Aug 20  | Introduction                                           |
 | Aug 23  | Software Testing: Unit, Integration                    |
-| Aug 25  | Software Testing: Fuzzing, Concolic Testing            |
+| Aug 25  | Concolic Testing                                       |
 | Aug 27  | _Software Testing: Workshop_                           |
 | Aug 30  | Software Forensics                                     |
 | Sep 01  | _Software Forensics: Workshop_                         |
