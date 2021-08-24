@@ -1,5 +1,5 @@
 # CSC 4585/5585: Software and Systems Security 
-> MWF, 12:00 -12:50 PM CST, BRUN 327, Fall 2021
+> MWF, 12:00 -12:50 PM CST, BRUN 228, Fall 2021
 
 ## Instructor 
 
@@ -40,7 +40,7 @@
 | Sep 08  |  Static Code Analysis  (Programs)                      |
 | Sep 10  |  Static Code Analysis  (Compilers)                     |
 | Sep 13  | _Static Code Analysis: Workshop_                       |
-| Sep 15  | Project Inquiry Day                                    |
+| Sep 15  | Software Fuzzing                                       |
 | Sep 17  | Security Requirements Engineering                      |
 | Sep 20  | _Security Requirements engineering: Workshop_          |
 | Sep 22  | _Exam#1_                                               |
