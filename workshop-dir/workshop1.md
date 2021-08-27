@@ -3,7 +3,7 @@
 ## Aug 27, 2021
 
 
-### Due date: Tuesday, 31st August 2021, AOE (Any Where on Earth) 
+### Due date: Upon discussion with class, Tuesday, 31st August 2021, AOE (Any Where on Earth) 
 
 ### Tasks 
 
