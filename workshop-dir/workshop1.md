@@ -27,6 +27,7 @@ def buggyFunc(float_var, int_var):
 - Report the path constraints for which execution will yield `print(res[5])`. 
 - No restrictions on langauge usage 
 - Time to complete will be determined based on the class's feedback 
+- Submit your work in a repoo: either `gitlab.csc.tntech.edu` or `private repos on GitHub, and add me to give read access`. 
 
 
 
