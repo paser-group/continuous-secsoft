@@ -19,7 +19,7 @@ def buggyFunc(float_var, int_var):
        if( int_var > temp_var - 50   ):
           print(res[5])
 ``` 
-- First spend 2-3 minutes to see if you understand the prpble, then give me an estimated time to complete. 
+- First spend 2-3 minutes to see if you understand the problem, then give me an estimated time to complete. 
 - Use Markdown files to report all path constraints and the concrete values are using for each round. Save the markdown file in your repository  
 - For using SAT solvers you need to write code: save the code in your repository 
 - If you are using Python and using Z3 as a SAT solver, see this to get familiar with: https://ericpony.github.io/z3py-tutorial/guide-examples.htm 
