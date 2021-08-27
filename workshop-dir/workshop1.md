@@ -3,7 +3,7 @@
 ## Aug 27, 2021
 
 
-### Due date: TBD, any where on earth 
+### Due date: Tuesday, 31st August 2021, AOE (Any Where on Earth) 
 
 ### Tasks 
 
@@ -28,3 +28,18 @@ def buggyFunc(float_var, int_var):
 - No restrictions on langauge usage 
 - Time to complete will be determined based on the class's feedback 
 
+
+
+Example output: 
+```
+1. 
+p + q > 10 
+....
+2. 
+c + d < 11 , c < -1 , z3 => c = ? , d =? 
+3. 
+...
+5. 
+c1 + c2 < 10, c1 = 3, c2 =5, will get the program execution to stop at print(res[5]) 
+
+```
