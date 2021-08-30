@@ -90,10 +90,11 @@
   - Report must be free of typos and passive voices => 25% 
 - Code: 10% 
 - Elevator pitches: 10% 
-  - Work completed so far: 10%
+  - Your name: 5%
+  - Name of your team mates: 15%
+  - What the project is about: 5%
   - Eye contact: 25%
-  - Timely completion: 50%
-  - Motivation: 15% 
+  - Timely completion: 50% (Must finish in 60 seconds)
 
 
 ## Grading scale: 
