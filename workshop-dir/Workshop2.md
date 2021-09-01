@@ -57,5 +57,5 @@ Do the same for all Java files that you think is necessary.
 
 #### Ensure that your logging code (applies for both options) handles the following: 
 - Timestamp 
-- Saving output to a log file called `WORKSHOP2.log` 
+- Name of output file will be `WORKSHOP2.log` 
 - Logging level 
