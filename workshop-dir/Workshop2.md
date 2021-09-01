@@ -1,6 +1,6 @@
 # Workshop-2: Forensics in Machine Learning Code 
 
-`Due: TBD (AoE) `
+`Due: Tuesday, Sep 07, 2021 (AoE) `
 
 
 ## Pick Any One  (Option-1 or Option-2) 
