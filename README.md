@@ -122,6 +122,8 @@
 - All classes are in-person. 
 - Workshops are in-person as well as take home. Before the start of every workshop I will ask the class on how much time students want, and based on the feedback will determine a due time.  
 - For workshop and projects, I will determine submission time based on latest commit timestamp as determined by GitLab. For example, if an assignment is due Aug 20, then I will check the lastest commit for your assignment in your repository.    
+- Regrade requests are allowed. In the case of regrade requests the instructor will inspect entire workshop/project/exam again. 
+- If you miss the deadline for a workshop you will be penalized 5 points allocated for the workshop for each day of delay. 
 
 
 
