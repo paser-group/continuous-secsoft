@@ -14,6 +14,11 @@
 
 ### Expected Output 
 1. A Markdown file that lists all security weaknesses in `Workshop3.values.yaml` file. 
+Output should look like this:
+```
+Security weakness name: AAA
+Security weakness location: Variable 'X' in line# '100'
+```
 2. Source code files that can perform Step#3 automatically without syntax errors. Do not embed code into your Markdown files. The generated output should look like this:
 ```
 Security weakness name: AAA
