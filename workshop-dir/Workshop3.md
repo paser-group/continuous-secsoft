@@ -1,6 +1,6 @@
 # Workshop-3: Miniature Security Static Analysis for Ansible Manifests
 
-`Due: Friday, Sep 17 2021 (AoE) `
+`Due: Monday, Sep 20 2021 (AoE) `
 
 
 
