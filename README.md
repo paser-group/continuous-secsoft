@@ -42,9 +42,9 @@
 | Sep 13  | _Static Code Analysis: Workshop_                       |
 | Sep 15  | Software Fuzzing                                       |
 | Sep 17  | Security Requirements Engineering                      |
-| Sep 20  | _Security Requirements engineering: Workshop_          |
-| Sep 22  | _Exam#1_                                               |
-| Sep 24  | Threat Modeling                                        |
+| Sep 20  | _Security Requirements engineering: Workshop (**Online**)_|
+| Sep 22  | Threat Modeling (**Online**)                           |
+| Sep 24  | _Exam#1_                                               |
 | Sep 27  | Privacy                                                |
 | Sep 29  | _Privacy: Workshop_                                    |
 | Oct 04  | Guest lecture by Rahul Pandita (Phase Change Software) |                                             
