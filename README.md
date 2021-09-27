@@ -47,7 +47,7 @@
 | Sep 24  | _Exam#1_                                               |
 | Sep 27  | Privacy                                                |
 | Sep 29  | _Privacy: Workshop_                                    |
-| Oct 01  | Access Control                                         |  
+| Oct 01  | IEEE Secure Software Design                            |  
 | Oct 04  | Guest lecture by Rahul Pandita (Phase Change Software) |                                             
 | Oct 06  | _Project presentation day#2: Elevator pitch_           |                 
 | Oct 08  | System Calls for Software Security                     |
@@ -65,7 +65,7 @@
 | Nov 05  | _Chaos Engineering: Workshop_                          |
 | Nov 08  | Software Vulnerabilities: Categorization, Templates    |
 | Nov 10  | _Software Vulnerabilities: Workshop_                   |
-| Nov 12  | IEEE Secure Software Design                            |
+| Nov 12  | Access Control                                         |
 | Nov 15  | Secret Management                                      |
 | Nov 17  | _Secret Management: Workshop_                          |
 | Nov 19  | Reserve Day                                            |
