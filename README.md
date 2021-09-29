@@ -47,7 +47,7 @@
 | Sep 24  | _Exam#1_                                               |
 | Sep 27  | Privacy                                                |
 | Sep 29  | _Privacy: Workshop_                                    |
-| Oct 01  | IEEE Secure Software Design                            |  
+| Oct 01  | IEEE Secure Software Design  (**Online**)              |  
 | Oct 04  | Guest lecture by Rahul Pandita (Phase Change Software) |                                             
 | Oct 06  | _Project presentation day#2: Elevator pitch_           |                 
 | Oct 08  | System Calls for Software Security                     |
