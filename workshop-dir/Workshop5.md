@@ -1,5 +1,8 @@
 # Workshop-5: Dangerous Android Permissions That May Leak Personally Identifiable Information (PII) 
 
+
+## Due date: `Oct 08, Friday AoE`
+
 ## Setup 
 
 1. Download this file: https://tennesseetechuniversity-my.sharepoint.com/:u:/g/personal/arahman_tntech_edu/EcY6wY2i2R1OnPmsWTZsWBEBtB-bgOyb2bi_D1-Rw1zMqQ?e=a6YF26
