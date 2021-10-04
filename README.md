@@ -53,10 +53,10 @@
 | Oct 08  | System Calls for Software Security                     |
 | Oct 11  | **Fall Break: No classes**                             |
 | Oct 13  | _System Calls: Workshop_                               |
-| Oct 15  | Domain-specific software security (Robotics)           |
+| Oct 15  | Access Control                                         |
 | Oct 18  | Security for ML Software                               |
-| Oct 20  | ML for Software Security                               |
-| Oct 22  | _Security for ML Software: Workshop_                   |
+| Oct 20  | _Security for ML Software: Workshop_                   |
+| Oct 22  | ML for Software Security                               |
 | Oct 25  | Security Misconfigurations                             |    
 | Oct 27  | Docker Security                                        |
 | Oct 29  | _Docker Security: Workshop_                            |
@@ -64,16 +64,16 @@
 | Nov 03  | Software Fault Injection and Chaos Engineering         |
 | Nov 05  | _Chaos Engineering: Workshop_                          |
 | Nov 08  | Software Vulnerabilities: Categorization, Templates    |
-| Nov 10  | _Software Vulnerabilities: Workshop_                   |
-| Nov 12  | Access Control                                         |
-| Nov 15  | Secret Management                                      |
-| Nov 17  | _Secret Management: Workshop_                          |
+| Nov 10  | Secret Management                                      |
+| Nov 12  | _Secret Management: Workshop_                          |
+| Nov 15  | _Project presentation day#4: Elevator pitch_           |
+| Nov 17  | Reserve Day                                            |
 | Nov 19  | Reserve Day                                            |
-| Nov 22  | _Project presentation day#4: Elevator pitch_           |
+| Nov 22  | _Final Exam_                                           |
 | Nov 24  | Thanksgiving Break: No classes                         |
 | Nov 26  | Thanksgiving Break: No classes                         |
 | Nov 29  | Project report due: No classes                         |
-| Dec 01  | _Final Exam_                                           |
+| Dec 01  | Reserve Day                                            |
 
  
 ## Grade Distribution 
