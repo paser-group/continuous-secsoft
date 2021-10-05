@@ -72,8 +72,8 @@
 | Nov 22  | _Final Exam_                                           |
 | Nov 24  | Thanksgiving Break: No classes                         |
 | Nov 26  | Thanksgiving Break: No classes                         |
-| Nov 29  | Project report due: No classes                         |
-| Dec 01  | Reserve Day                                            |
+| Nov 29  | Work on project: No classes                            |
+| Dec 01  | Project report due                                     |
 
  
 ## Grade Distribution 
