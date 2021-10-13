@@ -9,7 +9,7 @@
 2. On your terminal type 
 
 ```
-a. docker pull akondrahman/ansi.trace.miner # taked 6 minutes on my computer 
+a. docker pull akondrahman/ansi.trace.miner # took 6 minutes on my computer 
 b. docker images -a # to get image ID
 c. docker run --cap-add=SYS_PTRACE  -it <IMAGE_ID>   bash
 d. cd /WORKSHOP_STRACE/ 
