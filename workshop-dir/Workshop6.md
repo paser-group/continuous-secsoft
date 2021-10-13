@@ -8,16 +8,16 @@
 1. Install Docker 
 2. On your terminal type 
 
-
-> docker pull akondrahman/ansi.trace.miner # taked 6 minutes on my computer 
-> docker images -a # to get image ID
-> docker run --cap-add=SYS_PTRACE  -it <IMAGE_ID>   bash
-> cd /WORKSHOP_STRACE/ 
-> ls -al 
-> strace -h 
-> strace -tT python3 buggy.py 2> buggy-python.txt 
-> strace -tT python3 neutral.py 2> neutral-python.txt 	
-
+```
+a. docker pull akondrahman/ansi.trace.miner # taked 6 minutes on my computer 
+b. docker images -a # to get image ID
+c. docker run --cap-add=SYS_PTRACE  -it <IMAGE_ID>   bash
+d. cd /WORKSHOP_STRACE/ 
+e. ls -al 
+f. strace -h 
+g. strace -tT python3 buggy.py 2> buggy-python.txt 
+h. strace -tT python3 neutral.py 2> neutral-python.txt 	
+```
 
 
 
