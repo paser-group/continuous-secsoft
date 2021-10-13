@@ -65,8 +65,8 @@
 | Nov 05  | _Chaos Engineering: Workshop_                          |
 | Nov 08  | Software Vulnerabilities: Categorization, Templates    |
 | Nov 10  | Secret Management                                      |
-| Nov 12  | _Secret Management: Workshop_                          |
-| Nov 15  | _Project presentation day#4: Elevator pitch_           |
+| Nov 12  | _Project presentation day#4: Elevator pitch_           |
+| Nov 15  | Reserve Day                                            |
 | Nov 17  | Reserve Day                                            |
 | Nov 19  | Reserve Day                                            |
 | Nov 22  | _Final Exam_                                           |
