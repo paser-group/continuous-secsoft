@@ -22,7 +22,7 @@ h. strace -tT python3 neutral.py 2> neutral-python.txt
 
 
 
-3. Write a program that will parse the two text files, and for both text files report 
+3. Write a program that will parse the two text files (buggy-python.txt and neutral-python.txt), and for both text files report 
 
 > Each of the unique system call names, their count, and time spent in each system call, on average 
 
