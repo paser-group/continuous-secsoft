@@ -5,7 +5,7 @@
 
 ### Tasks 
 
-1. Install Docker 
+1. Install Docker (https://www.docker.com/)
 2. On your terminal type 
 
 ```
