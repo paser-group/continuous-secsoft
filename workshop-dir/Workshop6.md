@@ -1,6 +1,6 @@
 ## Workshop #6: System Calls 
 
-**Due date: `, AoE`**
+**Due date: `Oct 19 (Tuesday), AoE`**
 
 
 ### Tasks 
