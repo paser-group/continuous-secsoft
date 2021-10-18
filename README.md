@@ -54,7 +54,7 @@
 | Oct 11  | **Fall Break: No classes**                             |
 | Oct 13  | _System Calls: Workshop_                               |
 | Oct 15  | Access Control                                         |
-| Oct 18  | Security for ML Software                               |
+| Oct 18  | Role-based Access Control, Security for ML Software    |
 | Oct 20  | _Security for ML Software: Workshop_                   |
 | Oct 22  | ML for Software Security                               |
 | Oct 25  | Security Misconfigurations                             |    
