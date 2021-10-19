@@ -54,10 +54,10 @@
 | Oct 11  | **Fall Break: No classes**                             |
 | Oct 13  | _System Calls: Workshop_                               |
 | Oct 15  | Access Control                                         |
-| Oct 18  | Role-based Access Control, Security for ML Software    |
-| Oct 20  | _Security for ML Software: Workshop_                   |
-| Oct 22  | ML for Software Security                               |
-| Oct 25  | Security Misconfigurations                             |    
+| Oct 18  | Role-based Access Control                              |
+| Oct 20  | Security for ML Software                               |
+| Oct 22  | _Security for ML Software: Workshop_                   |
+| Oct 25  | ML for Software Security                               |    
 | Oct 27  | Docker Security                                        |
 | Oct 29  | _Docker Security: Workshop_                            |
 | Nov 01  | _Project presentation day#3: Elevator pitch_           |
@@ -65,8 +65,8 @@
 | Nov 05  | _Chaos Engineering: Workshop_                          |
 | Nov 08  | Software Vulnerabilities: Categorization, Templates    |
 | Nov 10  | Secret Management                                      |
-| Nov 12  | _Project presentation day#4: Elevator pitch_           |
-| Nov 15  | Reserve Day                                            |
+| Nov 12  | Security Misconfigurations                             |
+| Nov 15  | _Project presentation day#4: Elevator pitch_           |
 | Nov 17  | _Final Exam_                                           |
 | Nov 19  | Reserve Day                                            |
 | Nov 22  | Reserve Day                                            |
