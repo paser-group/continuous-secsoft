@@ -28,14 +28,14 @@ h. strace -tT python3 neutral.py 2> neutral-python.txt
 
 ### Expected Output
 
-> output-buggy-python.txt 
+> output-buggy-python.csv
 ```
 read,100,50
 write,5.1,10
 ...
 ```
 
-> output-neutral-python.txt 
+> output-neutral-python.csv
 ```
 read,150,1
 read,15,25

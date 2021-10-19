@@ -67,9 +67,9 @@
 | Nov 10  | Secret Management                                      |
 | Nov 12  | _Project presentation day#4: Elevator pitch_           |
 | Nov 15  | Reserve Day                                            |
-| Nov 17  | Reserve Day                                            |
+| Nov 17  | _Final Exam_                                           |
 | Nov 19  | Reserve Day                                            |
-| Nov 22  | _Final Exam_                                           |
+| Nov 22  | Reserve Day                                            |
 | Nov 24  | Thanksgiving Break: No classes                         |
 | Nov 26  | Thanksgiving Break: No classes                         |
 | Nov 29  | Work on project: No classes                            |
