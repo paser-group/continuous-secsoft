@@ -1,6 +1,6 @@
 # Workshop-7: Security Static Analysis for Machine Learning Projects 
 
-## Due date `AoE`
+## Due date `Oct 27, 2021 (Wed) AoE`
 
 ## The Work 
 
