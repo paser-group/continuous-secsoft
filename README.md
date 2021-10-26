@@ -58,12 +58,12 @@
 | Oct 20  | Security for ML Software                               |
 | Oct 22  | _Security for ML Software: Workshop_                   |
 | Oct 25  | ML for Software Security                               |    
-| Oct 27  | Docker Security                                        |
-| Oct 29  | _Docker Security: Workshop_                            |
+| Oct 27  | Container Security                                     |
+| Oct 29  | _Container Security: Workshop_                         |
 | Nov 01  | _Project presentation day#3: Elevator pitch_           |
 | Nov 03  | Software Fault Injection and Chaos Engineering         |
 | Nov 05  | _Chaos Engineering: Workshop_                          |
-| Nov 08  | Software Vulnerabilities: Categorization, Templates    |
+| Nov 08  | Software Vulnerabilities: Categorization               |
 | Nov 10  | Secret Management                                      |
 | Nov 12  | Security Misconfigurations                             |
 | Nov 15  | _Project presentation day#4: Elevator pitch_           |
