@@ -59,20 +59,20 @@
 | Oct 22  | _Security for ML Software: Workshop_                   |
 | Oct 25  | ML for Software Security                               |    
 | Oct 27  | Container Security                                     |
-| Oct 29  | _Container Security: Workshop_                         |
+| Oct 29  | Container Security                                     |
 | Nov 01  | _Project presentation day#3: Elevator pitch_           |
-| Nov 03  | Software Fault Injection and Chaos Engineering         |
-| Nov 05  | _Chaos Engineering: Workshop_                          |
+| Nov 03  | _Container Security: Workshop_                         |
+| Nov 05  | Software Fault Injection and Chaos Engineering         |
 | Nov 08  | Software Vulnerabilities: Categorization               |
-| Nov 10  | Secret Management                                      |
+| Nov 10  | BSIMM                                                  |
 | Nov 12  | Security Misconfigurations                             |
 | Nov 15  | _Project presentation day#4: Elevator pitch_           |
 | Nov 17  | _Final Exam_                                           |
-| Nov 19  | Reserve Day                                            |
-| Nov 22  | Reserve Day                                            |
+| Nov 19  | Bonus: Secret Management (**Online**)                  |
+| Nov 22  | Bonus: Vulnerability Discovery Strategies (**Online**) |
 | Nov 24  | Thanksgiving Break: No classes                         |
 | Nov 26  | Thanksgiving Break: No classes                         |
-| Nov 29  | Work on project: No classes                            |
+| Nov 29  | Bonus: Kubernetes Security Best Practices (**Online**) |
 | Dec 01  | Project report due                                     |
 
  
