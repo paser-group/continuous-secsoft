@@ -147,5 +147,4 @@ our imperfections while we also fully commit ourselves for creating a more inclu
 
 
 ## COVID-19 Updates 
-- Always wear a mask in class 
 - Get COVID-related updates from this website: https://www.tntech.edu/infullflight/index.php#updates 
