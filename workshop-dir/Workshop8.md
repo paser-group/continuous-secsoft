@@ -1,6 +1,6 @@
 # Workshop-8: Security Scanning of Docker Images
 
-## Due date ` AoE`
+## Due date `Nov 08, 2021 (Monday) AoE`
 
 ## The Work 
 
