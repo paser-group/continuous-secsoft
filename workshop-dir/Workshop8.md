@@ -5,7 +5,7 @@
 ## The Work 
 
 1. `docker pull akondrahman/slic_ansible`
-2. `docker scan --json <IMAGEID>`. Run `docker images -a` to get <IMAGEID> 
+2. `docker scan --json <IMAGEID>`. Run `docker images -a` to get `IMAGEID`
 3. Write a program in your favorite language that uses the collected output from Step#2 and creates a CSV file with the following fields: 
 - `CVE-ID`: CVE ID of a vulnerability 
 - `DESCRIPTION`: Description of the vulnerability 
