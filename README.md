@@ -64,7 +64,7 @@
 | Nov 03  | _Container Security: Workshop_                         |
 | Nov 05  | Software Fault Injection and Chaos Engineering         |
 | Nov 08  | Software Vulnerabilities: Categorization               |
-| Nov 10  | BSIMM                                                  |
+| Nov 10  | SSDL & BSIMM                                           |
 | Nov 12  | Security Misconfigurations                             |
 | Nov 15  | _Project presentation day#4: Elevator pitch_           |
 | Nov 17  | _Final Exam_                                           |
@@ -73,7 +73,7 @@
 | Nov 24  | Thanksgiving Break: No classes                         |
 | Nov 26  | Thanksgiving Break: No classes                         |
 | Nov 29  | Bonus: Kubernetes Security Best Practices (**Online**) |
-| Dec 01  | Project report due                                     |
+| Dec 03  | Project report due  (**Deadline extension!**)          |
 
  
 ## Grade Distribution 
@@ -148,3 +148,6 @@ our imperfections while we also fully commit ourselves for creating a more inclu
 
 ## COVID-19 Updates 
 - Get COVID-related updates from this website: https://www.tntech.edu/infullflight/index.php#updates 
+
+
+
