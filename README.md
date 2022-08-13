@@ -11,8 +11,11 @@
 ## Organization 
 
 
-| Course                             | Taught at                                  |  Link |
-|------------------------------------|--------------------------------------------|-------|
+| Course                             | Taught at                                  |  Link                                    |
+|------------------------------------|--------------------------------------------|------------------------------------------|
 | Software Quality Assurance         | Auburn University, Fall 2022               |  [Link](/software-quality-assurance)     |
-| Software and Systems Security      | Tennessee Tech University, Fall 2021       |  [Link](/software-systems-security)       |
+
+
+<!-- 
+| Software and Systems Security      | Tennessee Tech University, Fall 2021       |  [Link](/software-systems-security)      | -->
 
