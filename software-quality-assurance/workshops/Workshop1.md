@@ -20,7 +20,7 @@ static analysis tool called [Bandit](https://bandit.readthedocs.io/en/latest/)
 A secuirty weakness is also referred to as a security vulnerability. It is a coding pattern that violates the property 
 of confidentiality, integrity, or availability. A security vulnerability is a kind of software bug. 
 
-Security weaknesses can be indentified using two ways: manual inspection by an expert and automated tools. Today, we will use an automated tool called Bandit. 
+Security weaknesses can be indentified using two ways: manual inspection by an expert and automated tools. Today, we will use an automated tool called Bandit. A lot of static analysis tools do exist as listed on the [OWASP webpage](https://owasp.org/www-community/Source_Code_Analysis_Tools). 
 
 ### In-class Hands-on Experience 
 
