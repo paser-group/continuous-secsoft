@@ -30,10 +30,10 @@ Security weaknesses can be indentified using two ways: manual inspection by an e
 
 ### Assignment 1 (Post Lab Experience) 
 - Run Bandit against all Python files in the `workshop1.zip` file 
-  - Extract `workshop1.zip` 
-  - Run Bandit by specifying the extracted directory. You will need the `-a`, `-f`, `-r`, and the `-o` flag 
+  - Extract `workshop1.zip` that is located here: https://github.com/paser-group/continuous-secsoft/tree/master/software-quality-assurance/workshops
+  - Run Bandit by specifying the extracted directory. You might need the `-a`, `-f`, `-r`, and the `-o` flag 
   - Observe the security weaknesses 
 - Report the name of the three most frequent security weaknesses detected by Bandit in a document 
 - Upload the document on Assignment 1 @ CANVAS  
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_3C2YB8CeV2IWlN4)
-- Due: 
+- Due: Sep 05, 2022
