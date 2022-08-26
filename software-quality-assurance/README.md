@@ -37,8 +37,8 @@
 | Aug 26  | Automated Program Analysis  (Taint Tracking)           |
 | Aug 29  | Automated Program Analysis  (Taint Tracking - Workshop)|
 | Aug 31  | Resilient Automated Configuration                      |
-| Sep 02  | **Labor Day: No classes**                              |
-| Sep 05  | Resilient Automated Configuration  (Workshop)          |
+| Sep 02  | Resilient Automated Configuration  (Workshop)          |
+| Sep 05  | **Labor Day: No classes**                              |
 | Sep 07  | Event-based Scanning                                   |
 | Sep 09  | Event-based Scanning  (Workshop)                       |
 | Sep 12  | Project Overview                                       |
