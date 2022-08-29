@@ -61,6 +61,10 @@ def getCommonAssiDetails(assignDict, elemType):
     return var_details_bin, var_details_tup 
 
 def getVariables(tree_, elemTypeParam):
+    '''
+    Input: Python parse tree object 
+    Output: All expressions as list of tuples 
+    '''
     final_list  = [] 
     for stmt_ in tree_.body:
         for node_ in ast.walk(stmt_):
@@ -203,7 +207,19 @@ def trackTaint(val2track, df_list_param):
 def checkFlow(data, code):
     full_tree = None 
     if os.path.exists( code ):
-       print('Complete this method') 
+       full_tree = ast.parse( open( code  ).read() )    
+       # First let us obtain the variables in forms of expressions 
+       fullVarList = getVariables(full_tree, 'VAR_ASSIGNMENT') 
+       # Next let us get function invocations by looking into function calls
+       call_list = getFunctionAssignments( full_tree ) 
+       # Now let us look into the body of the function and see of the paramter is used
+       funcDefList, funcvarList = getFunctionDefinitions( code  )         
+       #For the workshop please use fullVarList, call_list, funcDefList, funcvarList
+       # Then print a path like the following: 
+       # 100->val1->v1->res  
+
+       
+
 
 if __name__=='__main__':
     input_program = 'workshop2-calc.py' 
@@ -213,34 +229,7 @@ if __name__=='__main__':
     '''
         # print(fullVarList) 
         # print('*'*25)
-        var_df = pd.DataFrame( fullVarList, columns =['LHS', 'RHS', 'TYPE']  )
-        print( var_df )
-        call_df   = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        print(call_df)
 
-
-        full_tree = ast.parse( open( code  ).read() )    
-        fullVarList = getVariables(full_tree, 'VAR_ASSIGNMENT')  
-        call_list = getFunctionAssignments( full_tree ) 
-        funcDefList, funcvarList = getFunctionDefinitions( code  ) 
-
-        var_df       = pd.DataFrame( fullVarList, columns =['LHS', 'RHS', 'TYPE']  )
-        call_df      = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_def_df  = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_var_df  = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
-        info_df_list = [var_df, call_df, func_def_df, func_var_df]
-        trackTaint( data , info_df_list )    
-
-
-
-        # print(call_list) 
-        # print('*'*25)
-
-        func_def_df = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_var_df = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
-        # print(funcDefList)
-        # print(funcvarList)
-        # print('*'*25)
         info_df_list = [var_df, call_df, func_def_df, func_var_df]
         trackTaint( 100000000000 , info_df_list )
     '''
