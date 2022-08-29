@@ -42,29 +42,29 @@
 | Sep 07  | Event-based Scanning                                   |
 | Sep 09  | Event-based Scanning  (Workshop)                       |
 | Sep 12  | Project Overview                                       |
-| Sep 14  | Chaos Engineering                                      |
-| Sep 17  | Software Fuzzing                                       |
-| Sep 19  | Software Fuzzing  (Workshop)                           |
+| Sep 14  | Software Fuzzing                                       |
+| Sep 17  | Software Fuzzing  (Workshop)                           |
+| Sep 19  | Chaos Engineering                                      |
 | Sep 21  | Resilient Integration                                  |
 | Sep 23  | Resilient Integration    (Workshop)                    |
 | Sep 26  | Secret Management                                      |
 | Sep 28  | Secret Management   (Workshop)                         |  
-| Sep 30  | Software Process - Waterfall                           |                                             
-| Oct 03  | Software Process - Scrum                               |                 
+| Sep 30  | Test-driven Development                                |                                             
+| Oct 03  | Test-driven Development   (Workshop)                   |                 
 | Oct 05  | Classical Configuration Management                     |
 | Oct 07  | **Fall Break: No classes**                             |
 | Oct 10  | Review of Exam 1                                       |
 | Oct 12  | Exam 1 (in class)                                      |
 | Oct 14  | Introductions to CMMI                                  |
 | Oct 17  | Testing Metrics                                        |
-| Oct 19  | Test-driven Development                                |
-| Oct 21  | Test-driven Development   (Workshop)                   |    
+| Oct 19  | Software Process - Waterfall                           |
+| Oct 21  | Software Process - Scrum                               |    
 | Oct 24  | Project Updates                                        |
 | Oct 26  | Behavior-driven Development                            |
 | Oct 28  | Requirements Validation                                |
 | Nov 02  | Requirements Validation   (Workshop)                   |
 | Nov 04  | Software Forensics                                     |
-| Nov 07  | Software Forensics                                     |
+| Nov 07  | Software Forensics   (Workshop)                        |
 | Nov 09  | Software Testing Overview                              |
 | Nov 11  | Project Updates                                        |
 | Nov 14  | Review of Graphs                                       |
