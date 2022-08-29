@@ -203,17 +203,7 @@ def trackTaint(val2track, df_list_param):
 def checkFlow(data, code):
     full_tree = None 
     if os.path.exists( code ):
-        full_tree = ast.parse( open( code  ).read() )    
-        fullVarList = getVariables(full_tree, 'VAR_ASSIGNMENT')  
-        call_list = getFunctionAssignments( full_tree ) 
-        funcDefList, funcvarList = getFunctionDefinitions( code  ) 
-
-        var_df       = pd.DataFrame( fullVarList, columns =['LHS', 'RHS', 'TYPE']  )
-        call_df      = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_def_df  = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_var_df  = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
-        info_df_list = [var_df, call_df, func_def_df, func_var_df]
-        trackTaint( data , info_df_list )    
+       print('Complete this method') 
 
 if __name__=='__main__':
     input_program = 'workshop2-calc.py' 
@@ -227,6 +217,20 @@ if __name__=='__main__':
         print( var_df )
         call_df   = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
         print(call_df)
+
+
+        full_tree = ast.parse( open( code  ).read() )    
+        fullVarList = getVariables(full_tree, 'VAR_ASSIGNMENT')  
+        call_list = getFunctionAssignments( full_tree ) 
+        funcDefList, funcvarList = getFunctionDefinitions( code  ) 
+
+        var_df       = pd.DataFrame( fullVarList, columns =['LHS', 'RHS', 'TYPE']  )
+        call_df      = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
+        func_def_df  = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
+        func_var_df  = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
+        info_df_list = [var_df, call_df, func_def_df, func_var_df]
+        trackTaint( data , info_df_list )    
+
 
 
         # print(call_list) 
