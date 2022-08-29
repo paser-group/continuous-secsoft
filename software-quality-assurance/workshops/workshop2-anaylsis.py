@@ -185,36 +185,3 @@ if __name__=='__main__':
     data2track    = 1000
     checkFlow( data2track, input_program )
 
-    '''
-        # print(fullVarList) 
-        # print('*'*25)
-        var_df = pd.DataFrame( fullVarList, columns =['LHS', 'RHS', 'TYPE']  )
-        print( var_df )
-        call_df   = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        print(call_df)
-
-
-
-
-        
-
-        var_df       = pd.DataFrame( fullVarList, columns =['LHS', 'RHS', 'TYPE']  )
-        call_df      = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_def_df  = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_var_df  = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
-        info_df_list = [var_df, call_df, func_def_df, func_var_df]
-        trackTaint( data , info_df_list )    
-
-
-
-        # print(call_list) 
-        # print('*'*25)
-
-        func_def_df = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
-        func_var_df = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
-        # print(funcDefList)
-        # print(funcvarList)
-        # print('*'*25)
-        info_df_list = [var_df, call_df, func_def_df, func_var_df]
-        trackTaint( 100000000000 , info_df_list )
-    '''
