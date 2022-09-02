@@ -36,9 +36,10 @@ In this workshop we will use a tool called [SLI-KUBE](https://hub.docker.com/rep
 
 ### Assignment 3 (Post Lab Experience) 
 - Run the tool for all Kubernetes manifests zipped in `workshop3.zip` 
-  - First extract the zip file 
-  - Second change `main.py` so that the extracted folder gets scanned with `SLI-KUBE`. 
-  - Third run `python3 main.py` or `python main.py`  
+  - First, copy the zip file to the container with `docker cp` 
+  - Second, extract the zip file with [unzip](https://linuxize.com/post/how-to-unzip-files-in-linux/) 
+  - Third, change `main.py` so that the extracted folder gets scanned with `SLI-KUBE`. 
+  - Fourth, run `python3 main.py` or `python main.py`  
 - Report the three most frequent security misocnfigurations as determined by SLI-KUBE. Your report should inlcude a 2 sentence description. Use `Section-2.3` from `workshop3-paper.pdf`. 
 of three security misocnfigurations 
 - Upload your report on `Assignment-3` @ CANVAS 
