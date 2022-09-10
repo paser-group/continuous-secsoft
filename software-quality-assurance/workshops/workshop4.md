@@ -41,9 +41,9 @@ In that spirit, we as a class  will build a mini tool that automatically runs st
 - Recording of this hands-on experience is available on CANVAS 
 
 ### Assignment 4 (Post Lab Experience) 
-- Modify your `pre-commit` file so that it can scan your `NumCPP` repository whenever you commit any file
+- Modify your `pre-commit` file so that it can scan your `NumCPP` repository whenever you commit any file (60%)
   - Grab your output by capturing the screenshots 
   - Modify any CPP file in the `NumCPP` repository 
   - Upload your `pre-commit` file and your screenshots on CANVAS 
-- Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_ekBpwjd4TkT1tpc)
+- Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_bryx8vonSvVmW5o)  (40%)
 - Due: Sep 26, 2022
