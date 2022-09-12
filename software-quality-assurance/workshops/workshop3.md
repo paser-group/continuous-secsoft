@@ -44,7 +44,7 @@ In this workshop we will use a tool called [SLI-KUBE](https://hub.docker.com/rep
   - Fourth, run `python3 main.py` or `python main.py`  
   - Fifth, cop the generated output file to your `own` computer/machine using `docker cp`  
 - Report the three most frequent security misconfigurations as determined by SLI-KUBE. Your report should include a 2 sentence description. Use `Section-2.3` from `workshop3-paper.pdf`. 
-of three security misconfigurations 
+    - If you get `NO_NETWORK_POLICY` then you can use the following text: `The misconfiguration category that is related with not specifying network policies. Without specifying network policies Kubernetes installations are susceptible to unauthorized accesses.`
 - Upload your report on `Assignment-3` @ CANVAS 
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_ekBpwjd4TkT1tpc)
 - Due: Sep 19, 2022
