@@ -9,11 +9,15 @@ The objective of this project is to integrate software quality assurance activit
 1. Unpack the project `TestOrchestrator4ML.zip`. (1%)
 2. Upload project as a GitHub repo on `github.com`. Format of the repo name is `TEAMNAME-SQA2022-AUBURN`  (2%)
 3. In your project repo create `README.md` listing your team name and team members. (2%)
-3. Apply the following activities related to software quality assurance:
-   3.a. Create a Git Hook that will run and report all security weaknesses in the project in a CSV file whenever a Python file is changed and committed. (30%)
-   3.b. Create a `fuzz.py` file that will automatically fuzz 5 Python methods of your choice. Report any bugs you discovered by the `fuzz.py` file. `fuzz.py` will be automatically executed from GitHub actions. (30%)
-   3.c. Integrate forensics by modifying 5 Python methods of your choice. (30%)
-4. Report your activities and lessons learned (5%)   
+4. Apply the following activities related to software quality assurance:
+
+   - 4.a. Create a Git Hook that will run and report all security weaknesses in the project in a CSV file whenever a Python file is changed and committed. (30%)
+
+   - 4.b. Create a `fuzz.py` file that will automatically fuzz 5 Python methods of your choice. Report any bugs you discovered by the `fuzz.py` file. `fuzz.py` will be automatically executed from GitHub actions. (30%)
+
+   - 4.c. Integrate forensics by modifying 5 Python methods of your choice. (30%)
+
+5. Report your activities and lessons learned (5%)   
 
 ### Deliverables 
 
