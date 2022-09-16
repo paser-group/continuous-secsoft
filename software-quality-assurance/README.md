@@ -43,8 +43,8 @@
 | Sep 09  | Event-based Scanning  (Workshop)                       |
 | Sep 12  | Project Overview                                       |
 | Sep 14  | Software Fuzzing                                       |
-| Sep 17  | Software Fuzzing  (Workshop)                           |
-| Sep 19  | Chaos Engineering                                      |
+| Sep 17  | Software Fuzzing  and Chaos Engineering                |
+| Sep 19  | Software Fuzzing  (Workshop)                           |
 | Sep 21  | Resilient Integration                                  |
 | Sep 23  | Resilient Integration    (Workshop)                    |
 | Sep 26  | Secret Management                                      |
