@@ -27,7 +27,7 @@ that fuzzes an existing implementation of a simple calculator.
 
 ### Assignment 5 (Post Lab Experience) 
 - Open `workshop5.py` 
-- Implement the `fuzzValues` method so that it can generate alphanumeric values, and these values are plugged into the `simpleCalculator` method. 
+- Implement the `fuzzValues` method so that it can generate alphanumeric values, and these values are plugged into the `simpleCalculator` method. Feel free to use the strings here: https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.json
 - Record the error messages. You should be recording seven (7) errors as part of your implementation. 
 - Submit your code, i.e., the `workshop5.py` file and the error messages @ Workshop 5 on CANVAS. (70%)
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_e3Bxdy5U3uOPtSC):  (30%)
