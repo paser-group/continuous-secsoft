@@ -69,3 +69,16 @@ def loadMultiYAML( script_ ):
             print( constants.YAML_SKIPPING_TEXT  )   
     return dicts2ret  
 ```
+
+and 
+
+```
+def readYAMLAsStr( path_script ):
+    yaml_as_str = constants.YAML_SKIPPING_TEXT
+    with open( path_script , constants.FILE_READ_FLAG) as file_:
+        try:
+           yaml_as_str = file_.read() 
+        except UnicodeDecodeError as err_:
+            print( constants.YAML_SKIPPING_TEXT  )  
+    return yaml_as_str
+```
