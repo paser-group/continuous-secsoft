@@ -45,7 +45,7 @@
 | Oct 14  | Introductions to CMMI                                  |     N/A     |
 | Oct 17  | Testing Metrics                                        |     N/A     |
 | Oct 19  | Test-driven Development                                |     N/A     |
-| Oct 21  | Test-driven Development   (Workshop)                   |     N/A     |
+| Oct 21  | Overview of workshops                                  |     N/A     |
 | Oct 24  | Project Updates                                        |     N/A     |
 | Oct 26  | Behavior-driven Development                            |     N/A     | 
 | Oct 28  | Requirements Validation                                |     M1      |

@@ -50,7 +50,7 @@
 | Sep 26  | Secret Management                                      |
 | Sep 28  | Secret Management   (Workshop)                         |  
 | Sep 30  | Test-driven Development                                |                                             
-| Oct 03  | Test-driven Development   (Workshop)                   |                 
+| Oct 03  | Overview/recap of prior workshops                      |                 
 | Oct 05  | Classical Configuration Management                     |
 | Oct 07  | **Fall Break: No classes**                             |
 | Oct 10  | Review of Exam 1                                       |

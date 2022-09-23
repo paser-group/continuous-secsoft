@@ -36,7 +36,7 @@ As part of this workshop we will see how we can use an existing CI tool called [
    - Find the build by the commit message you used while commiting 
    - See the changes 
 
-### Assignment 5 (Post Lab Experience) 
+### Assignment 6 (Post Lab Experience) 
 - Repeat all the steps from the in-class exercise for the repository `https://github.com/akondrahman/IaCTesting`. This will include forking `https://github.com/akondrahman/IaCTesting`, cloning, adding codacy with GitHub Actions, making changes ina  file, commiting and pushing, and finding the build in the `Actions` tab of your repository   
 - Find the URL to your CI run and record it in a TEXT file. Also capture 5 snapshots of the CI run 
 - Submit your text file and snapshots @ Workshop 6 on CANVAS. (75%)
