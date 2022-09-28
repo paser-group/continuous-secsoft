@@ -54,7 +54,7 @@ import hvac
 - Then, establish connection. Use URL and token from the output of `vault server -dev`: 
 
 ```
-hvc_client = client = hvac.Client(url='http://127.0.0.1:8200', token='hvs.PRhiQDtFgI6BAPwNISXS9cV0' )
+hvc_client = client = hvac.Client(url='YOUR_IP_ADDRESS', token='<YOUR_TOKEN>' )
 ```
 
 - Now, store a secret inside HCP Vault using the `create_or_update_secret` method: 
