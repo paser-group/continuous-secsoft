@@ -66,13 +66,13 @@
 | Nov 04  | Software Forensics   (Workshop)                        |
 | Nov 07  | Software Testing Overview                              |
 | Nov 09  | Testing Metrics                                        |
-| Nov 11  | Project Updates                                        |
-| Nov 14  | Review of Graphs                                       |
-| Nov 16  | Structure Testing                                      |
-| Nov 18  | Functional Testing                                     |
-| Nov 21  | Thanksgiving Break: No classes                         |
-| Nov 23  | Thanksgiving Break: No classes                         |
-| Nov 25  | Thanksgiving Break: No classes                         |
+| Nov 11  | Review of Graphs                                       |
+| Nov 14  | Structure Testing                                      |
+| Nov 16  | Functional Testing                                     |
+| Nov 18  | Project Updates                                        |
+| Nov 21  | **Thanksgiving Break: No classes**                     |
+| Nov 23  | **Thanksgiving Break: No classes**                     |
+| Nov 25  | **Thanksgiving Break: No classes**                     |
 | Nov 28  | Combinatorial Interaction Testing                      |
 | Nov 30  | Concolic Testing                                       |
 | Dec 02  | Review of Final Exam                                   |
