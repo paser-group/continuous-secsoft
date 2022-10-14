@@ -56,9 +56,9 @@
 | Oct 10  | Review of Exam 1                                       |
 | Oct 12  | Exam 1 (in class)                                      |
 | Oct 14  | Introductions to CMMI                                  |
-| Oct 17  | Behavior-driven Development                            |
+| Oct 17  | Software Process - Scrum                               |
 | Oct 19  | Software Process - Waterfall   + Recap of midterm      |
-| Oct 21  | Software Process - Scrum                               |    
+| Oct 21  | Behavior-driven Development                            |    
 | Oct 24  | Project Updates                                        |
 | Oct 26  | Requirements Validation                                |
 | Oct 28  | Requirements Validation   (Workshop)                   |
