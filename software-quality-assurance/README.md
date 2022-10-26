@@ -62,21 +62,22 @@
 | Oct 24  | Project Updates                                               |
 | Oct 26  | Requirements Validation                                       |
 | Oct 28  | Requirements Validation   (Workshop)                          |
-| Nov 02  | Software Forensics                                            |
-| Nov 04  | Software Forensics   (Workshop)                               |
-| Nov 07  | Software Testing Overview                                     |
-| Nov 09  | Testing Metrics                                               |
-| Nov 11  | Review of Graphs                                              |
-| Nov 14  | Structure Testing                                             |
-| Nov 16  | Functional Testing                                            |
-| Nov 18  | Combinatorial Interaction Testing                             |
+| Oct 31  | Software Forensics                                            |
+| Nov 02  | Software Forensics (Workshop)                                 |
+| Nov 04  | Software Testing Overview                                     |
+| Nov 07  | Testing Metrics                                               |
+| Nov 09  | Review of Graphs                                              |
+| Nov 11  | Structure Testing                                             |
+| Nov 14  | Functional Testing                                            |
+| Nov 16  | Combinatorial Interaction Testing                             |
+| Nov 18  | Concolic Testing                                              |
 | Nov 21  | **Thanksgiving Break: No classes**                            |
 | Nov 23  | **Thanksgiving Break: No classes**                            |
 | Nov 25  | **Thanksgiving Break: No classes**                            |
 | Nov 28  | **Instructor on Travel: Recorded Lecture On Software Design** |
 | Nov 30  | Concolic Testing                                              |
 | Dec 02  | Review of Final Exam                                          |
-| Dec XX  | Final Exam (in class)                                         |
+| Dec 05  | Final Exam (in class)                                         |
 
  
 
