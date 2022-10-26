@@ -77,7 +77,7 @@
 | Nov 28  | **Instructor on Travel: Recorded Lecture On Software Design** |
 | Nov 30  | Concolic Testing                                              |
 | Dec 02  | Review of Final Exam                                          |
-| Dec 05  | Final Exam (in class)                                         |
+| Dec 07  | Final Exam (in class, 8:00 -10:30 AM CST)                     |
 
  
 
