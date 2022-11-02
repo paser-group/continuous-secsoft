@@ -52,7 +52,7 @@ The steps for BDD is:
   - All methods related to mathematical operations should handle division by zero exceptions
   - All methods related to mathematical operations should be fast
 
-- You have applied static analysis to your Python program files. Use the [Bandit](https://bandit.readthedocs.io/en/latest/) tool to perform static analysis and report the weaknesses that you find in a TEXT file
+- You have applied static analysis to your Python program files. Use the [Bandit](https://bandit.readthedocs.io/en/latest/) tool to perform static analysis and report any weaknesses that you find in a TEXT file
 - Submit your Python program files and  your TEXT file on CANVAS @ `Workshop 8` 
 - Complete survey: https://auburn.qualtrics.com/jfe/form/SV_556t0yGLahw3vVA
 - Due: Nov 07, 2022 
