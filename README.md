@@ -11,9 +11,10 @@
 ## Organization 
 
 
-| Course                             | Taught at                                  |  Link                                    |
-|------------------------------------|--------------------------------------------|------------------------------------------|
-| Software Quality Assurance         | Auburn University, Fall 2022               |  [Link](/software-quality-assurance)     |
+| Course                             | Taught at                                  |  Link                                            |
+|------------------------------------|--------------------------------------------|--------------------------------------------------|
+| Software Quality Assurance         | Auburn University, Fall 2022               |  No longer maintained                            |
+| Software Quality Assurance         | Auburn University, Spring 2023             |  [Link](/software-quality-assurance)             |
 
 
 <!-- 
