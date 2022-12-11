@@ -1,5 +1,5 @@
 # COMP 5710/6710 
-> MWF, 10:00-10:50 AM CST, SHELBY 112, Fall 2022
+> MWF, 10:00-10:50 AM CST, SHELBY 112, Spring 2023 
 
 ## Instructor 
 
@@ -30,54 +30,54 @@
 
 | Date    |  Schedule                                                     |
 |---------|---------------------------------------------------------------|
-| Aug 17  | Introduction                                                  |
-| Aug 19  | SQA Basics                                                    |
-| Aug 22  | Automated Program Analysis  (Tool Usage)                      |
-| Aug 24  | Automated Program Analysis  (Tool Usage - Workshop)           |
-| Aug 26  | Automated Program Analysis  (Taint Tracking)                  |
-| Aug 29  | Automated Program Analysis  (Taint Tracking - Workshop)       |
-| Aug 31  | Resilient Automated Configuration                             |
-| Sep 02  | Resilient Automated Configuration  (Workshop)                 |
-| Sep 05  | **Labor Day: No classes**                                     |
-| Sep 07  | Event-based Scanning                                          |
-| Sep 09  | Event-based Scanning  (Workshop)                              |
-| Sep 12  | Project Overview                                              |
-| Sep 14  | Software Fuzzing                                              |
-| Sep 17  | Software Fuzzing  and Chaos Engineering                       |
-| Sep 19  | Software Fuzzing  (Workshop)                                  |
-| Sep 21  | Resilient Integration                                         |
-| Sep 23  | Resilient Integration    (Workshop)                           |
-| Sep 26  | Secret Management                                             |
-| Sep 28  | Secret Management   (Workshop)                                |  
-| Sep 30  | Test-driven Development                                       |                                             
-| Oct 03  | Overview/recap of prior workshops                             |                 
-| Oct 05  | Classical Configuration Management                            |
-| Oct 07  | **Fall Break: No classes**                                    |
-| Oct 10  | Review of Exam 1                                              |
-| Oct 12  | Exam 1 (in class)                                             |
-| Oct 14  | Introductions to CMMI                                         |
-| Oct 17  | Software Process - Scrum                                      |
-| Oct 19  | Software Process - Waterfall   + Recap of midterm             |
-| Oct 21  | Behavior-driven Development                                   |     
-| Oct 24  | Project Updates                                               |
-| Oct 26  | Requirements Validation                                       |
-| Oct 28  | Requirements Validation   (Workshop)                          |
-| Oct 31  | Software Forensics                                            |
-| Nov 02  | Software Forensics (Workshop)                                 |
-| Nov 04  | Software Testing Overview                                     |
-| Nov 07  | Testing Metrics                                               |
-| Nov 09  | Review of Graphs                                              |
-| Nov 11  | Structure Testing                                             |
-| Nov 14  | Functional Testing                                            |
-| Nov 16  | Combinatorial Interaction Testing                             |
-| Nov 18  | Concolic Testing                                              |
-| Nov 21  | **Thanksgiving Break: No classes**                            |
-| Nov 23  | **Thanksgiving Break: No classes**                            |
-| Nov 25  | **Thanksgiving Break: No classes**                            |
-| Nov 28  | **Instructor on Travel: Recorded Lecture On Software Design** |
-| Nov 30  | Concolic Testing                                              |
-| Dec 02  | Review of Final Exam                                          |
-| Dec 07  | Final Exam (in class, 8:00 -10:30 AM CST)                     |
+| Jan 11  | Introduction                                                  |
+| Jan 13  | Introductions to CMMI                                         |
+| Jan 16  | **MLK day, no classes**                                       |
+| Jan 18  | Software Process - Waterfall                                  |
+| Jan 20  | Behavior-driven Development                                   |
+| Jan 23  | Software Process - Scrum                                      |
+| Jan 25  | Requirements Validation                                       |
+| Jan 27  | Requirements Validation (Workshop)                            |
+| Jan 30  | SQA Basics                                                    |
+| Feb 01  | Automated Program Analysis (Tool Usage)                       |
+| Feb 03  | Automated Program Analysis (Tool Usage - Workshop)            |
+| Feb 06  | Resilient Automated Configuration                             |
+| Feb 08  | Resilient Automated Configuration (Workshop)                  |
+| Feb 10  | Event-based Scanning                                          |
+| Feb 13  | Event-based Scanning (Workshop)                               |
+| Feb 15  | Resilient Integration                                         |
+| Feb 17  | Resilient Integration    (Workshop)                           |
+| Feb 20  | Secret Management                                             |
+| Feb 22  | Secret Management   (Workshop)                                |  
+| Feb 24  | Project debriefing                                            |                                             
+| Feb 27  | Software Forensics                                            |                 
+| Mar 01  | Recap for midterm                                             |
+| Mar 03  | Midterm                                                       |
+| Mar 06  | **Spring Break: No classes**                                  |
+| Mar 08  | **Spring Break: No classes**                                  |
+| Mar 10  | **Spring Break: No classes**                                  |
+| Mar 13  | Software Forensics (Workshop)                                 |
+| Mar 15  | Test-driven development                                       |
+| Mar 17  | Software Testing Overview                                     |     
+| Mar 20  | Testing Metrics                                               |
+| Mar 22  | Software Fuzzing and Chaos Engineering                        |
+| Mar 24  | Software Fuzzing (Workshop)                                   |
+| Mar 27  | Review of Graphs                                              |
+| Mar 29  | Structural Testing                                            |
+| Mar 31  | Functional Testing                                            |
+| Apr 03  | Combinatorial Interaction Testing                             |
+| Apr 05  | Project updates                                               |
+| Apr 07  | Concolic Testing                                              |
+| Apr 10  | Concolic Testing                                              |
+| Apr 12  | Concolic Testing (Workshop)                                   |
+| Apr 14  | Software Supply Chain                                         |
+| Apr 17  | Software Supply Chain - Dependency Management                 |
+| Apr 19  | Software Supply Chain - Code Laundering                       |
+| Apr 21  | Software Supply Chain - Organizational Factors                |
+| Apr 24  | Software Supply Chain - Maintenance Factors                   |
+| Apr 26  | Software Supply Chain - Secure Containerization               |
+| Apr 28  | Review of Final Exam *Last day of classes*                    |
+| TBD     | Final Exam (in class, 8:00 -10:30 AM CST)                     |
 
  
 
