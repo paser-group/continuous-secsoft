@@ -1,11 +1,11 @@
 # COMP 5710/6710 
-> MWF, 10:00-10:50 AM CST, SHELBY 112, Spring 2023 
+> MWF, 10:00-10:50 AM CST, SHELBY 1120, Spring 2023 
 
 ## Instructor 
 
 > Akond Rahman, PhD 
 
-> Office hours: Friday, 9:00-10:00 AM CST , Shelby Center 112 
+> Office hours: Friday, 9:00-10:00 AM CST , Shelby Center 3104 
 
 > akond@auburn.edu 
 
