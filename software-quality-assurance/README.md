@@ -33,8 +33,8 @@
 | Jan 11  | Introduction                                                  |
 | Jan 13  | Introductions to CMMI                                         |
 | Jan 16  | **MLK day, no classes**                                       |
-| Jan 18  | Software Process - Waterfall                                  |
-| Jan 20  | Behavior-driven Development                                   |
+| Jan 18  | Behavior-driven Development                                   |
+| Jan 20  | Software Process - Waterfall                                  |
 | Jan 23  | Software Process - Scrum                                      |
 | Jan 25  | Requirements Validation                                       |
 | Jan 27  | Requirements Validation (Workshop)                            |
