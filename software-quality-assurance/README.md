@@ -35,9 +35,9 @@
 | Jan 16  | **MLK day, no classes**                                       |
 | Jan 18  | Software Process - Waterfall                                  |
 | Jan 20  | Software Process - Scrum                                      |
-| Jan 23  | Behavior-driven Development                                   |
-| Jan 25  | Requirements Validation                                       |
-| Jan 27  | Requirements Validation (Workshop)                            |
+| Jan 23  | Requirements Validation                                       |
+| Jan 25  | Requirements Validation (Workshop)                            |
+| Jan 27  | Behavior-driven Development                                   |
 | Jan 30  | SQA Basics                                                    |
 | Feb 01  | Automated Program Analysis (Tool Usage)                       |
 | Feb 03  | Automated Program Analysis (Tool Usage - Workshop)            |
@@ -77,7 +77,7 @@
 | Apr 24  | Software Supply Chain - Maintenance Factors                   |
 | Apr 26  | Software Supply Chain - Secure Containerization               |
 | Apr 28  | Review of Final Exam *Last day of classes*                    |
-| TBD     | Final Exam (in class, 8:00 -10:30 AM CST)                     |
+| May 03  | Final Exam (in class, 8:00 -10:00 AM CST)                     |
 
  
 
