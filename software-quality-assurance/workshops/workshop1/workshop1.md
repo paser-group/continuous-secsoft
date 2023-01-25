@@ -14,7 +14,7 @@ Software Quality Assurance
 
 ### Pre-lab Content Dissemination 
 
-Requirements engineering is the process of discovering, analyzing, documenting and validating the requirements of the system. Each software development process goes through the phase of requirements engineering. Engineered requirements are often translated to software features through different software development methodologies, such as test driven development and behavior development. We will use both, test driven development and behavior driven development in this workshop.   
+Requirements engineering is the process of discovering, analyzing, documenting and validating the requirements of the system. Each software development process goes through the phase of requirements engineering. Engineered requirements are often translated to software features through different software development methodologies, such as test driven development.    
 
 
 #### Test-driven Development (TDD)
@@ -31,7 +31,7 @@ The steps for TDD is:
 
 - Navigate to `https://github.com/paser-group/continuous-secsoft/tree/master/software-quality-assurance/workshop1/`
 - Apply test-driven development (TDD) to implement a subtraction operation for our simple calculator. We will use `unittest`. 
-- Demo will be recorded and shared on CANVAS 
+- Demo will be recorded and shared on CANVAS (Panopto Recordings). 
 
 
 
