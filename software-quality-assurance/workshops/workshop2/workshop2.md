@@ -36,4 +36,4 @@ Security weaknesses can be identified using two ways: manual inspection by an ex
 - Report the name of the three most frequent security weaknesses detected by Bandit in a document 
 - Upload the document on Assignment 2 @ CANVAS  
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_3C2YB8CeV2IWlN4)
-- Due: Feb 07, 2023
+- Due: Feb 08, 2023
