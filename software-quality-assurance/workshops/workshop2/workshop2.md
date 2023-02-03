@@ -26,7 +26,7 @@ Security weaknesses can be identified using two ways: manual inspection by an ex
 
 - Install Bandit [Instructions to Install Bandit](https://bandit.readthedocs.io/en/latest/start.html#installation)
 - Check installation via `bandit -h` by going to the terminal 
-- Run `bandit workshop1.py` 
+- Run `bandit simple.py` 
 
 ### Post Lab Experience 
 - Run Bandit against all Python files in the `workshop2.zip` file 
