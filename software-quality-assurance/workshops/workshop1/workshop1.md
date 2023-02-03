@@ -44,4 +44,9 @@ The steps for TDD is:
   - Written code has been scanned by a static analysis tool. You will apply static analysis to your Python program files. Use the [Bandit](https://bandit.readthedocs.io/en/latest/) tool to perform static analysis and report any weaknesses that you find in a TEXT file
 - Submit your Python program files and  your TEXT file on CANVAS @ `Workshop 1` 
 - Complete survey: https://auburn.qualtrics.com/jfe/form/SV_556t0yGLahw3vVA
-- Due: Feb 02, 2023 
+- Due: Feb 02, 2023
+
+
+### Commands that you can find useful
+- `pip install bandit` to install bandit 
+- `bandit -r <FOLDER_PATH_OF_YOUR_CODE>` 

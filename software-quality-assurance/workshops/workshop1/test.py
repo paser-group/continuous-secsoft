@@ -9,5 +9,8 @@ class TestCalc(unittest.TestCase):
     def testSub2(self):
         self.assertEqual(10, source.performSub(20, 10), "Bug in implementation. Results should be 1.")    
 
+    def testDivZero(self):
+        self.assertEqual("Put in correct divisor", source.performSub(20, 0), "Bug in implementation.")    
+
 if __name__ == '__main__': 
     unittest.main() 

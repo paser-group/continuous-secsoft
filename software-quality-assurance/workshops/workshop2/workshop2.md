@@ -28,7 +28,7 @@ Security weaknesses can be identified using two ways: manual inspection by an ex
 - Check installation via `bandit -h` by going to the terminal 
 - Run `bandit workshop1.py` 
 
-### Assignment 1 (Post Lab Experience) 
+### Post Lab Experience 
 - Run Bandit against all Python files in the `workshop2.zip` file 
   - Extract `workshop2.zip` that is located here: https://github.com/paser-group/continuous-secsoft/tree/master/software-quality-assurance/workshops/workshop2/
   - Run Bandit by specifying the extracted directory. You might need the `-a`, `-f`, `-r`, and the `-o` flag 
