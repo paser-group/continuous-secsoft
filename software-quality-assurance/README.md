@@ -41,14 +41,14 @@
 | Jan 30  | SQA Basics                                                    |
 | Feb 01  | Automated Program Analysis (Tool Usage)                       |
 | Feb 03  | Automated Program Analysis (Tool Usage - Workshop)            |
-| Feb 06  | Resilient Automated Configuration                             |
-| Feb 08  | Resilient Automated Configuration (Workshop)                  |
+| Feb 06  | Automated Program Analysis (Information Flow)                 |
+| Feb 08  | Automated Program Analysis (Information Flow - Workshop)      |
 | Feb 10  | Event-based Scanning                                          |
 | Feb 13  | Event-based Scanning (Workshop)                               |
 | Feb 15  | Resilient Integration                                         |
 | Feb 17  | Resilient Integration    (Workshop)                           |
-| Feb 20  | Secret Management                                             |
-| Feb 22  | Secret Management   (Workshop)                                |  
+| Feb 20  | Resilient Automated Configuration                             |
+| Feb 22  | Resilient Automated Configuration (Workshop with SLI-KUBE)    |  
 | Feb 24  | Project debriefing                                            |                                             
 | Feb 27  | Software Forensics                                            |                 
 | Mar 01  | Recap for midterm                                             |
@@ -69,8 +69,8 @@
 | Apr 05  | Project updates                                               |
 | Apr 07  | Concolic Testing                                              |
 | Apr 10  | Concolic Testing                                              |
-| Apr 12  | Concolic Testing (Workshop)                                   |
-| Apr 14  | Software Supply Chain                                         |
+| Apr 12  | Secret Management                                             |
+| Apr 14  | Secret Management   (Workshop)                                |
 | Apr 17  | Software Supply Chain - Dependency Management                 |
 | Apr 19  | Software Supply Chain - Code Laundering                       |
 | Apr 21  | Software Supply Chain - Organizational Factors                |
