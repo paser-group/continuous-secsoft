@@ -25,7 +25,9 @@ In our class lectures we learned the importance on why bugs and security vulnera
 - Understand the code in `workshop3/analysis.py` to understand how parse tree and relevant components from `workshop3/calc.py` have been extracted
 
 ### Post Lab Experience 
-- Complete the `checkFlow` function in `workshop3/analysis.py` so that the flow of execution for `workshop3/calc.py` is captured i.e., I get `100->val1->v1->res`
+- Complete the `checkFlow` function in `workshop3/analysis.py` so that the flow of execution for `workshop3/calc.py` is captured i.e., I get `1000->val1->v1->res`
+- Feel free to use the `Pandas` dataframe [selection operators](https://pandas.pydata.org/docs/user_guide/10min.html#selection)
 - Upload your code, i.e., the updated `analysis.py` file on Assignment 3 @ CANVAS  
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_0chh9rpr4X9Prfg)
 - Due: Feb 22, 2023
+

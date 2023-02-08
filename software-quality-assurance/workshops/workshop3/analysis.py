@@ -168,13 +168,13 @@ def trackTaint(val2track, df_list_param):
 def checkFlow(data, code):
     full_tree = None 
     if os.path.exists( code ):
-       full_tree = ast.parse( open( code  ).read() )    
+       full_tree = ast.parse( open( code  ).read() )  
        # First let us obtain the variables in forms of expressions 
        fullVarList = getVariables(full_tree, 'VAR_ASSIGNMENT') 
        # Next let us get function invocations by looking into function calls
        call_list = getFunctionAssignments( full_tree ) 
-       # Now let us look into the body of the function and see of the paramter is used
-       funcDefList, funcvarList = getFunctionDefinitions( code  )         
+       # Now let us look into the body of the function and see of the parameter is used
+       funcDefList, funcvarList = getFunctionDefinitions( code  )      
        #For the workshop please use fullVarList, call_list, funcDefList, funcvarList
        # Then print a path like the following: 
        # 1000->val1->v1->res 
@@ -182,6 +182,7 @@ def checkFlow(data, code):
        call_df      = pd.DataFrame( call_list, columns =['LHS', 'FUNC_NAME', 'ARG_NAME', 'TYPE']   )
        func_def_df  = pd.DataFrame( funcDefList, columns =['FUNC_NAME', 'ARG_NAME', 'TYPE']   )
        func_var_df  = pd.DataFrame( funcvarList, columns =['LHS', 'RHS', 'TYPE']   )
+
        info_df_list = [var_df, call_df, func_def_df, func_var_df]
        trackTaint( data , info_df_list ) 
 
