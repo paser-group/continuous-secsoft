@@ -41,7 +41,7 @@ In that spirit, we as a class  will build a mini tool that automatically runs st
 - Recording of this hands-on experience is available on CANVAS 
 
 ### Post Lab Experience
-- Modify your `pre-commit` file so that it can scan your `NumCPP` repository whenever you commit any file (60%)
+- Modify your `pre-commit` file so that it can scan your [NumCPP](https://github.com/dpilger26/NumCpp) repository whenever you commit any file (60%)
   - Grab your output by capturing the screenshots 
   - Modify any CPP file in the `NumCPP` repository 
   - Upload your `pre-commit` file and your screenshots on CANVAS 
