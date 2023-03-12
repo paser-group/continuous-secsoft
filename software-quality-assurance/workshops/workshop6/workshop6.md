@@ -39,7 +39,7 @@ In this workshop we will use a tool called [SLI-KUBE](https://hub.docker.com/rep
 ### Post Lab Experience
 - Run the tool for all Kubernetes manifests zipped in `workshop6.zip` 
   - First, copy the zip file to the container with `docker cp` 
-  - Second, extract the zip file with [unzip](https://linuxize.com/post/how-to-unzip-files-in-linux/) 
+  - Second, extract the zip file with [unzip](https://linuxize.com/post/how-to-unzip-files-in-linux/) or [unzip on Windows](https://gnuwin32.sourceforge.net/packages/unzip.htm)
   - Third, change `main.py` so that the extracted folder gets scanned with `SLI-KUBE`. 
   - Fourth, run `python3 main.py` or `python main.py`  
   - Fifth, copy the generated output file to your `own` computer/machine using `[docker cp](https://docs.docker.com/engine/reference/commandline/cp/)`.  
