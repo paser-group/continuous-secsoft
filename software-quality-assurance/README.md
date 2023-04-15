@@ -69,8 +69,8 @@
 | Apr 05  | Project updates                                               |
 | Apr 07  | Concolic Testing                                              |
 | Apr 10  | Concolic Testing                                              |
-| Apr 12  | Secret Management                                             |
-| Apr 14  | Secret Management   (Workshop)                                |
+| Apr 12  | Software Supply Chain - Secret Management                     |
+| Apr 14  | Software Supply Chain - Secret Management   (Workshop)        |
 | Apr 17  | Software Supply Chain - Secure Software Development Lifecycle |
 | Apr 19  | Software Supply Chain - Dependency Management                 |
 | Apr 21  | Software Supply Chain - Insecure Coding                       |
