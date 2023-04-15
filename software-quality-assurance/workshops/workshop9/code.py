@@ -25,7 +25,6 @@ if __name__ == '__main__':
     clientObj    =  makeConn() 
     secret2store = str(  random.randint(1, 100000) )
     counter      = 0 
-
     print('The secret we want to store:', secret2store)
     print('='*50)
     storeSecret( clientObj,   secret2store, counter )

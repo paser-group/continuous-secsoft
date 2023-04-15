@@ -71,13 +71,13 @@
 | Apr 10  | Concolic Testing                                              |
 | Apr 12  | Secret Management                                             |
 | Apr 14  | Secret Management   (Workshop)                                |
-| Apr 17  | Software Supply Chain - Dependency Management                 |
-| Apr 19  | Software Supply Chain - Code Laundering                       |
-| Apr 21  | Software Supply Chain - Organizational Factors                |
+| Apr 17  | Software Supply Chain - Secure Software Development Lifecycle |
+| Apr 19  | Software Supply Chain - Dependency Management                 |
+| Apr 21  | Software Supply Chain - Insecure Coding                       |
 | Apr 24  | Software Supply Chain - Maintenance Factors                   |
-| Apr 26  | Software Supply Chain - Secure Containerization               |
-| Apr 28  | Review of Final Exam *Last day of classes*                    |
-| May 03  | Final Exam (in class, 8:00 -10:00 AM CST)                     |
+| Apr 26  | Software Supply Chain - Organizational Factors                |
+| Apr 28  | Review for Final Exam *Last day of classes*                   |
+| May 03  | Final Exam (in class and online, 8:00 -10:00 AM CST)          |
 
  
 
