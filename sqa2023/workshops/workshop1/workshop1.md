@@ -29,9 +29,9 @@ The steps for TDD is:
 
 ### In-class Hands-on Experience 
 
-- Navigate to `https://github.com/paser-group/continuous-secsoft/tree/master/software-quality-assurance/workshop1/`
+- Navigate to `https://github.com/paser-group/continuous-secsoft/blob/master/sqa2023/workshops/workshop1/`
 - Apply test-driven development (TDD) to implement a subtraction operation for our simple calculator. We will use `unittest`. 
-- Demo will be recorded and shared on CANVAS (Panopto Recordings). 
+- Demo will be recorded and shared on CANVAS (Panopto Recordings and Zoom). 
 
 
 
@@ -40,7 +40,7 @@ The steps for TDD is:
 - For this part of the workshop you will develop two Python program files to demonstrate that you have practiced test-driven development (TDD). 
 - Your code should satisfy the following requirements:
   - The calculator must be able to multiply and divide
-  - All methods related to mathematical operations should handle division by zero exceptions
+  - All methods related to division operations should handle division by zero exceptions
   - Written code has been scanned by a static analysis tool. You will apply static analysis to your Python program files. Use the [Bandit](https://bandit.readthedocs.io/en/latest/) tool to perform static analysis and report any weaknesses that you find in a TEXT file
 - Submit your Python program files and  your TEXT file on CANVAS @ `Workshop 1` 
 - Complete survey: https://auburn.qualtrics.com/jfe/form/SV_556t0yGLahw3vVA
