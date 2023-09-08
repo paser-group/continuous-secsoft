@@ -37,7 +37,7 @@
 | Aug 25  | Behavior-driven Development                                   |
 | Aug 28  | Requirements Validation                                       |
 | Aug 30  | Requirements Validation (Workshop)                            |
-| Sep 01  | Resilient Automated Configuration                             |
+| Sep 01  | Configuration Management                                      |
 | Sep 06  | Resilient Automated Configuration (Workshop with SLI-KUBE)    |
 | Sep 08  | Resilient Configuration Management (Workshop with CUE)        |
 | Sep 11  | Automated Program Analysis (Tool Usage)                       |

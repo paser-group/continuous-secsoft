@@ -25,7 +25,7 @@ In this workshop we will use a tool called [SLI-KUBE](https://hub.docker.com/rep
 - Go to announcements on CANVAS. See the announcement on `Workshop 2`
 - Install Docker on your computer 
 - Run the following instructions one at a time to run the tool: 
-  - docker rm $(docker ps -a -f status=exited -f status=created -q) [If you have Docker images needed for another course, please skip this command]
+  - docker rm $(docker ps -a -f status=exited -f status=created -q) [If you have Docker container instances needed for another course, please skip this command]
   - docker rmi -f $(docker images -a -q) [If you have Docker images needed for another course, please skip this command]
   - docker pull akondrahman/sli-kube 
   - docker images -a 
