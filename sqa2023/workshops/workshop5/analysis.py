@@ -174,7 +174,7 @@ def checkFlow(data, code):
        # Next let us get function invocations by looking into function calls
        call_list = getFunctionAssignments( full_tree ) 
        # Now let us look into the body of the function and see of the parameter is used
-       funcDefList, funcvarList = getFunctionDefinitions( code  )      
+       funcDefList, funcvarList = getFunctionDefinitions( code  )     
        #For the workshop please use fullVarList, call_list, funcDefList, funcvarList
        # Then print a path like the following: 
        # 1000->val1->v1->res 
