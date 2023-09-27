@@ -1,6 +1,6 @@
 ## Workshop 7
 
-## Workshop Name: Resilient Continuous Integration with Codacity
+## Workshop Name: Resilient Continuous Integration with Codacy
 
 ## Description 
 
