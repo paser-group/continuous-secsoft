@@ -31,7 +31,7 @@ The objective of this project is to integrate software quality assurance activit
 
 ##### Group 
 
-1. A repo hosted on GitHub. Name of the repo will be `TEAMNAME-SQA2022-AUBURN` 
+1. A repo hosted on GitHub. Name of the repo will be `TEAMNAME-SQA2023-AUBURN` 
 2. Full completion of all activities as recorded on the GitHub repository 
 3. Report describing what activities your performed and what you have learned 
 4. Logs/screenshots that show execution of forensics, fuzzing, and static analysis 
