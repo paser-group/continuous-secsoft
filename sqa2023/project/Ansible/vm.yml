@@ -1,0 +1,281 @@
+env: vm
+base_domain: "{{ env }}.openconext.org"
+
+mysql_host: localhost
+rsyslog_host: localhost
+
+database_clients: [ "{{ mysql_host }}" ]
+
+mysql_root_password: secret
+
+mysql_passwords:
+  teams: secret
+  eb: secret
+  pdp_server: secret
+  aa_server: secret
+  spdashboard: secret
+  shibboleth: secret
+  lifecycle: secret
+
+mongo_passwords:
+   manage: secret
+   oidcng: secret
+   myconext: secret
+
+mongo_admin_password: secret
+
+engine_parameters_secret: secret
+
+profile_secret: secret
+
+teams_authz_client_secret: secret
+teams_migration_secret_key: secret
+
+engine_api_metadata_push_password: secret
+oidcng_api_metadata_push_password: secret
+oidcng_api_tokens_profile_password: secret
+oidcng_api_tokens_eduid_password: secret
+myconext_api_attribute_manipulation_password: secret
+myconext_oidcng_rs_client_secret: secret
+myconext_api_attribute_aggregation_password: secret
+myconext_client_secret: secret
+myconext_rs_client_secret: secret
+engine_api_profile_password: secret
+engine_api_deprovision_password: secret
+
+voot_oidcng_checkToken_secret: secret
+
+external_group_provider_secrets:
+  teams: secret
+
+teams_api_lifecycle_password: secret
+attribute_aggregator_api_lifecycle_password: secret
+
+oidc_playground_secret: secret
+oidc_playground_jwt_secret: very-long-long-long-long-long-secret
+oidc_playground_resource_server_secret: secret
+
+pdp_password: secret
+pdp_client_secret: secret
+pdp_sab_password: secret
+
+aa_eb_password: secret
+aa_authz_client_secret: secret
+aa_sab_password: secret
+aa_idin_client_secret: secret
+aa_orcid_password: secret
+aa_surfmarket_password: secret
+aa_sbs_password: secret
+aa_ala_password: secret
+aa_manage_password: secret
+
+manage_pdp_password: secret
+
+attribute_aggregator_js_access_token: secret
+pdp_js_access_token: secret
+
+https_star_private_key: https_star_private_key
+
+mujina_idp_private_key: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQRsCf6qU0DYkoFIJUhNlMxJFKMPsEvK+u3rcaBIZcyWX4Cv5OU3xtcCAg6mqRwMRFYFDNdGgR0XLTaHAOcJpR7cXYnYc0Wa6Kh8KSstgZrCl+WdqCtuUS6bMrrAdSq6HpoAPwo1JyOqyC9ccRZ9ysjhYdWQS1ELSjUHjEuxxRoEgwKfrF7kxbo89dixQ7oF9E9CgeWtftJfMtDxGtMhmtaIurHjjcfOPWR8TND0b1Lp1pLkzPn6GdI2aRWqV3tNsljKoXP9omDInhP9xrzoLiXISbekfnLrfFQW+rmylCBiu6ZqKv0weg1V6b7B6rAyV3nIcXInLuKXSlQx0nnPOdAgMBAAECggEAOrAlKSqyYIeL5XpZ+zzwCly9X/2LThtpGcpyJ+esgMrTa+CVJjcKMcBNnVjQrL93zuDEBBDQHm05gO7F3JvIMFviyxYgehTnROvaXQH+OMW1b4AcPYcR55Foxl6UNaxdVHqdgZpT6hI0eDaPYI02tnzXKG/kDq1laTuMvErJQQp6Cd611yyAhBvpX1ibpAYvex10sfTkj0GRKmOrGqwVXibN29szaRei7Xeg/RStdVBgrYJoR5/4++dkGapa27oRdOh4VJUChRfXuJtH6pyxC7uay1fMRcmo2u6NcWAT6qMOvxLcuesnNFrbSlPoZaxWNiZRX/SVqeieyRAA0WS7IQKBgQDoywh4DkdL+SPrkA/sB0rOQF3kJjlzWibk9OM17In1P+obQk37kSRYKfBvsk48VWdG1fN33Up05Pxe+f36F//AZ8mp7uTmBtd6CAoR/005WxwkCSihF6LaDiB3VtxlpcfRA/TUZ10PMud43w0AeG30AG0KpCokfIiY87OpyTjJWQKBgQDlCgsgZ9rL3Wm7FbEDZ4f2uTB5rlT0Vz80paV0OOJdUQECrZW1PjemQpqIJocr8yoNupkrZKPSi4mbNoMFF1wXIydOjLq6iQ6KWIKRdsvmeXL++tWg6TiD8nDpBxuKzjRhwMcQN2lakb/SusoXnmG8qq12PCFUvpbhoZRqRPWv5QKBgQC8jUasxxPka0U21RawXC+w4t2pn3RFBC4goGEwGgibxkr+DTRQoHzJlB6Uud04bQwbicuLuIdIKvhmjSGzYaDa3LWwmDh6P+xjgQN3FEweOreOUITCBfz3lR2iy430HtS7bPLu31G2r8pgUnmbee/FBFtNlS41I1EYYbuRt9Pw8QKBgD6aPSpRWKtqTHD3X9e3X6FfQtGvhcb3Ze5E7HFU7wJklqsduRK9+8X05HocVcv8fd0cyKrkqiZtP2JuRueIWAJ2+FJvAsbjmVbVFHMgDmFjhrwM4YFG3cyq4pO+/pc0/3pMj9xt2N0Jg23c4koMX1iLKjhr/QxFv8XSPVfCm4jFAoGALfejdx4PpFgTWpbm5ZWRxukhZRhmfCIAWifYeJbsGTB5y7bheVxKmTpP9mKEqGL+gh3cLVPcZ557HWpc4d6NetdyrHffEhWULh4NWYDKC5BRCr9HjLKydBUQUMCFeJs3XZQTtN+CZORcuaI2ISH2QvfYki9ns4ujeH8OjzfHpvI=
+mujina_idp_passphrase: secret
+mujina_sp_private_key: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQRsCf6qU0DYkoFIJUhNlMxJFKMPsEvK+u3rcaBIZcyWX4Cv5OU3xtcCAg6mqRwMRFYFDNdGgR0XLTaHAOcJpR7cXYnYc0Wa6Kh8KSstgZrCl+WdqCtuUS6bMrrAdSq6HpoAPwo1JyOqyC9ccRZ9ysjhYdWQS1ELSjUHjEuxxRoEgwKfrF7kxbo89dixQ7oF9E9CgeWtftJfMtDxGtMhmtaIurHjjcfOPWR8TND0b1Lp1pLkzPn6GdI2aRWqV3tNsljKoXP9omDInhP9xrzoLiXISbekfnLrfFQW+rmylCBiu6ZqKv0weg1V6b7B6rAyV3nIcXInLuKXSlQx0nnPOdAgMBAAECggEAOrAlKSqyYIeL5XpZ+zzwCly9X/2LThtpGcpyJ+esgMrTa+CVJjcKMcBNnVjQrL93zuDEBBDQHm05gO7F3JvIMFviyxYgehTnROvaXQH+OMW1b4AcPYcR55Foxl6UNaxdVHqdgZpT6hI0eDaPYI02tnzXKG/kDq1laTuMvErJQQp6Cd611yyAhBvpX1ibpAYvex10sfTkj0GRKmOrGqwVXibN29szaRei7Xeg/RStdVBgrYJoR5/4++dkGapa27oRdOh4VJUChRfXuJtH6pyxC7uay1fMRcmo2u6NcWAT6qMOvxLcuesnNFrbSlPoZaxWNiZRX/SVqeieyRAA0WS7IQKBgQDoywh4DkdL+SPrkA/sB0rOQF3kJjlzWibk9OM17In1P+obQk37kSRYKfBvsk48VWdG1fN33Up05Pxe+f36F//AZ8mp7uTmBtd6CAoR/005WxwkCSihF6LaDiB3VtxlpcfRA/TUZ10PMud43w0AeG30AG0KpCokfIiY87OpyTjJWQKBgQDlCgsgZ9rL3Wm7FbEDZ4f2uTB5rlT0Vz80paV0OOJdUQECrZW1PjemQpqIJocr8yoNupkrZKPSi4mbNoMFF1wXIydOjLq6iQ6KWIKRdsvmeXL++tWg6TiD8nDpBxuKzjRhwMcQN2lakb/SusoXnmG8qq12PCFUvpbhoZRqRPWv5QKBgQC8jUasxxPka0U21RawXC+w4t2pn3RFBC4goGEwGgibxkr+DTRQoHzJlB6Uud04bQwbicuLuIdIKvhmjSGzYaDa3LWwmDh6P+xjgQN3FEweOreOUITCBfz3lR2iy430HtS7bPLu31G2r8pgUnmbee/FBFtNlS41I1EYYbuRt9Pw8QKBgD6aPSpRWKtqTHD3X9e3X6FfQtGvhcb3Ze5E7HFU7wJklqsduRK9+8X05HocVcv8fd0cyKrkqiZtP2JuRueIWAJ2+FJvAsbjmVbVFHMgDmFjhrwM4YFG3cyq4pO+/pc0/3pMj9xt2N0Jg23c4koMX1iLKjhr/QxFv8XSPVfCm4jFAoGALfejdx4PpFgTWpbm5ZWRxukhZRhmfCIAWifYeJbsGTB5y7bheVxKmTpP9mKEqGL+gh3cLVPcZ557HWpc4d6NetdyrHffEhWULh4NWYDKC5BRCr9HjLKydBUQUMCFeJs3XZQTtN+CZORcuaI2ISH2QvfYki9ns4ujeH8OjzfHpvI=
+mujina_sp_passphrase: secret
+
+manage_internal_api_password: secret
+manage_backdoor_api_password: secret
+manage_dashboard_secret: secret
+manage_pdp_secret: secret
+manage_sp_dashboard_secret: secret
+manage_sysadmin_secret: secret
+manage_stats_api_password: secret
+
+manage_prod_sp_dashboard_secret: secret
+spdashboard_symfony_secret: secret
+lifecycle_symfony_secret: secret
+lifecycle_api_password: secret
+monitoring_oidc_client_secret: secret
+monitoring_tests_oidcng_client_secret: secret
+monitoring_tests_oidcng_resource_server_secret: secret
+
+engineblock_private_keys:
+  default: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpQIBAAKCAQEAnlaHYIUMBUdKSLcRmidy1xwPmS8tcP0zGhg3CWrMwGUVkZC/
+    +nY8G2m0e0weOUDenXyjhRs6G0MRtTpLJMt4M+D5ItQUs4vw8LI1gsPmIuNHGKWH
+    oP1zNLbxylaK5bMf+04ZuVrgu68Mrbo6/5Ve3+pWr3/wKZyx5zjkVNodGVnLSYnr
+    LWqTGguZnONJrK7llqdOGsZq2CApk5hoRMu8NKjuPxyyo17VmyYe9RlrSXi8xuR4
+    9OF+OMCPg/T1CbPVN0mIfUghWcKtL/qGHqmo4l9CT8wfvGlTj5jjjOVqqE/DgnXT
+    jP05bC/9D3MQchh7ICblm1jCNTypSt6Jke+uDwIDAQABAoIBAQCCwSH6auSKV1zY
+    v5UhoAIN8XZQIc18yRsyKV0JwdBj8RXmp4ph4tGwMZKBX1J2JUOw+gRvHxTU/oXZ
+    CtKTCBOzg805Hboaqy3FFuVpnyylEtrbV5axM5u3pHv3g5AgL9PxS4Wis5FybBQk
+    Qu4FsewvLO148EX7lxKyxyCHkbcF/vxGLj+eNboka4hlah2vVz2cHO3Yp4QKOfIh
+    p02ij0Hvlwv9FVhvQghy8xFfCD9Nfh3QRUXpHhob1WPFLJWNTf14SVOtfCKbB5z4
+    LyvJ+TqIwB7cMPEhHfvyH+26s43wRwmGzr5xAdaNVu04NiXDW/s/b4ebuD3BZbpk
+    yx8tUDrBAoGBANEf9ia9LKj4fya7H0TTyUxfUREZUDOALCcPfeiZEibQ3ZawaLOa
+    ci3W0jRl90NFpajDQQli5V1/DCmWFcvHarejInFYIG+QLWrKwCPNkrJ1Qccz4VLZ
+    TffzuhhMNd1KAUXuYPqvm/KSnwGf+rVxCVMojHpbJDQ9LgCovY4oANtrAoGBAMHU
+    TsEWV5uF/enj1co5LlhNMotP2D3+2F1bdGBd5iPU+X38NghSei9oA9KOtaJBN1fo
+    +7ELUxxm/Bw9L8BaOQUHC9NWk87kSfRAxEx6AsWGdOW6GNQknYKCf3iX+xTcow76
+    GgtigZiENQOwZAtDpw9Q5ZPNR8Vv9ig5W0cOvKTtAoGBALMrFATKrTmzdZTkWvzo
+    Cp4hR95DdsA4/xsUHcarZq7U4hSZ3YqLN2nolD4KYldDk5PMfasiDOsWz3/Ns6zc
+    lKTy4q6DV37d4tuNDCNgnF/DMHEQFOubfD6ElZr9qGSIZCDbBEGjNRQV5J9Kxkyv
+    pNKXegvWjGUpSYGNEKJ7yYgzAoGBAJHyTdZ//zlgvB8X6cuaILZmck+JsHaF5N7u
+    1QMW0Qpb+/yMIxdDGzOE65Po1wU0e/qauKHHuC3jsaOFwuXgSZzqgFICl8sqBDGB
+    bw1ytZGLu4ubA8UBSQSTRG5Gac18kN7fHStDYfe4XL7JW5tLtogGzsbqxEb7FeuV
+    vJAVnZ/FAoGANJ+h6hUdN0t4IjHl6DRr+x2gniqYLCRS/DpkOi6fj2LVIqG7xWt/
+    fg946ohBj8jA7wt8JNkgL6Bxn3uqdFFGvr0IudJHvpuPFOnKPeL0/Pa7U94d15L4
+    aLEj+8OAOJ3LWJrvJQY1HuGBl7yc2Z+9UO8o41peMfqJXnJCAbPGqXg=
+    -----END RSA PRIVATE KEY-----
+
+
+backend_tls_key: |
+  -----BEGIN PRIVATE KEY-----
+  MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC5EEAv0pew41+V
+  Egq103NbwYCewVqCODJKrtpems/TkdsgXuCvR46uizQQqUJ8ciR5WpjJclU3noq8
+  EE5GY5T5ojPt6HywsCvnfvE5gjPLt8/NY0Vid9kcS1M/WRChwHsFBx5zrb6ptEqi
+  rS3lZZSB/94pIXcbQ0X7gRAO+v1wv5qk5HOlBdzuIKyrCGgejtqZoYC0chuivgXS
+  X5RkxZaxcT7JIp5EtKDy9aQdiDdd2YUnYGSzX9sMAxBhEUgggb3k+WvpgZswqIx3
+  Zm7wB65Yfls4fc2IYosfaAz7SrF+MHS/1KSv69WNJh9DHBPz78YqmAOFh0Sr/XxL
+  GXKChFl9AgMBAAECggEATqVMUcZyNnb6KLSpHopEzOqXyV+sIgjVvo0+OdQam/Ox
+  JrmLTJHhXeXEc4wquA4d2ACbS4iuFFvo43EegqVRKyE2ZlVVoBTOI6v7wY/GiT2N
+  LuCQHP+HoZGVSCeGfOb6oLFczJY6n44B5c4o4gLgMLrW463YGxrkw7Qeae9aAy6A
+  bfhdcPC8PFWLGDEsodfdSBDMbW9ss0mXOH2taRXYhmSW1zQtasC5tBNgBiinfwsj
+  hDWlV9zujOnvaw8fLjuyVgFiOOpEZdq3cAoYP6ORrZl4lAupQldf/0b2QeTbo19e
+  uZeyPFYXlHEUZhNKM7F9Uby/3noTIOnIvdItfc4KoQKBgQDrW8Wbr0zm2/FV601c
+  DUbOcJZtrYfXDpqn5lWSamk9rxvtZHGqkuwWgoiT5wgMnc2hRyBJUpegWJ8buF+V
+  y5dmHHzhaDiKFxBoDZupZR1fVFq/BPVkCf3YhclLCC0baJx8kkT0XSCbpu8mDcE3
+  QTFHo0adHvZUWmPwjLvIZK1O5QKBgQDJS0OZAwV4zhEVtd2Lo9I+n7CdE3jw+RRa
+  IAT9a8jqT3g1L4j4oY7/AHgz7V1cZdBuwFEUPZWWiYIeutC5z397vCKkt5qyL0R3
+  hK6rdXaePQ2c1K5HhVrZpAaOLHr4QmyxLltqr67Qr3QLiQ7cq7l1APrHxrQSxQWL
+  DHW8IfGeuQKBgQDXIfbaHP3dVBQgZko7J0Oethk6vdEaShYh/RAhGrWCFcsgTpz7
+  vvqghMbU8uxPo/rvPbWMcDt67SbazshIg2Wrh8S6wWpVB0oO4slzqKKVneSpEJ5B
+  yERJo9jgheO9Vv0bfRQcjfedb5TQIuiHWkbyZZPJUSD27/zER8/qF+S25QKBgQCL
+  J8bRbq9Htl1FPvarZFMiC89Sp3WCUQ7qxxvr/allog6d5gCwsS9jxfVTIJLcH16a
+  UcU7Ut+os+MKT2egLHwbFBJ3AJ6m89pHLah6y7d26QoSE01wEBagQq5tdv6DxZfS
+  XRPBizY0+jYlC1kE4IpTApxbo1g1aZLNb42sw2J/sQKBgQDCfmijZtWbOg3rwSxt
+  jdHcD2UTdypn033/ImdHOCYU2ZKhKLOPY54YwbzkF9h2jCZYBvuGeFp4tKHJiS+W
+  3wiHAsNeP8MN1/YK3Tw5F2/2N9Cx2FoB98SaiN4ZBTw1vc6rq7+Tzcw6gyO7sM45
+  igIbjboiERrcUBFwryNsc6NZVw==
+  -----END PRIVATE KEY-----
+
+shibboleth_sp_key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEA5JDgcBz7zFLQDdLC6QIKDW2BOwQGK9Nqm3K75dXnmOXC1kOZ
+  wS9I+MilL3rMF4YBZPDjAHp3rkN60rJxIOqNY5L4UVI9a3IMdNzCrLbf8pQ/Jyuh
+  OOZVwghWORUor+HSGshKAjtpwXXBISiPR5M3Vjv1ynllFJEWDZfhwkdhJxq3sKVG
+  SDiiB5KmhWNuvi8QJ4QbGwvp9C3nwzCsv9Jn2eAaeD1aPbjN1OEQspgRf7bcxxxf
+  qcjEShD2rAkqsV/wPOmO/ky4aYvxdZf9en1WasxSLUmWkhKgmdEU61RpX/qSPgY4
+  mplXRS5Kn33XMsn3tT4zAOgTQ4MJ6RNSRfEiyQIDAQABAoIBAGeXfhFyIXFWqzNI
+  rcw7f2Dcm7Cqvz1Hwc6Ybq7ZhvEWWXsRAnO7QaB4F93wEuYqdyFPyCKkXu/dZ6Js
+  +7cGd3SE3QTGeE3lT937XEQ5UkC4jfLr5FNMmduqOaH/hARLHhXDZz+hu+nRu+mS
+  X3X6NB9iZ6EP6g8rPsqEZu7NuSumJbrkVtYPpyrTYSTTlHEAK0MNjDWYDkkrU+2N
+  Rhd1D/pHxMXvGSWJ/gCNIDtddPBkusN+G9f0b+mVQYEW7MfHWqAfknUqutFtJ7EW
+  yOuDfzy5ddzAnzgddQuQb7ZIPdNGzz7J7nLi9KgdHaYdMPIYXzTH3TEz7gktjlic
+  gld7eLECgYEA/0TkMw6E6/9pDbv4c4Db/YLeqWk9vM/1IPNRh5tfe2XOvmU2aSQf
+  BLbjCpwv68nj+yhzPsbV7WQAC76PyrnoSMn0w9DRbQ39LQGg+v4HDCBgG7o7220t
+  n5EjrtWL9O+b0oEeMJKuRn9unRoN11S498qWKzPgajH+kZ6gedqjOVUCgYEA5Thp
+  iajYEAYW3DEIphl0/lyNhmvUBVR47KhWDRlAgDEET4CUeglPbYNslfaSesKtUeJu
+  JekgMST9TQWwWIXP3wbTKJ1ieQbNUhKaussp//74DdG5tT4bXoDIZg2UFkImwfcJ
+  ppTSOMwCAlF35vugK5PSofrAN+Mk28zm4PgMc6UCgYEAvc0ihBgCm1sAaLbgCDnC
+  2N9q4bofrnlNwV9JurO7LgxHyeeFqm2yJpY5gJUbSI2H1yJ/dijvvaACLLlXPxw1
+  65FGTibA4P5qxgEVCirBYLHd5B/4C7JFHwUS7BdaBhf223En2mPl8wMjYuqRag9T
+  rOLT/3GGJk/gAbRZi+EWRjUCgYAHjDn9bG/g5zJtgbfVMFVn4shOOtK6cjOhJ1He
+  EIzNK9AGhidddV0GMCOtNHdST4LBhYE3AlwrAhrNJHjQEWfs4h6l4bjSX2T3ZOFv
+  cS0q3sxwOA2zaB4imH8AzUWpDfiUvnu03oWllSIjzWbzVinKBY4UA1u8+1/FVRPt
+  KH3QeQKBgQCTS3X8QwPfqJpx0LjrEp0dWKUkxsX0ZaLtxE04zp6/X9+1sO6wlogM
+  xxUpv85CFODh+PF2tCjawKkM6KEQc6XQsjzbxxhRUk4NFZI1lFPb5cIj/jea2s7P
+  GyIEFwFsNNJde1tPE7161YRsLOJy3x7AXmIFGdamVXtOd2rnLpZGHg==
+  -----END RSA PRIVATE KEY-----
+
+iptables_incoming:
+  - name: SSH
+    port: 22
+
+
+iptables6_incoming:
+  - name: SSH
+    port: 22
+
+kibana_oidc_secret: secret
+kibana_oidc_crypto_passphrase: secret
+logstash_ebauth_sha_secret: secret
+stats_api_secret: secret
+stats_dashboard_api_password: secret
+stats_sysadmin_api_password: secret
+stats_oidc_client_secret: secret
+stats_oidc_crypto_pass: secret
+
+dashboard_sab_password: NA
+dashboard_sab_rest_password: NA
+dashboard_sp_dashboard_password: NA
+dashboard_jira_password: NA
+
+influxdb_admin_password: secret
+influxdb_stats_password: secret
+
+oidcng_secure_secret:  Y3nS5p0bKLI8bR/thxo0CFS3uItJXifjfRymRGOGJhRgij48ttTjPR33ZdAhobHrXd5MJNz4X69wYKvsUMlIfg==
+oidcng_private_key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEA28YBCNBQcBNLolAh1Ps7xINUQPYuiGchFJLfTiCEuIkCIE3L
+  CTuX4X6TQ8OHQacThNbaa/2LzdF4h9OYEmHQC5O6uJ3k3mWrbOkuz5JJ6Qngh0JI
+  a18CvdWfxDYJwjC1GVX/2tI9V8rvoh71lTQje90BXoVeu6qLS5dumYljMVViejxZ
+  LaSMdz6uG31GigxWgCiCasnBBY6ExHX9gFfPz5KB5KmxFsVpymIvba9hGB7eNHV/
+  RGl9vIwFYz91RzDtPqav5iGKk08VLZi+vk3Fa8sBSDilDITZsO6b3B6nGwtK7nvW
+  i56mIzmg3VDCIKDf7Nv3otHWH8BLKQ4dCEee2wIDAQABAoIBAQCnxnXds6HknWZd
+  CA172TucXqHAYe/OI+TGHwWoT/ziH33nCVxZtQvSkl18GtWz0gd9nsPqMwo6WpJI
+  JsluJwu6+tFNxQQGn9kJcM5SmhwgcnDc8UX16fde0qmAEbzLaYGnUNbcxykbT4o2
+  2qmieMYp9eLotKpIW/6w+27seUynSFxWfogNENkpB327h43EeAzAmeTXmD3p5Kwo
+  tpVxgDPlSA4eU9XivE9C79T938gyfCLdo3e6JIEmP/S2j69bLsaI8QKcDhSBR2Ed
+  9WwoGHsELcjF83G6YD2igAnjosE3JBP7qawThHp8yW2XLDn5vizvx9jMy2TyxU8l
+  LQ5QhBKxAoGBAPZM5l4fPHjyAiI2oy6wsPTbryVvkQmsnB5UIcsfDWrVq69Rfiep
+  mYkpExXtccrdkME1+W9O8UCFZ97oJx2+Nl2Wcu6/IY6JsfcAUWwQNl9odmIy68Yc
+  uu7wkrmlUj7NzMwtoyQv2ecOFYyQw80wmr/hL8YZn+WXiExG6oIw71qpAoGBAORt
+  q5+UZsPjTQoJ+7gsq4pefOgqse5mEYvHh/vAmoL+fy8tYZmiNiBhIM2MWm9lUJOV
+  NEV4/x4BBm1GTYBGo27qePeN2tlNfTJ0ACmj86LrnCZZD7IZTT2FxI59M+ViFA43
+  EpHCGN32FlvxF+dKijJ/QfxT7tqqxCf9TaRm0EPjAoGAIArVFX2e0mU5ndXZ2OMn
+  wlMqMAaZqdaI4PE1DEXX6wQtN7u0W9iWnt93Gi0v1qKIiHpLHw34GNrCLp+pJxdt
+  3zMJdMHszaxgOLAT56kcScE/VXsmbTmjoB4wGHLHhmAjupRdWwHWqVaNuyHCN1mR
+  aFEVdAI1aRsToki/jXxsRzECgYBP9B8dRRlPOVEu0V29Ek2cqgP4U3FiK3G6xkVP
+  lhO/BAtKXQ0LdF6TqMuNhrHkycaRUakxI+/P9bXlK7VWz+LGoOVkaM+QPfIzZazk
+  5lER1nwaZBP9V6PUg+zPnv06LcEtVJN4V0LS9h7PYaznNQz4LdjP1CUHfrwX7y5s
+  +9ur1wKBgQDqJtUPkDLh2aoXj8kctw7SElFJs8pvilWpsKAn5Npkmt7Eoh9IyxQ6
+  +8B6d9ASfpKFlYrgIQsxEzYGTG0958DaaIVv+xFpBK+8dvBZBzBg0WEXcR+ADiXM
+  Vy2DbMHEmxpbShLr7y/ZPkwkqGGRg3ESalGcKZwng9eWc2JVxEVt+g==
+  -----END RSA PRIVATE KEY-----
+
+
+oidcng_secret_keyset: |
+  {
+    "primaryKeyId": 679793344,
+    "key": [
+    {
+      "keyData": {
+        "typeUrl": "type.googleapis.com/google.crypto.tink.AesCtrHmacAeadKey",
+        "keyMaterialType": "SYMMETRIC",
+        "value": "EiYSAggQGiDao4VUDzVU6ww5cnUUfgRlk233ZB1pDVg/t19tTY+wKBooEgQIAxAgGiBJRFIRUBy91VZyhnfgRyoR4GO6xf4jx29RJdkbEaTNHA=="
+      },
+      "outputPrefixType": "TINK",
+      "keyId": 679793344,
+      "status": "ENABLED"
+    }
+    ]
+  }
+oidcng_associated_data: 0B969613-89B9-4AC4-BC2F-363EFE1B21E7
+oidcng_access_token_one_way_hash_salt: secret
+
+myconext_private_key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIICXgIBAAKBgQDRu7/EI0BlNzMEBFVAcbx+lLosvzIWU+01dGTY8gBdhMQNYKZ9
+  2lMceo2CuVJ66cUURPym3i7nGGzoSnAxAre+0YIM+U0razrWtAUE735bkcqELZkO
+  TZLelaoOztmWqRbe5OuEmpewH7cx+kNgcVjdctOGy3Q6x+I4qakY/9qhBQIDAQAB
+  AoGBAI+BMWNY43Td4hA7jsF7kQfjZ8e6QuE4J7RNobs3SryyXRryKLkwK3HvAOiT
+  OTZUwb5uvZjHqbwB4HLIjB9cxq+SecCc9t5hjsoTNb3jjeNfwyU1RvnMauLKFGYX
+  WMt26TrlxjAGifECzG0EKIr5ZTYoXb8B9KzUivC02Flj2WCBAkEA8XLfkxV9VbEN
+  XqONStE+H7tq1lGsZb41BoSuh8U5mPDjCabbpxkSS9QlIyG+OVM+0j/Ez8+RcIV1
+  rC30tfNpEQJBAN5fkHfQvYHaVIdbl6D0jSMZ+YRVK0k1tRMD/UB/b4cG+Va/Ca3e
+  Xouu/FmAy41HMeuPEY5I4VPY0jMyMRBr2LUCQQDJv4vTUeyFcsjSIGVKc+auCyNt
+  a5da+IFELg/LwN+szPNYuETnrgpctCpH3cUeD1H5ynEAl9dWJx45PbkxY++RAkBB
+  WP4AZ8Q486shd+YQM62CIjD0FX857WF/7A0xNgHVQVRmjI9Qm+dWzx5zQukOZFyk
+  J4/2Ky6kUDQ9PUOz2q19AkEAuTcWa/YyqoR4/MkA+j5V07GODnHOwx+vyKA3p33R
+  FQ+apXrdM5nedB2rTdiYqpubmzewjCDa7bi6eGB24JNZog==
+  -----END RSA PRIVATE KEY-----
