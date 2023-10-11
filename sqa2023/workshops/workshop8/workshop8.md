@@ -82,6 +82,8 @@ Imagine this scenario: Dolly, a data science specialist at Auburn University. Un
 
 ```
 iris = datasets.load_iris()
-// initiated logging 
-logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+'''
+Inserted logging statement because data can be poisoned. 
+'''
+simpleLogger.info('Generic information: getting results: %s', str(res))       
 ```  
