@@ -74,7 +74,7 @@ secret_from_vault  = read_response['data']['data']['password']
 print(secret_from_vault)
 ```
 
-### Workshop 9 (Post Lab Activity) 
+### Workshop 10 (Post Lab Activity) 
 
 - Store the secrets in `secrets.csv` into your Hashicorp Vault using the HCP Vault Python API (`hvac`) 
 - Feel free to use the code shared by the instructor, i.e., `code.py`  
