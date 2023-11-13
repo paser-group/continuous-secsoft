@@ -69,7 +69,7 @@
 | Nov 10  | Software Supply Chain - Secret Management                     |
 | Nov 13  | Software Supply Chain - Secret Management   (Workshop)        |
 | Nov 15  | Software Supply Chain - Secure Software Development Lifecycle |
-| Nov 15  | Software Supply Chain - Development and Maintenance Activities|
+| Nov 17  | Software Supply Chain - Development and Maintenance Activities|
 | Nov 20  | **Thanksgiving Break - No Classes**                           |
 | Nov 22  | **Thanksgiving Break - No Classes**                           |
 | Nov 24  | **Thanksgiving Break - No Classes**                           |

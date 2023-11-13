@@ -78,6 +78,6 @@ print(secret_from_vault)
 
 - Store the secrets in `secrets.csv` into your Hashicorp Vault using the HCP Vault Python API (`hvac`) 
 - Feel free to use the code shared by the instructor, i.e., `code.py`  
-- Submit your Python file and output @ Workshop 9 on CANVAS. (75%)
+- Submit your Python file and screenshot output @ Workshop - Secret Management on CANVAS. (75%)
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_5hYDSu9P9jAMZWm):  (25%)
 - Due: Nov 27, 2023
