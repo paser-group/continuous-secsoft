@@ -49,7 +49,8 @@ def retrieveSecret(client_, cnt_, tech_str):
     if tech_str == 'A': 
         print(ansible_secret_retrieval + secret_path + " token=" + hvac_token + " url=" + hvac_url + ")['data']['data']['password'] }}" + '"')
     elif tech_str == 'P':
-        print(puppet_secret_retrieval + '"' + secret_path + '/' + hvac_token  + '", ' + hvac_url + "']),"  )
+        # print(puppet_secret_retrieval + '"' + secret_path + '/' + hvac_token  + '", ' + hvac_url + "']),"  )
+        print(puppet_secret_retrieval + '"' + secret_path + '/' + hvac_token  + '", \'' + hvac_url + "']),"  )
 
 
 
