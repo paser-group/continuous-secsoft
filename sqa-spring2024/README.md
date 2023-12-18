@@ -31,7 +31,7 @@
 | Date    |  Schedule                                                     |
 |---------|---------------------------------------------------------------|
 | Jan 10  | Introduction (Recorded Lecture)                               |
-| Jan 12  | SQA Basics (Recorded Lecture)                                 |
+| Jan 12  | Introduction to Software Process Maturity (Recorded Lecture)  |
 | Jan 15  | **MLK day, no classes**                                       |
 | Jan 17  | Software Process - Waterfall                                  |
 | Jan 19  | Software Process - Scrum                                      |
