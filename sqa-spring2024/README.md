@@ -39,9 +39,9 @@
 | Jan 24  | Requirements Validation                                       |
 | Jan 26  | Requirements Validation (Workshop)                            |
 | Jan 29  | Configuration Management                                      |
-| Jan 31  | Resilient Automated Configuration (Workshop with SLI-KUBE)    |
-| Feb 02  | Configuration Violation Detection (Workshop with CUE)         |
-| Feb 05  | Configuration Violation Repair (Workshop with CUE)            |
+| Jan 31  | Automated Configuration Management (Workshop with Terraform)  |
+| Feb 02  | Security-focused Config. Scanning (Workshop with SLI-KUBE)    |
+| Feb 05  | Configuration Violation Detection (Workshop with CUE)         |
 | Feb 07  | Automated Program Analysis (Tool Usage - Workshop)            |
 | Feb 09  | Automated Program Analysis (Information Flow)                 |
 | Feb 12  | Automated Program Analysis (Information Flow - Workshop)      |
