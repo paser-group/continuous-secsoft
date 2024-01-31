@@ -30,7 +30,7 @@ We will perform three major activities:
 ##### Scripting to create Docker-based infrastructure 
 
 - Install and enable Docker 
-- `touch main.tf` 
+- `touch simple.tf` 
 - copy the following code into main.tf
 ```
 terraform {
