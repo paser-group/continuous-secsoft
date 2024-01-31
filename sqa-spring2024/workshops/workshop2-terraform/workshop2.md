@@ -31,7 +31,7 @@ We will perform three major activities:
 
 - Install and enable Docker 
 - `touch simple.tf` 
-- copy the following code into main.tf
+- copy the following code into simple.tf
 ```
 terraform {
   required_providers {
