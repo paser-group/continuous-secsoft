@@ -67,7 +67,7 @@ resource "docker_container" "nginx" {
 - verify with `docker ps -a`
 
 
-##### Scripting to update Docker-based infrastructure 
+##### Scripting to update Docker-based infrastructure (Relevant for Post-class Activity)
 
 - change port number 
 - `terraform validate` 
