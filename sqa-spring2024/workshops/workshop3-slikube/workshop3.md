@@ -4,7 +4,7 @@
 
 ## Description 
 
-Use an existing tool to find security misconfigurations in Kubernetes configuration files 
+Use an existing static analysis tool to find security misconfigurations in Kubernetes configuration files 
 
 ## Targeted Courses 
 
