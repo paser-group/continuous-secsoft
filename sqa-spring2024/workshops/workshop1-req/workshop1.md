@@ -41,6 +41,6 @@ The steps for TDD is:
 - Your code should satisfy the following requirements:
   - The calculator must be able to multiply and divide
   - All methods related to division operations should handle division by zero exceptions
-- Submit your Python program files and  your TEXT file on CANVAS @ `Workshop 1` 
+- Submit your Python program files and  your TEXT file on CANVAS @ `Workshop 1` . The TEXT file should contain results of your tests that are passing and also the tests that are failing. 
 - Complete survey: https://auburn.qualtrics.com/jfe/form/SV_556t0yGLahw3vVA
 - Due: Feb 09, 2024, 11:59 PM CST 
