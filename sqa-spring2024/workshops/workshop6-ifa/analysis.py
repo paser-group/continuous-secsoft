@@ -187,8 +187,6 @@ def checkFlow(data, code):
 
 
        
-
-
 if __name__=='__main__':
     input_program = 'calc.py' 
     data2track    = 1000

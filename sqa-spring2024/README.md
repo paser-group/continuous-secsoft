@@ -49,8 +49,8 @@
 | Feb 16  | Event-based Scanning (Workshop)                               |
 | Feb 19  | Resilient Integration                                         |
 | Feb 21  | Resilient Integration    (Workshop)                           |  
-| Feb 23  | Project debriefing                                            |                                             
-| Feb 26  | Software Forensics                                            |                 
+| Feb 23  | Software Forensics                                            |                                             
+| Feb 26  | Project debriefing                                            |                 
 | Feb 28  | Recap for midterm                                             |
 | Mar 01  | Midterm                                                       |
 | Mar 04  | **Spring Break: No classes**                                  |
@@ -77,7 +77,7 @@
 | Apr 22  | Software Supply Chain - Maintenance Factors                   |
 | Apr 24  | Software Supply Chain - Organizational Factors                |
 | Apr 26  | Review for Final Exam *Last day of classes*                   |
-| May 03  | Final Exam (Tentative)                                        |
+| May 02  | Final Exam (10:30-12:30 CST)                                  |
 
  
 
