@@ -43,6 +43,14 @@ Students enrolled in COMP 6710 and COMP 6710-D
     - no support to varying input sizes 
     - lack of timely release of harvested resources.
 
+
+## Break down 
+
+Name:   1.0%
+Email:  1.0%
+Tables: 98.0% (14% for each table)
+Total:  100% 
+
 ## Due 
 
 May 01, 2024, 11:59 PM CST 
