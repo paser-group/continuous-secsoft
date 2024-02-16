@@ -43,6 +43,8 @@ Students enrolled in COMP 6710 and COMP 6710-D
     - no support to varying input sizes 
     - lack of timely release of harvested resources.
 
+- Report must be in PDF generated from Word or Latex 
+
 
 ## Break down 
 
