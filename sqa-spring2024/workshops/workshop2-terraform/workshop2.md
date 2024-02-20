@@ -19,13 +19,18 @@ We will perform three major activities:
 - Command execution 
 
 
-##### Installation 
+##### Installation (OSX)
 
 - `brew tap hashicorp/tap` 
 - `brew install hashicorp/tap/terraform` 
 - `brew update` 
 - `brew upgrade hashicorp/tap/terraform` 
 - `terraform -help` 
+
+
+##### Installation (Windows)
+
+- See `https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli`
 
 ##### Scripting to create Docker-based infrastructure 
 
