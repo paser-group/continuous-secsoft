@@ -43,14 +43,16 @@ Students enrolled in COMP 6710 and COMP 6710-D
     - no support to varying input sizes 
     - lack of timely release of harvested resources.
 
+  - A table with three columns: `PaperID`, `Title`, `SQA Aspect`. Here, `PaperID` and `Title` are respectively, paper IDs and paper titles. For `SQA Aspect` report the quality assurance aspect addressed in the paper. For example, for paper `1`, the `Title` is `Libra: Harvesting Idle Resources Safely and Timely in Serverless Clusters`, and the `SQA Aspect` are `safety` and `performance reliability`. 
+
 - Report must be in PDF generated from Word or Latex 
 
 
 ## Break down 
 
-Name:   1.0%
-Email:  1.0%
-Tables: 98.0% (14% for each table)
+Name:   2.0%
+Email:  2.0%
+Tables: 96.0% (12% for each table)
 Total:  100% 
 
 ## Due 
