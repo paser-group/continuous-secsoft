@@ -50,7 +50,7 @@
 | Feb 19  | Resilient Integration                                         |
 | Feb 21  | Resilient Integration    (Workshop)                           |  
 | Feb 23  | Software Forensics                                            |                                             
-| Feb 26  | Project debriefing                                            |                 
+| Feb 26  | Project and literature review debriefing                      |                 
 | Feb 28  | Recap for midterm                                             |
 | Mar 01  | Midterm                                                       |
 | Mar 04  | **Spring Break: No classes**                                  |
