@@ -7,7 +7,7 @@ The objective of this project is to integrate software quality assurance activit
 ### Activities 
 
 1. Unpack the project `MLForensics.zip`. (1%)
-2. Upload project as a GitHub repo on `github.com`. Format of the repo name is `TEAMNAME-SPRING2024-AUBURN`  (2%)
+2. Upload project as a GitHub repo on `github.com`. Format of the repo name is `TEAMNAME-SPRING2024-SQA`  (2%)
 3. In your project repo create `README.md` listing your team name and team members. (2%)
 4. Apply the following activities related to software quality assurance:
 
@@ -24,7 +24,7 @@ The objective of this project is to integrate software quality assurance activit
 
 ### Deliverables 
 
-1. A repo hosted on GitHub. Name of the repo will be `TEAMNAME-SQA2023-AUBURN` 
+1. A repo hosted on GitHub. Name of the repo will be `TEAMNAME-SPRING2024-SQA` 
 2. Full completion of all activities as recorded on the GitHub repository 
 3. Report describing what activities your performed and what you have learned 
 4. Logs and screenshots that show execution of forensics, fuzzing, and static analysis 
