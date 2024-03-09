@@ -40,7 +40,7 @@ As part of this workshop we will see how we can use an existing CI tool called [
 
 ### Assignment 8 (Post Lab Experience) 
 - Repeat all the steps from the in-class exercise for the repository `https://github.com/akondrahman/IaCTesting`. This will include forking `https://github.com/akondrahman/IaCTesting`, forking, adding codacy with GitHub Actions, making changes in a  file, commiting and pushing, and finding the build in the `Actions` tab of your repository   
-- Find the URL to your CI run and record it in a TEXT file. Also capture 5 snapshots of the CI run 
-- Submit your text file and snapshots @ Workshop 8 on CANVAS. (75%)
+- Find the URL to your CI run and record it in a TEXT file. Also capture 5 screenshots of the CI run 
+- Submit your text file and screenshots @ Workshop 8 on CANVAS. (75%)
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_cAOhdjfti78MVls):  (25%)
 - Due: April 04, 2024
