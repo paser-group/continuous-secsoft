@@ -67,7 +67,7 @@ Imagine this scenario: Dolly, a data science specialist at Auburn University. Un
 - You have the freedom to choose the locations that you think needs to be logged 
 - Feel free to use the logger the instructor has provided in class 
 - You do not have to generate the logs by executing `workshop9.py`
-- You must add at least find and add logging code to seven locations with comments (70%)
+- You must find and add logging code to seven locations with comments (70%)
 - Submit your code at `CANVAS` 
 - Complete the survey (https://auburn.qualtrics.com/jfe/form/SV_6W19tf7NcRt5y4K) (30%)
 - Due April 11, 2024
