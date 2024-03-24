@@ -28,5 +28,5 @@ that fuzzes an existing implementation of a simple calculator.
 - Implement the `simpleFuzzer` method so that it can generate alphanumeric values, and these values are plugged into the `simpleCalculator` method. Feel free to use the strings here: https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.json
 - Record the crash messages. You should be recording seven (7) errors as part of your implementation. 
 - Submit your code, i.e., the `workshop10.py` file and the error messages @ Workshop 10 on CANVAS. (70%)
-- Finish the quiz at https://aub.ie/learn-with-paser:  (30%). If you face any issues accessing the quiz website please contact my REU intern Cameron at `cjk0072@auburn.edu`. 
+- Finish the quiz at https://aub.ie/learn-with-paser:  (30%). If you face any issues accessing the quiz website please contact my REU intern Cameron at `cjk0072@auburn.edu`. Instructions on how to use the website is available [here](instruct.md).
 - Due: April 18, 2024
