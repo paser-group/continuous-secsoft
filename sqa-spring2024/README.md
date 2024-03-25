@@ -60,22 +60,22 @@
 | Mar 13  | Test-driven development                                       |
 | Mar 15  | Software Testing Overview                                     |     
 | Mar 18  | Testing Metrics                                               |
-| Mar 20  | Software Fuzzing and Chaos Engineering *Instructor on Travel* |
-| Mar 22  | Software Fuzzing (Workshop) *Instructor on Travel*            |
-| Mar 25  | Review of Graphs *Instructor on Travel*                       |
+| Mar 20  | Software Fuzzing and Chaos Engineering [*Instructor on Travel*] |
+| Mar 22  | Software Fuzzing (Workshop) [*Instructor on Travel*]            |
+| Mar 25  | Review of Graphs [*Instructor on Travel*]                       |
 | Mar 27  | Structural Testing                                            |
 | Mar 29  | Functional Testing                                            |
 | Apr 01  | Combinatorial Interaction Testing                             |
 | Apr 03  | Project updates                                               |
-| Apr 05  | Concolic Testing *Instructor on Travel*                       |
-| Apr 08  | Concolic Testing *Instructor on Travel*                       |
-| Apr 10  | Software Supply Chain - Secret Management *Instructor on Travel* |
-| Apr 12  | Software Supply Chain - Secret Management (Workshop) *Instructor on Travel* |
-| Apr 15  | Software Supply Chain - Secure Software Development Lifecycle *Instructor on Travel* |
-| Apr 17  | Software Supply Chain - Dependency Management *Instructor on Travel*              |
-| Apr 19  | Software Supply Chain - Insecure Coding *Instructor on Travel*                       |
-| Apr 22  | Software Supply Chain - Maintenance Factors *Instructor on Travel*                   |
-| Apr 24  | Software Supply Chain - Organizational Factors                |
+| Apr 05  | Concolic Testing [*Instructor on Travel*]                       |
+| Apr 08  | Concolic Testing [*Instructor on Travel*]                       |
+| Apr 10  | Software Supply Chain - Secret Management [*Instructor on Travel*] |
+| Apr 12  | Software Supply Chain - Secret Management (Workshop) [*Instructor on Travel*] |
+| Apr 15  | Software Supply Chain - Secure Software Development Lifecycle [*Instructor on Travel*] |
+| Apr 17  | Software Supply Chain - Dependency Management [*Instructor on Travel*]              |
+| Apr 19  | Software Supply Chain - Insecure Coding [*Instructor on Travel*]                       |
+| Apr 22  | Software Supply Chain - Maintenance Factors [*Instructor on Travel*]                   |
+| Apr 24  | Software Supply Chain - Organizational Factors  [*Instructor on Travel*]                   |
 | Apr 26  | Review for Final Exam *Last day of classes*                   |
 | May 02  | Final Exam (10:30-12:30 CST)                                  |
 
