@@ -80,4 +80,4 @@ print(secret_from_vault)
 - Feel free to use the code shared by the instructor
 - Submit your Python file and screenshot output @ Workshop - Secret Management on CANVAS. (80%)
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_5hYDSu9P9jAMZWm):  (20%)
-- Due: Nov 27, 2023
+- Due: April 25, 2024 
