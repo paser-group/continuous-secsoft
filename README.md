@@ -17,4 +17,5 @@
 | Software Quality Assurance         | Auburn University, Fall 2022               |  No longer maintained                            |
 | Software Quality Assurance         | Auburn University, Spring 2023             |  No longer maintained                            |
 | Software Quality Assurance         | Auburn University, Fall  2023              |  No longer maintained                            |
-| Software Quality Assurance         | Auburn University, Spring 2024             |  [Link](/sqa-spring2024)                         |
+| Software Quality Assurance         | Auburn University, Spring 2024             |  No longer maintained                            |
+| Software Quality Assurance         | Auburn University, Fall 2024               |  [Link](/fall2024)                               |
