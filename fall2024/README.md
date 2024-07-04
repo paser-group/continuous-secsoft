@@ -1,11 +1,11 @@
-# COMP 5710/6710 
-> MWF, 12:00-12:50 PM CST, SHELBY 2101, Spring 2024
+# COMP 5710/6710 (Software Quality Assurance)
+> MWF, 10:00-10:50 AM CST, SHELBY 1120, Fall 2024
 
 ## Instructor 
 
 > Akond Rahman, PhD 
 
-> Office hours: Friday, 10:00-11:00 AM CST , Shelby Center 3104 
+> Office hours: Monday, 9:00-10:00 AM CST , Shelby Center 3104 
 
 > akond@auburn.edu 
 
@@ -19,65 +19,66 @@
 > Required Textbook: 
 - None. 
 
-> Recommended Textbook:  
+> Optional Textbook:  
 - Software Security: Building Security In, Gary McGraw, Addison-Wesley.    
 - Software Engineering at Google: Lessons Learned from Programming Over Time, Hyrum Wright, Titus Winters, and Tom Manshreck, Oreilly.    
 
 
 
-## Schedule for Spring 2024
+## Schedule for Fall 2024
 
 
 | Date    |  Schedule                                                     |
 |---------|---------------------------------------------------------------|
-| Jan 10  | Introduction (Recorded Lecture)                               |
-| Jan 12  | Introduction to Software Process Maturity (Recorded Lecture)  |
-| Jan 15  | **MLK day, no classes**                                       |
-| Jan 17  | Software Process - Waterfall                                  |
-| Jan 19  | Software Process - Scrum                                      |
-| Jan 22  | Behavior-driven Development                                   |
-| Jan 24  | Requirements Validation                                       |
-| Jan 26  | Requirements Validation (Workshop)                            |
-| Jan 29  | Configuration Management                                      |
-| Jan 31  | Automated Configuration Management (Workshop with Terraform)  |
-| Feb 02  | Security-focused Config. Scanning (Workshop with SLI-KUBE)    |
-| Feb 05  | Configuration Violation Detection (Workshop with CUE)         |
-| Feb 07  | Automated Program Analysis (Tool Usage - Workshop)            |
-| Feb 09  | Automated Program Analysis (Information Flow)                 |
-| Feb 12  | Automated Program Analysis (Information Flow - Workshop)      |
-| Feb 14  | Event-based Scanning                                          |
-| Feb 16  | Event-based Scanning (Workshop)                               |
-| Feb 19  | Resilient Integration                                         |
-| Feb 21  | Resilient Integration    (Workshop)                           |  
-| Feb 23  | Software Forensics                                            |                                             
-| Feb 26  | Project and literature review debriefing                      |                 
-| Feb 28  | Recap for midterm                                             |
-| Mar 01  | Midterm                                                       |
-| Mar 04  | **Spring Break: No classes**                                  |
-| Mar 06  | **Spring Break: No classes**                                  |
-| Mar 08  | **Spring Break: No classes**                                  |
-| Mar 11  | Software Forensics (Workshop)                                 |
-| Mar 13  | Test-driven development                                       |
-| Mar 15  | Software Testing Overview                                     |     
-| Mar 18  | Testing Metrics                                               |
-| Mar 20  | Software Fuzzing and Chaos Engineering [*Instructor on Travel*] |
-| Mar 22  | Software Fuzzing (Workshop) [*Instructor on Travel*]            |
-| Mar 25  | Review of Graphs [*Instructor on Travel*]                       |
-| Mar 27  | Structural Testing                                            |
-| Mar 29  | Functional Testing                                            |
-| Apr 01  | Combinatorial Interaction Testing                             |
-| Apr 03  | Project updates                                               |
-| Apr 05  | Concolic Testing [*Instructor on Travel*]                       |
-| Apr 08  | Concolic Testing [*Instructor on Travel*]                       |
-| Apr 10  | Software Supply Chain - Secret Management [*Instructor on Travel*] |
-| Apr 12  | Software Supply Chain - Secret Management (Workshop) [*Instructor on Travel*] |
-| Apr 15  | Software Supply Chain - Secure Software Development Lifecycle [*Instructor on Travel*] |
-| Apr 17  | Software Supply Chain - Dependency Management [*Instructor on Travel*]              |
-| Apr 19  | Software Supply Chain - Insecure Coding [*Instructor on Travel*]                       |
-| Apr 22  | Software Supply Chain - Maintenance Factors [*Instructor on Travel*]                   |
-| Apr 24  | Software Supply Chain - Organizational Factors  [*Instructor on Travel*]                   |
-| Apr 26  | Review for Final Exam *Last day of classes*                   |
-| May 02  | Final Exam (10:30-12:30 CST)                                  |
+| Aug 19  | Introduction                                                  |
+| Aug 21  | Introduction to Software Process Maturity                     |
+| Aug 23  | Introduction to Software Process Maturity                     |
+| Aug 26  | Software Process - Waterfall                                  |
+| Aug 28  | Software Process - Scrum                                      |
+| Aug 30  | Requirements Engineering                                      |
+| Sep 02  | Labor Day [*No Classes*]                                      |
+| Sep 04  | Code Generation for Requirements Engineering (Workshop)       |
+| Sep 06  | Requirements Validation with Testing (Workshop)               |
+| Sep 09  | Configuration Management                                      |
+| Sep 11  | An Introduction to Large Language Models (LLMs)               |
+| Sep 13  | Configuration Script Generation with an LLM (Demo)            |
+| Sep 16  | Automated Configuration Management (Workshop with Terraform)  |
+| Sep 18  | Security-focused Config. Scanning (Workshop with SLI-KUBE)    |
+| Sep 20  | Configuration Violation Detection (Workshop with CUE)         |
+| Sep 23  | Automated Program Analysis (Tool Usage - Workshop)            |
+| Sep 25  | Automated Program Analysis (Information Flow)                 |
+| Sep 27  | Automated Program Analysis (Information Flow - Workshop)      |
+| Sep 30  | Event-based Scanning Event-based Scanning (Workshop)          |
+| Oct 02  | Recap for Midterm                                             |  
+| Oct 04  | Midterm                                                       |                                             
+| Oct 07  | Resilient Integration                                         |                 
+| Oct 09  | Resilient Integration    (Workshop)                           |
+| Oct 11  | Fall Break [*No Classes*]                                     |
+| Oct 14  | Project and literature review debriefing                      |
+| Oct 16  | Software Forensics                                            |
+| Oct 18  | Software Forensics (Workshop)                                 |
+| Oct 21  | Test-driven development                                       |
+| Oct 23  | Software Testing Overview                                     |
+| Oct 25  | Testing with LLMs  (Demonstration)                            |     
+| Oct 28  | Testing Metrics                                               |
+| Oct 30  | Software Fuzzing and Chaos Engineering [*Instructor on Travel*] |
+| Nov 01  | Software Fuzzing (Workshop) [*Instructor on Travel*]            |
+| Nov 04  | Review of Graphs [*Instructor on Travel*]                       |
+| Nov 06  | Structural Testing                                            |
+| Nov 08  | Functional Testing                                            |
+| Nov 11  | Combinatorial Interaction Testing                             |
+| Nov 13  | Project updates                                               |
+| Nov 15  | Concolic Testing [*Instructor on Travel*]                       |
+| Nov 18  | Concolic Testing [*Instructor on Travel*]                       |
+| Nov 20  | Software Supply Chain - Secret Management [*Instructor on Travel*] |
+| Nov 22  | Software Supply Chain - Secret Management (Workshop) [*Instructor on Travel*] |
+| Nov 25  | Thanksgiving Week [*No Classes*]     |
+| Nov 27  | Thanksgiving Week [*No Classes*]                 |
+| Nov 29  | Thanksgiving Week [*No Classes*]                      |
+| Dec 02  | Software Supply Chain - Maintenance Factors [*Instructor on Travel*]                   |
+| Dec 04  | Software Supply Chain - Organizational Factors  [*Instructor on Travel*]                   |
+| Dec 06  | Review for Final Exam *Last day of classes*                   |
+| TBD     | Final Exam (CST)                                              |
 
  
 
