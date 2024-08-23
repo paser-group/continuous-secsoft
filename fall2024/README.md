@@ -32,7 +32,7 @@
 |---------|---------------------------------------------------------------|
 | Aug 19  | Introduction                                                  |
 | Aug 21  | Introduction to Software Process Maturity                     |
-| Aug 23  | Introduction to Software Process Maturity                     |
+| Aug 23  | Introduction to Software Quality Assurance                    |
 | Aug 26  | Software Process - Waterfall                                  |
 | Aug 28  | Software Process - Scrum                                      |
 | Aug 30  | Requirements Engineering                                      |
