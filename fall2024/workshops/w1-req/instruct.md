@@ -18,8 +18,8 @@ The objective of this pre-lab content dissemination is to introduce participants
 
 The steps for LLM integration is:
 
-1. Install and set up the required LLM local deployment tools (ollama,Llama-CPI, LM-Studio)
-2. Install and set up the Continuous plugin for Intellij and VSCode IDEA 
+1. Install and set up the required LLM local deployment tools (`ollama`,`llama-CPI`, `LM-Studio`)
+2. Install and set up the `Continue` plugin for Intellij and VSCode IDEA 
 3. Refactor your test code with LLM for better design, debug and explainability.
 
 
