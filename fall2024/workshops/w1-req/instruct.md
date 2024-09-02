@@ -36,7 +36,7 @@ The steps for LLM integration is:
 
 ### Assignment After Class (Post Lab Experience) 
 
-- For this part of the workshop you will develop two Python program files (FizzBuzz and Pytest-FizzBuzz) to demonstrate that you have practiced LLM integration with the IDEA. 
+- For this part of the workshop you will update two Python program files (source.py and test.py as per the instructions) to demonstrate that you have practiced LLM integration with the IDEA. 
 - Your code should satisfy the following requirements:
   - write the `isMultiple(value,mod)` in the <source.py> function using LLM integration.
   - write the test cases for the `fizzbuzz(value)` function using LLMs integrated into your IDEA.
