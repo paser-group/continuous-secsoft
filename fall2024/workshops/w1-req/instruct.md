@@ -14,7 +14,7 @@ Software Quality Assurance
 ### Pre-lab Content Dissemination 
 The objective of this pre-lab content dissemination is to introduce participants to the concept of integrating LLM local deployment for source code generation and troubleshooting. By the end of this session, participants will have a better understanding of the benefits and potential challenges of using LLM local deployment in their software development workflows.
 
-#### Test-driven Development (TDD)
+#### LLM Deployment 
 
 The steps for LLM integration is:
 
