@@ -28,7 +28,7 @@ The steps for LLM integration is:
 - Navigate to `https://github.com/paser-group/continuous-secsoft/blob/master/fall2024/workshops/w1-req/`
 - Use `ollama`, `Llama-CPI` and `LM-Studio` to start the LLM server locally
 - Download and Deploy the LLM models `starcoder2-15b-instruct-v0.1-GGUF` and `Meta-Llama-3.1-8B-Claude-iMat-GGUF` locally
-- Use `Continuous` plugin in the `Intellij` and `VSCode` IDEA to integrate the LLM models deployed through `ollama/LM studio/llama-cpi` into your code.
+- Use `Continue` plugin in the `Intellij` and `VSCode` IDEA to integrate the LLM models deployed through `ollama/LM studio/llama-cpi` into your code.
 - Apply `/explain-code`, `/test-code` features of the `Continuous` plugin to interact with your source code.
 - Demo will be recorded and shared on CANVAS. 
 
