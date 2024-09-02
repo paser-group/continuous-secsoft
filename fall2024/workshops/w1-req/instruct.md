@@ -1,4 +1,4 @@
-## Workshop 2
+## Workshop 1
 
 ## Workshop Name: Integrating LLM Local Deployment for Source Code Generation and Troubleshooting into Intellij and VSCode IDEA
 
