@@ -43,7 +43,7 @@ The steps for TDD is:
   - All methods related to division operations should handle division by zero exceptions
 - Submit your Python program files and  your TEXT file on CANVAS @ `Workshop2` . The TEXT file should contain results of your tests that are passing and also the tests that are failing. 
 - Complete survey: https://auburn.qualtrics.com/jfe/form/SV_556t0yGLahw3vVA
-- Due: Sep 13, 2024, 11:59 PM CST 
+- Due: Sep 20, 2024, 11:59 PM CST 
 
 ### Rubric 
 

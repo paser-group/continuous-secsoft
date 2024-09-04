@@ -61,15 +61,15 @@
 | Oct 23  | Software Testing Overview                                     |
 | Oct 25  | Testing with LLMs  (Demonstration)                            |     
 | Oct 28  | Testing Metrics                                               |
-| Oct 30  | Software Fuzzing and Chaos Engineering [*Instructor on Travel*] |
-| Nov 01  | Software Fuzzing (Workshop) [*Instructor on Travel*]            |
-| Nov 04  | Review of Graphs [*Instructor on Travel*]                       |
+| Oct 30  | Software Fuzzing and Chaos Engineering [*Instructor on Travel*]|
+| Nov 01  | Software Fuzzing (Workshop) [*Instructor on Travel*]           |
+| Nov 04  | Review of Graphs [*Instructor on Travel*]                     |
 | Nov 06  | Structural Testing                                            |
 | Nov 08  | Functional Testing                                            |
 | Nov 11  | Combinatorial Interaction Testing                             |
 | Nov 13  | Project updates                                               |
-| Nov 15  | Concolic Testing [*Instructor on Travel*]                       |
-| Nov 18  | Concolic Testing [*Instructor on Travel*]                       |
+| Nov 15  | Concolic Testing [*Instructor on Travel*]                     |
+| Nov 18  | Concolic Testing [*Instructor on Travel*]                     |
 | Nov 20  | Software Supply Chain - Secret Management [*Instructor on Travel*] |
 | Nov 22  | Software Supply Chain - Secret Management (Workshop) [*Instructor on Travel*] |
 | Nov 25  | Thanksgiving Week [*No Classes*]     |
