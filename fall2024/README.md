@@ -61,24 +61,24 @@
 | Oct 23  | Software Testing Overview                                     |
 | Oct 25  | Testing with LLMs  (Demonstration)                            |     
 | Oct 28  | Testing Metrics                                               |
-| Oct 30  | Software Fuzzing and Chaos Engineering [*Instructor on Travel*]|
-| Nov 01  | Software Fuzzing (Workshop) [*Instructor on Travel*]           |
-| Nov 04  | Review of Graphs [*Instructor on Travel*]                     |
+| Oct 30  | Software Fuzzing and Chaos Engineering                        |
+| Nov 01  | Software Fuzzing (Workshop)                                   |
+| Nov 04  | Review of Graphs                                              |
 | Nov 06  | Structural Testing                                            |
-| Nov 08  | Functional Testing                                            |
+| Nov 08  | Functional Testing  [*Instructor on Travel*]                  |
 | Nov 11  | Combinatorial Interaction Testing                             |
 | Nov 13  | Project updates                                               |
-| Nov 15  | Concolic Testing [*Instructor on Travel*]                     |
-| Nov 18  | Concolic Testing [*Instructor on Travel*]                     |
-| Nov 20  | Software Supply Chain - Secret Management [*Instructor on Travel*] |
-| Nov 22  | Software Supply Chain - Secret Management (Workshop) [*Instructor on Travel*] |
-| Nov 25  | Thanksgiving Week [*No Classes*]     |
-| Nov 27  | Thanksgiving Week [*No Classes*]                 |
-| Nov 29  | Thanksgiving Week [*No Classes*]                      |
-| Dec 02  | Software Supply Chain - Maintenance Factors [*Instructor on Travel*]                   |
-| Dec 04  | Software Supply Chain - Organizational Factors  [*Instructor on Travel*]                   |
-| Dec 06  | Review for Final Exam *Last day of classes*                   |
-| TBD     | Final Exam (CST)                                              |
+| Nov 15  | Concolic Testing                                              |
+| Nov 18  | Concolic Testing                                              |
+| Nov 20  | Software Supply Chain - Secret Management                     |
+| Nov 22  | Software Supply Chain - Secret Management (Workshop)          |
+| Nov 25  | Thanksgiving Week [*No Classes*]                              |
+| Nov 27  | Thanksgiving Week [*No Classes*]                              |
+| Nov 29  | Thanksgiving Week [*No Classes*]                              |
+| Dec 02  | Software Supply Chain - Maintenance Factors  [*Instructor on Travel*]    |
+| Dec 04  | Software Supply Chain - Organizational Factors  [*Instructor on Travel*] |
+| Dec 06  | Review for Final Exam *Last day of classes*   [*Instructor on Travel*]   |
+| Dec 12  | 8:00 - 10:00 AM (CST)                                              |
 
  
 
