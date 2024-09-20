@@ -49,6 +49,13 @@ In this workshop we will use a tool called [SLI-KUBE](https://hub.docker.com/rep
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_ekBpwjd4TkT1tpc)
 - Due: Sep 27, 2024
 
+#### Rubric 
+
+- Report : 25%
+- Definitions of security misconfigurations: 40%
+- Names of security misconfigurations: 25% 
+- Survey: 10%
+
 #### Note About Windows Machines
 
 It is possible to get the UnicodeDecode error for `parser.py` on a Windows machine.  

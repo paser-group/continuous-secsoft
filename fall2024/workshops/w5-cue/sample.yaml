@@ -1,0 +1,6 @@
+# sample.yaml
+min: 15
+max: 20
+---
+min: 30
+max: 22
