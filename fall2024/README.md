@@ -54,7 +54,7 @@
 | Oct 07  | Resilient Integration                                         |                 
 | Oct 09  | Resilient Integration    (Workshop)                           |
 | Oct 11  | Fall Break [*No Classes*]                                     |
-| Oct 14  | Project and literature review debriefing                      |
+| Oct 14  | Project and literature review debriefing [*Instructor on Travel*] |
 | Oct 16  | Software Forensics                                            |
 | Oct 18  | Software Forensics (Workshop)                                 |
 | Oct 21  | Test-driven development                                       |
