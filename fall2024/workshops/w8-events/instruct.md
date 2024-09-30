@@ -21,7 +21,6 @@ In that spirit, we as a class  will build a mini tool that automatically runs st
 
 ### In-class Hands-on Experience 
 
-- Go to announcements on CANVAS. See the announcement on `Workshop 8`
 - Create a GitHub account if you haven't yet 
 - Install CPPCheck on your computer 
 - Clone the `FastJM` repository on your computer  
