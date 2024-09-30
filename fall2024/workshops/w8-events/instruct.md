@@ -24,8 +24,7 @@ In that spirit, we as a class  will build a mini tool that automatically runs st
 - Go to announcements on CANVAS. See the announcement on `Workshop 8`
 - Create a GitHub account if you haven't yet 
 - Install CPPCheck on your computer 
-- Fork the `Abseil-CPP` repository with your GitHub account
-- Clone the forked repository on your computer  
+- Clone the `FastJM` repository on your computer  
 - Go to `.git/hooks/` in the cloned repository 
 - Run `cp pre-commit.sample pre-commit` 
 - Open `pre-commit` 
