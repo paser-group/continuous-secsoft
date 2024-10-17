@@ -49,3 +49,5 @@ As part of this workshop we will see how we can use an existing CI tool called [
 - URL of CI: 40%
 - Screenshots: 40%
 - Survey: 20% 
+
+
