@@ -58,18 +58,18 @@
 | Oct 16  | Software Forensics                                            |
 | Oct 18  | Software Forensics (Workshop)                                 |
 | Oct 21  | Test-driven development                                       |
-| Oct 23  | Software Testing Overview                                     |
+| Oct 23  | Testing Metrics                                               |
 | Oct 25  | Testing with LLMs  (Demonstration)                            |     
-| Oct 28  | Testing Metrics                                               |
-| Oct 30  | Software Fuzzing and Chaos Engineering                        |
-| Nov 01  | Software Fuzzing (Workshop)                                   |
-| Nov 04  | Review of Graphs                                              |
-| Nov 06  | Structural Testing                                            |
-| Nov 08  | Functional Testing  [*Instructor on Travel*]                  |
-| Nov 11  | Combinatorial Interaction Testing                             |
-| Nov 13  | Project updates                                               |
+| Oct 28  | Software Fuzzing and Chaos Engineering                        |
+| Oct 30  | Software Fuzzing (Workshop)                                   |
+| Nov 01  | Review of Graphs                                              |
+| Nov 04  | Structural Testing                                            |
+| Nov 06  | Functional Testing                                            |
+| Nov 08  | Combinatorial Interaction Testing [*Instructor on Travel*]    |
+| Nov 11  | Project updates                                               |
+| Nov 13  | Concolic Testing                                              |
 | Nov 15  | Concolic Testing                                              |
-| Nov 18  | Concolic Testing                                              |
+| Nov 18  | Software Development Lifecycle (SDLC)                         |
 | Nov 20  | Software Supply Chain - Secret Management                     |
 | Nov 22  | Software Supply Chain - Secret Management (Workshop)          |
 | Nov 25  | Thanksgiving Week [*No Classes*]                              |
