@@ -13,7 +13,7 @@
 
 | Course                             | Taught at                                  |  Link                                            |
 |------------------------------------|--------------------------------------------|--------------------------------------------------|
-| Software Quality Assurance         | Auburn University, Spring 2025    |  [Link](/spring2025)      |
+| Software Supply Chain              | Auburn University, Spring 2025    |  [Link](/spring2025)      |
 | Software Quality Assurance         | Auburn University, Fall 2024      |  [Link](/fall2024)      |
 | Software Quality Assurance         | Auburn University, Spring 2024    |  No longer maintained   |
 | Software Quality Assurance         | Auburn University, Fall  2023     |  No longer maintained   |
