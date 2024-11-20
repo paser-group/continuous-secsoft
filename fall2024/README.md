@@ -69,7 +69,7 @@
 | Nov 11  | Project updates                                               |
 | Nov 13  | Concolic Testing                                              |
 | Nov 15  | Concolic Testing                                              |
-| Nov 18  | Software Development Lifecycle (SDLC)                         |
+| Nov 18  | Software Development Lifecycle (SSDLC)   [*Instructor on Travel*]                      |
 | Nov 20  | Software Supply Chain - Secret Management                     |
 | Nov 22  | Software Supply Chain - Secret Management (Workshop)          |
 | Nov 25  | Thanksgiving Week [*No Classes*]                              |

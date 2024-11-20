@@ -24,10 +24,10 @@ The instructor will provide all necessary materials via CANVAS.
 
 | Date    |  Schedule                                                       |
 |---------|-----------------------------------------------------------------|
-| Jan 14  | Introduction                                                    |
+| Jan 14  | Introduction to the class                                       |
 | Jan 16  | Introduction to Software Supply Chain                           |
-| Jan 21  | Paper Presentation - Software Engineering Research Preliminaries|
-| Jan 23  | Paper Presentation - Dependency Management                      |
+| Jan 21  | Introduction to Software Supply Chain                           |
+| Jan 23  | Software Supply Chain Tools  + Assignment Discussion            |
 | Jan 28  | Paper Presentation - Dependency Management                      |
 | Jan 30  | Paper Presentation - Dependency Management                      |
 | Feb 04  | Paper Presentation - Dependency Management                      |
