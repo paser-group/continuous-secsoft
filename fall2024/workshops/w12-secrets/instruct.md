@@ -76,9 +76,10 @@ print(secret_from_vault)
 
 ### Post Lab Activity
 
-- Store the secrets in `secrets.csv` into your Hashicorp Vault using the HCP Vault Python API (`hvac`) 
+- Store and retrieve the secrets in `secrets.csv` into your Hashicorp Vault using the HCP Vault Python API (`hvac`) 
 - Feel free to use the code shared by the instructor
-- Submit your Python file and screenshot output @ Workshop 12 - Secret Management on CANVAS. (80%)
+- Write the code to store and retrieve all secrets in `secrets.csv` 
+- Take screenshots of storing and retrieving secrets 
 - Complete the [survey](https://auburn.qualtrics.com/jfe/form/SV_5hYDSu9P9jAMZWm):  (20%)
 - Due: Dec 04, 2024 
 
@@ -87,3 +88,15 @@ print(secret_from_vault)
 - Python script : 40% 
 - Screenshots showing storing and retrieval of secrets: 40% 
 - Survey: 20% 
+
+### In the case you want to use a virtual environment 
+
+```
+python3 -m venv w12-venv  
+
+source w12-venv/bin/activate   
+
+python3 -m pip install hvac    
+
+deactivate
+``` 
