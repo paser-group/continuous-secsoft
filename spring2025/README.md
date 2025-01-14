@@ -1,5 +1,5 @@
 # Software Supply Chain (COMP 7970)
-> TU/TR, 14:00-15:15 PM CST, SHELBY 1120, Spring 2025
+> TU/TR, 14:00-15:15 PM CST, Broun 125, Spring 2025
 
 ## Instructor 
 
