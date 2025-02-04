@@ -12,26 +12,26 @@ You can do it manually or automatically by writing a script. Upload the download
 
 ### Apply security static analysis tool 
 
-For each repository apply a security static analysis testing tool that is applicable for the repository. For example, for a Go-based repository you have to apply a tool that works for Go. You need to find the appropriate tool and apply it. You will generate one comma separated value (CSV) file that contains all the results of all the 500 extensions. The CSV file must look like this: 
+For each repository apply a security static analysis testing tool that is applicable for the repository. For example, for a Go-based repository you have to apply a tool that works for Go. You need to find the appropriate tool and apply it. You will generate one comma separated value (CSV) file that contains all the results of all the 500 extensions. The CSV file is based on analysis results grouped by file name. The CSV file must look like this: 
 
-| REPOPATH  | CATEGORY  | FILENAME  | COUNT  |  DOWNLOADS |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| FILENAME  | CATEGORY  |  REPOPATH | COUNT   |
+|---|---|---|---|
+|   |   |   |   |
+|   |   |   |   |
+|   |   |   |   |
 
 Name of the file should be `EMAIL-SAST-VSCODE.csv`
 
 
 ### Apply supply chain analysis tool 
 
-For each repository apply the OpenSSF tool. You will generate one comma separated value (CSV) file that contains all the results of all the 500 extensions. The CSV file must look like this
+For each repository apply the OpenSSF tool. You will generate one comma separated value (CSV) file that contains all the results of all the 500 extensions. The CSV file is based on analysis results grouped by file name. The CSV file must look like this:
 
-| REPOPATH  | SCORE  | NAME  | REASON  |  RATING |  LASTUPDATED | ISSUES |
-|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
+| REPOPATH  | LASTUPDATED  | RATING  | ISSUES  |  DOWNLOADS |  NAME | SCORE |  REASON |
+|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
 
 Name of the file should be `EMAIL-OPENSSF-VSCODE.csv`
 
@@ -41,6 +41,8 @@ May 02, 2025 , 11:59 PM CST
 
 ### Grade Distribution
 
-Completed and accurate `EMAIL-VSCODE-DATA.tar.gz`: 40%
-Completed and accurate `EMAIL-SAST-VSCODE.csv`   : 30%
-Completed and accurate `EMAIL-OPENSSF-VSCODE.csv`: 30% 
+| ITEM  | AMOUNT  |
+|---|---|
+|  `EMAIL-VSCODE-DATA.tar.gz` |  40% | 
+|  `EMAIL-SAST-VSCODE.csv`    |  30% | 
+|  `EMAIL-OPENSSF-VSCODE.csv` |  30% | 
