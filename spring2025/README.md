@@ -5,7 +5,7 @@
 
 > Akond Rahman, PhD 
 
-> Office hours: TBD, Shelby Center 3104 
+> Office hours: Tuesday 3:30 - 4:00 PM CST, Shelby Center 3104 
 
 > akond@auburn.edu 
 
@@ -55,11 +55,8 @@ The instructor will provide all necessary materials via CANVAS.
 | Apr 22  | Paper Presentation - Threats                                    |
 | Apr 24  | Paper Presentation - Threats                                    |     
 | Apr 29  | Project Presentations                                           |
-| TBD     | Final Exam TBD                                                  |
+| May 08  | Final Exam (Take Home)                                          |
 
-## URL for Presentation Signup
-
-https://tigermailauburn-my.sharepoint.com/:x:/g/personal/azr0154_auburn_edu/EbyJTdSKCMNEqV4zWQ_-2AEBRVwMOOtoGm7q99B3QPQbLg?e=d7UeYl
 
 
 ## Grading scale: 
