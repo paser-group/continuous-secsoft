@@ -30,7 +30,7 @@
 | Date    |  Schedule                                                         |
 |---------|-------------------------------------------------------------------|
 | Aug 18  | Introduction                                                      |
-| Aug 20  | Software Development Methodologies                                |
+| Aug 20  | Software Development Processes                                    |
 | Aug 22  | Software Supply Chain Security                                    |
 | Aug 25  | An Introduction to Large Language Models (LLMs)                   |
 | Aug 27  | Security Requirements Engineering                                 |
@@ -77,7 +77,7 @@
 | Dec 01  | Validation of generative AI output with SAST (Workshop)           |
 | Dec 03  | Validation of generative AI output with DAST (Workshop)           |
 | Dec 05  | Review for Final Exam *Last day of classes*                       |
-| TBD     | Final Exam (TBD)                                                  |
+| Dec 08  | Final Exam (4:00 - 6:00 PM CST)                                   |
 
  
 

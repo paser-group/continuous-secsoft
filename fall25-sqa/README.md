@@ -50,7 +50,7 @@
 | Sep 29  | Automated Program Analysis (Information Flow - Workshop)          |
 | Oct 01  | Event-based Secret Scanning (Workshop)                            |  
 | Oct 03  | Dependency Analysis (Demo)                                        |                                              
-| Oct 06  | Recap for midterm                                                 |                 
+| Oct 06  | Recap for Midterm                                                 |                 
 | Oct 08  | Midterm                                                           |
 | Oct 10  | Fall Break [*No Classes*]                                         |
 | Oct 13  | Project and literature review debriefing [*Instructor on Travel*] |
@@ -77,7 +77,7 @@
 | Dec 01  | Software Supply Chain - Maintenance Factors                       |
 | Dec 03  | Software Supply Chain - Organizational Factors                    |
 | Dec 05  | Review for Final Exam *Last day of classes*                       |
-| TBD     | Final Exam (TBD)                                                  |
+| Dec 11  | Final Exam (8:00 - 10:00 AM CST)                                  |
 
  
 
