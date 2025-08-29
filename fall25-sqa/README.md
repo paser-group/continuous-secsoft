@@ -36,7 +36,7 @@
 | Aug 27  | Software Process - Scrum                                          |
 | Aug 29  | Requirements Engineering                                          |
 | Sep 01  | Labor Day [*No Classes*]                                          |
-| Sep 03  | An Introduction to Large Language Models (LLMs)                   |
+| Sep 03  | An Introduction to Generative AI Tools                            |
 | Sep 05  | Requirements Validation with Testing (Workshop)                   |
 | Sep 08  | Testing with LLMs  (Workshop)                                     |
 | Sep 10  | Configuration Management                                          |
