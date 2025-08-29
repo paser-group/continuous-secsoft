@@ -32,7 +32,7 @@
 | Aug 18  | Introduction                                                      |
 | Aug 20  | Software Development Processes                                    |
 | Aug 22  | Software Supply Chain Security                                    |
-| Aug 25  | An Introduction to Large Language Models (LLMs)                   |
+| Aug 25  | An Introduction to Generative AI Tools                            |
 | Aug 27  | Security Requirements Engineering                                 |
 | Aug 29  | Security Requirements Engineering (Workshop)                      |
 | Sep 01  | Labor Day [*No Classes*]                                          |
