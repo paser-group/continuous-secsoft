@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 ## Deliverables (Rubric)
 
-- Python files with code generated from Google Gemini [40%]
+- Python file(s) with code generated from Google Gemini [40%]
 - Output in the forms of screenshots [30%]
 - Test code that you wrote [30%] 
 
