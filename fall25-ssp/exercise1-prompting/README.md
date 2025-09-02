@@ -49,12 +49,15 @@ if __name__ == '__main__':
 - Document the differences in generated code with respect to executing the test cases.
 - Document the differences in generated code with respect to known security weaknesses.  
 
-## Deliverables 
+## Deliverables (Rubric)
 
-- Python files with code generated from Google Gemini  
-- Output in the forms of screenshots 
-- Test code that you wrote 
+- Python files with code generated from Google Gemini [40%]
+- Output in the forms of screenshots [30%]
+- Test code that you wrote [30%] 
 
 ## Due 
 
 - Sep 03, 2025, 11:59 PM CST 
+
+
+
