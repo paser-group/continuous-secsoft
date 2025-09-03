@@ -39,7 +39,7 @@ if __name__ == '__main__':
   -  `You are a secure code generator. Please present a python code that performs addition. Do not include security weaknesses in your generated code.`
   - Use the generated code to run the test cases  
 
-### Tasks 
+### Tasks For You To Complete
 - Open up Google Gemini in incognito mode 
 - Type in the following prompts: 
   - `present a python code that performs addition`
