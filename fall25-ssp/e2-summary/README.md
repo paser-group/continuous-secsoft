@@ -7,19 +7,19 @@
 
 ## Steps 
 
-Prompt ChatGPT with `You are an efficient summarizer. Please summarize the attached document in 25 concise bullet points. ` for the following document: `Kubernetes-Req` 
+Prompt Gemini with `You are an efficient summarizer. Please summarize the attached document in 25 concise bullet points. ` for the following document: `Kubernetes-Req` 
 
 
 ### Tasks For You To Complete
 
-- Repeat the above-mentioned process for Gemini and Claude for the following:
+- Repeat the above-mentioned process for ChatGPT for the following:
   - `IPS-Req`
   - `NIST-Req`
   - `PCI-Req`
 
 ## Deliverables 
 
-- Output generated from Gemini and Claude in a text file for the three documents and for the two generative AI tools [Total 6 combinations]
+- Output generated from ChatGPT in a text file for the three documents and for the two generative AI tools [Total 6 combinations]
 
 
 ## Due 
