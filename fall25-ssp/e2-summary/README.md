@@ -19,7 +19,7 @@ Prompt Gemini with `You are an efficient summarizer. Please summarize the attach
 
 ## Deliverables 
 
-- Output generated from ChatGPT in a text file for the three documents and for the two generative AI tools [Total 6 combinations]
+- Output generated from ChatGPT in a text file for the three documents and for the generative AI tool [Total 3 combinations]
 
 
 ## Due 
