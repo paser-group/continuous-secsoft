@@ -42,18 +42,18 @@
 | Sep 10  | Configuration Management                                          |
 | Sep 12  | Configuration Script Generation with an LLM (Demo)                |
 | Sep 15  | Automated Configuration Management (Workshop with Terraform)      |
-| Sep 17  | Security-focused Config. Scanning (Workshop with SLI-KUBE)        |
-| Sep 19  | Configuration Violation Detection (Workshop with CUE)             |
+| Sep 17  | Security-focused Config. Scanning (Workshop with GLITCH)          |
+| Sep 19  | Design-focused Config. Scanning (Demo with GLITCH)                |
 | Sep 22  | Automated Program Analysis                                        |
 | Sep 24  | Automated Program Analysis (Tool Usage - Workshop)                |
 | Sep 26  | Automated Program Analysis (Information Flow)                     |
 | Sep 29  | Automated Program Analysis (Information Flow - Workshop)          |
-| Oct 01  | Event-based Secret Scanning (Workshop)                            |  
-| Oct 03  | Dependency Analysis (Demo)                                        |                                              
+| Oct 01  | Continuous Integration                                            |  
+| Oct 03  | Continuous Integration (Workshop)                                 |                                              
 | Oct 06  | Recap for Midterm                                                 |                 
 | Oct 08  | Midterm                                                           |
 | Oct 10  | Fall Break [*No Classes*]                                         |
-| Oct 13  | Project and literature review debriefing [*Instructor on Travel*] |
+| Oct 13  | Project and literature review debriefing                          |
 | Oct 15  | Software Forensics                                                |
 | Oct 17  | Software Forensics (Workshop)                                     |
 | Oct 20  | Test-driven development                                           |
@@ -69,8 +69,8 @@
 | Nov 12  | Concolic Testing                                                  |
 | Nov 14  | Symbolic Execution (Workshop)                                     |
 | Nov 17  | Concolic Testing (Workshop)                                       |
-| Nov 19  | Software Supply Chain - Secret Management                         |
-| Nov 21  | Software Supply Chain - Secret Management (Workshop)              |
+| Nov 19  | Greybox Fuzzing (Workshop)                                        |
+| Nov 21  | Software Supply Chain - Secret Management                         |
 | Nov 24  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 26  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 28  | Thanksgiving Week [*No Classes*]                                  |
