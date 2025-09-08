@@ -61,15 +61,15 @@
 | Oct 24  | Software Fuzzing                                                  |     
 | Oct 27  | Software Fuzzing  (Workshop - Blackbox)                           |
 | Oct 29  | Software Fuzzing (Workshop - Whitebox)                            |
-| Oct 31  | Combinatorial Interaction Testing                                 |
-| Nov 03  | Combinatorial Interaction Testing  (Workshop)                     |
-| Nov 05  | Functional Testing                                                |
-| Nov 07  | Project updates                                                   |
-| Nov 10  | Concolic Testing                                                  |
+| Oct 31  | Software Fuzzing (Workshop - Greybox)                             |
+| Nov 03  | Combinatorial Interaction Testing                                 |
+| Nov 05  | Combinatorial Interaction Testing  (Workshop)                     |
+| Nov 07  | Functional Testing                                                |
+| Nov 10  | Project updates                                                   |
 | Nov 12  | Concolic Testing                                                  |
-| Nov 14  | Symbolic Execution (Workshop)                                     |
-| Nov 17  | Concolic Testing (Workshop)                                       |
-| Nov 19  | Greybox Fuzzing (Workshop)                                        |
+| Nov 14  | Concolic Testing                                                  |
+| Nov 17  | Symbolic Execution (Workshop)                                     |
+| Nov 19  | Concolic Testing (Workshop)                                       |
 | Nov 21  | Software Supply Chain - Secret Management                         |
 | Nov 24  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 26  | Thanksgiving Week [*No Classes*]                                  |
