@@ -48,8 +48,8 @@ def understandTrends(data_):
 
 ## Deliverables (Rubric)
 
-- Output of the test cases in the forms of screenshots [30%]
-- Test code for the 10 test cases [40%] 
+- Output of the test cases in the forms of screenshots [50%]
+- Test code for the 10 test cases [50%] 
 
 ## Due 
 
