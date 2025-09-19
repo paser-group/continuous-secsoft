@@ -46,25 +46,25 @@
 | Sep 19  | Design-focused Config. Scanning (Demo with GLITCH)                |
 | Sep 22  | Automated Program Analysis                                        |
 | Sep 24  | Automated Program Analysis (Tool Usage - Workshop)                |
-| Sep 26  | Automated Program Analysis (Information Flow)                     |
-| Sep 29  | Automated Program Analysis (Information Flow - Workshop)          |
-| Oct 01  | Continuous Integration                                            |  
-| Oct 03  | Continuous Integration (Workshop)                                 |                                              
+| Sep 26  | Automated Program Analysis (Information Flow - Workshop)          |
+| Sep 29  | Continuous Integration                                            |
+| Oct 01  | Continuous Integration (Workshop)                                 |  
+| Oct 03  | Project and literature review debriefing                          |                                              
 | Oct 06  | Recap for Midterm                                                 |                 
 | Oct 08  | Midterm                                                           |
 | Oct 10  | Fall Break [*No Classes*]                                         |
-| Oct 13  | Project and literature review debriefing                          |
-| Oct 15  | Software Forensics                                                |
-| Oct 17  | Software Forensics (Workshop)                                     |
-| Oct 20  | Test-driven development                                           |
-| Oct 22  | Testing Metrics                                                   |
-| Oct 24  | Software Fuzzing                                                  |     
-| Oct 27  | Software Fuzzing  (Workshop - Blackbox)                           |
-| Oct 29  | Software Fuzzing (Workshop - Whitebox)                            |
-| Oct 31  | Software Fuzzing (Workshop - Greybox)                             |
-| Nov 03  | Combinatorial Interaction Testing                                 |
-| Nov 05  | Combinatorial Interaction Testing  (Workshop)                     |
-| Nov 07  | Functional Testing                                                |
+| Oct 13  | Software Forensics                                                |
+| Oct 15  | Software Forensics (Workshop)                                     |
+| Oct 17  | Test-driven development                                           |
+| Oct 20  | Testing Metrics                                                   |
+| Oct 22  | Software Fuzzing                                                  |
+| Oct 24  | Software Fuzzing  (Workshop - Blackbox)                           |     
+| Oct 27  | Software Fuzzing (Workshop - Whitebox)                            |
+| Oct 29  | Software Fuzzing (Workshop - Greybox)                             |
+| Oct 31  | Combinatorial Interaction Testing                                 |
+| Nov 03  | Combinatorial Interaction Testing  (Workshop)                     |
+| Nov 05  | Functional Testing                                                |
+| Nov 07  | Functional Testing  (Workshop)                                    |
 | Nov 10  | Project updates                                                   |
 | Nov 12  | Concolic Testing                                                  |
 | Nov 14  | Concolic Testing                                                  |
