@@ -9,7 +9,7 @@
 - Open up ChatGPT in incognito mode 
 - Type in the following prompts: 
   - `Analyze the attached file for reporting the method names.`
-  - `You are an program analyzer. Analyze the attached file for reporting the method names.`
+  - `You are a program analyzer. Analyze the attached file for reporting the method names.`
 
 
 ### Tasks For You To Complete
