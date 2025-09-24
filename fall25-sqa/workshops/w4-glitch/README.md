@@ -13,7 +13,7 @@
 
 ### Tasks For You to Complete 
 
-- Run the tool on `w4-puppet-scripts.zip` in a manner so that a CSV file is generated 
+- Run the tool on `w4-puppet-scripts.zip` in a manner so that a CSV file is generated.  You can use `w4-scripts.tar.gz` if the zip file is creating problems. You may also download the files in `https://github.com/paser-group/continuous-secsoft/tree/master/fall25-sqa/workshops/w4-glitch/w4-puppet-scripts` if you are facing extraction problems.  
 - Report the names and occurrences of the detected security-related issues in `weakness.txt` 
 - Save the console output in `console.txt`
 - Submit weakness.txt, the generated CSV file, and test.txt

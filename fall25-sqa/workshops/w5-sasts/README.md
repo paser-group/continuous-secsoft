@@ -23,7 +23,7 @@ Security weaknesses can be identified using two ways: manual inspection by an ex
 
 ### Task For You To Do 
 - Run Bandit against all Python files in the `w5.zip` file 
-  - Extract `w5.zip` 
+  - Extract `w5.zip`. 
   - Run Bandit by specifying the extracted directory. You might need the `-a`, `-f`, `-r`, and the `-o` flag 
   - Observe the security weaknesses 
 - Report the name of the three most frequent bugs detected by Bandit in a document 
