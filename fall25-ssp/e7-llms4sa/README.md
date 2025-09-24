@@ -25,11 +25,11 @@
 ## Deliverables [Rubric]
 
 - Accurate results for the following [50%]
-  - Number of functions 
-  - Number of statements 
-  - Number of imported libraries 
-  - Number of variables 
-  - Number of functions that are not used 
+  - Total number of functions for all files
+  - Total number of statements for all files
+  - Total number of imported libraries for all files
+  - Total number of variables for all files
+  - Total Number of lines of code for all files 
 - All prompts you used [30%]
 - All output generated from the generative AI tool [20%]
 
