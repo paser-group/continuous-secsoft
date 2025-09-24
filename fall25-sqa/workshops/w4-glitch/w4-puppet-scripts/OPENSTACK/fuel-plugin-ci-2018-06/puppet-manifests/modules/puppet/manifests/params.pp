@@ -1,0 +1,42 @@
+# Class: puppet::params
+#
+class puppet::params {
+  $agent_config_template  = 'puppet/puppet.conf.erb'
+  $agent_package          = 'puppet'
+  $agent_service          = 'puppet'
+  $apply_firewall_rules   = false
+  $archive_file_server    = undef
+  $archive_files          = false
+  $autosign               = false
+  $classfile              = undef
+  $config                 = '/etc/puppet/puppet.conf'
+  $config_template        = 'puppet/puppet.conf.erb'
+  $environment            = undef
+  $firewall_allow_sources = {}
+  $graph                  = undef
+  $hiera_backends         = ['yaml']
+  $hiera_config           = '/etc/hiera.yaml'
+  $hiera_config_template  = 'puppet/hiera.yaml.erb'
+  $hiera_hierarchy        = ['common']
+  $hiera_json_datadir     = '/var/lib/hiera'
+  $hiera_logger           = 'console'
+  $hiera_merge_behavior   = 'deep'
+  $hiera_yaml_datadir     = '/var/lib/hiera'
+  $localconfig            = undef
+  $logdir                 = '/var/log/puppet'
+  $master_config_template = 'puppet/puppet-master.conf.erb'
+  $master_package         = 'puppetmaster'
+  $master_service         = 'puppetmaster'
+  $modulepath             = undef
+  $parser                 = undef
+  $pluginsync             = true
+  $puppet_agent_package   = 'puppet'
+  $puppet_agent_service   = 'puppet'
+  $report                 = true
+  $rundir                 = '/var/run/puppet'
+  $server                 = undef
+  $show_diff              = true
+  $ssldir                 = '/var/lib/puppet/ssl'
+  $vardir                 = '/var/lib/puppet'
+  $factpath               = "${vardir}/lib/facter"
+}

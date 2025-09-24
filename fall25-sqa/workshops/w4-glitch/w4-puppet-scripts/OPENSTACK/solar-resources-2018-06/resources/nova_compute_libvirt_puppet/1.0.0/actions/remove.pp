@@ -1,0 +1,1 @@
+notify { 'Remove action is not supported upstream': }

@@ -1,0 +1,1 @@
+class { '::osnailyfacter::ntp::timesync' :}
