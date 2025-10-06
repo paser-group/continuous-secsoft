@@ -53,7 +53,7 @@
 | Oct 06  | Access control                                                    |                 
 | Oct 08  | Access control (Workshop)                                         |
 | Oct 10  | Fall Break [*No Classes*]                                         |
-| Oct 13  | Project and literature review debriefing                          |
+| Oct 13  | Project  debriefing                                               |
 | Oct 15  | Software Forensics                                                |
 | Oct 17  | Software Forensics (Workshop)                                     |
 | Oct 20  | BSIMM                                                             |
