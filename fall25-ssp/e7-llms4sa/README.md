@@ -13,7 +13,7 @@
 
 
 ### Tasks For You To Complete
-- Open up Google Gemini in incognito mode 
+- Open up Google Gemini 
 - Use Google Gemini to identify the following metrics for each of the Python program files in `e7.zip`
   - Number of functions 
   - Number of statements 
