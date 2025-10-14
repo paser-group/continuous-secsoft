@@ -26,9 +26,10 @@ Imagine this scenario: Dolly, a data science specialist at Auburn University. Un
 
 - Assist Dolly by writing logging code in the correct locations in `w8.py` with comments so that the two above-mentioned issues are logged for all provided ML functions. After writing the code, put in comments to justify your code, save `w8.py`. 
 - You do not have to generate the logs by executing `w8.py`
-- You must find and add logging code to 20 locations with comments
+- You must find 20 locations for logging and add comments in those locations
 
 
 ### Rubric 
 
+- Please upload your Python file `w8.py` in which you have added necessary comments. There should comments to identify 20 logging locations. 
 - Code with comments: 100%
