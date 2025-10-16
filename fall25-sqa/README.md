@@ -55,9 +55,9 @@
 | Oct 10  | Fall Break [*No Classes*]                                         |
 | Oct 13  | Software Forensics                                                |
 | Oct 15  | Software Forensics (Workshop)                                     |
-| Oct 17  | Test-driven development                                           |
+| Oct 17  | TDD and BDD                                                       |
 | Oct 20  | Testing Metrics                                                   |
-| Oct 22  | Software Fuzzing                                                  |
+| Oct 22  | Visit by Industry Representative + Software Fuzzing               |
 | Oct 24  | Software Fuzzing  (Workshop - Blackbox)                           |     
 | Oct 27  | Software Fuzzing (Workshop - Whitebox)                            |
 | Oct 29  | Software Fuzzing (Workshop - Greybox)                             |
