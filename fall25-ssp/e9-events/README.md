@@ -36,7 +36,7 @@ In that spirit, we as a class  will build a mini tool that automatically runs st
 - Grab your output by capturing the screenshots 
 - Modify any Python file in the `scikit-ollama` repository 
 - Upload your `pre-commit` file and your screenshots on CANVAS 
-- Due: Oct 20, 2025
+- Due: Oct 22, 2025
 
 
 ### Rubric 
