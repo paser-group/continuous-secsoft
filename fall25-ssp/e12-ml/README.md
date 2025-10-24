@@ -9,7 +9,7 @@ Machine learning (ML) algorithms provide a lot of capabilities with respect to p
 - Create a Python program that has the following functions/methods:
   - Item-1: Loading the dataset into a data structure
   - Item-2: Using the `Decision Tree` implementation in [scikit-learn](https://scikit-learn.org/stable/modules/tree.html)
-  - Item-3: Reporting accuracy, precision, recall, and F-measure for the predicted classes. 
+  - Item-3: Reporting accuracy, precision, recall, and F-measure for the predicted classes using 10x10-fold cross validation. 
   - Item-4: Reporting the importance of each feature using the constructed decision tree. Consider using the [scikit-learn documentation](https://scikit-learn.org/stable/modules/feature_selection.html). 
   - Item-5: Use entropy to determine the quality of a split    
 - For classification do not include the column `URL` as a feature 
