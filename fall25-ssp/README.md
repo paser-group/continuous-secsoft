@@ -61,7 +61,7 @@
 | Oct 24  | Vulnerability Analysis and Prediction   (Workshop)                |     
 | Oct 27  | Software Fuzzing                                                  |
 | Oct 29  | Software Fuzzing (Workshop - Whitebox)                            |
-| Oct 31  | Software Fuzzing  (Workshop - Blackbox)                           |
+| Oct 31  | Software Fuzzing  (Workshop - Greybox)                            |
 | Nov 03  | Combinatorial Interaction Testing                                 |
 | Nov 05  | Combinatorial Interaction Testing  (Workshop)                     |
 | Nov 07  | Project updates                                                   |

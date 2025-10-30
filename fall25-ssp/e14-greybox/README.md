@@ -42,9 +42,8 @@ Execute the following commands on the terminal:
 
 ### Tasks For You To Do 
 
-- Repeat the steps shown in class for `w11.c`
+- Repeat the steps shown in class for `e14.c`
 - Save and submit the screenshot of your AFL++ execution screen
 - Save and submit the output folder generated as part of the exercise
 - Report the number of crashes and hangs by the tool for the program  in a text file 
-- Due: Nov 14, 2025, 11:59 PM CST
-
+- Due: Nov 20, 2025, 11:59 PM CST

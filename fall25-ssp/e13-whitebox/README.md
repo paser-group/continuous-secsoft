@@ -16,6 +16,6 @@ that fuzzes an existing implementation of a simple calculator.
 ### Tasks For You To Do 
 - Open `simple.py` 
 - Implement the `simpleFuzzer` method so that it can generate alphanumeric values, and these values are plugged into the `simpleCalculator` method. Feel free to use the strings here: https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.json
-- Record the crash messages. You should be recording 10 errors as part of your implementation. 
+- Record the crash messages. You should be recording 10 errors, i.e., exceptions and/or inputs as part of your implementation. 
 - Submit your code, i.e., the modified `submit.py` file and the 10 collected error messages in a text file. 
 - Due: Nov 14, 2025, 11:59 PM CST
