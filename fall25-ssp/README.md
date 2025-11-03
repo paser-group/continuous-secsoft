@@ -74,8 +74,8 @@
 | Nov 24  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 26  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 28  | Thanksgiving Week [*No Classes*]                                  |
-| Dec 01  | Validation of generative AI output with SAST (Workshop)           |
-| Dec 03  | Validation of generative AI output with DAST (Workshop)           |
+| Dec 01  | Privacy-oriented Secure Software Development                      |
+| Dec 03  | Validation of generative AI output with SAST and DAST (Demo)      |
 | Dec 05  | Review for Final Exam *Last day of classes*                       |
 | Dec 08  | Final Exam (4:00 - 6:00 PM CST)                                   |
 
