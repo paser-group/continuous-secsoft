@@ -67,7 +67,7 @@
 | Nov 07  | Project updates                                                   |
 | Nov 10  | Concolic Testing                                                  |
 | Nov 12  | Concolic Testing                                                  |
-| Nov 14  | Workshop - Symbolic Execution Preliminaries with ANGR             |
+| Nov 14  | Symbolic Execution Preliminaries with ANGR  (Demonstration)       |
 | Nov 17  | Workshop - Symbolic Execution to Find Security Vulnerabilities    |
 | Nov 19  | Secret Management                                                 |
 | Nov 21  | Secret Management (Workshop)                                      |
