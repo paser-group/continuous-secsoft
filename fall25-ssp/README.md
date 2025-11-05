@@ -68,9 +68,9 @@
 | Nov 10  | Concolic Testing                                                  |
 | Nov 12  | Concolic Testing                                                  |
 | Nov 14  | Symbolic Execution Preliminaries with ANGR  (Demonstration)       |
-| Nov 17  | Workshop - Symbolic Execution to Find Security Vulnerabilities    |
+| Nov 17  | Symbolic Execution to Find Vulnerabilities (Final Workshop)       |
 | Nov 19  | Secret Management                                                 |
-| Nov 21  | Secret Management (Workshop)                                      |
+| Nov 21  | Secret Management (Demonstration)                                 |
 | Nov 24  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 26  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 28  | Thanksgiving Week [*No Classes*]                                  |
