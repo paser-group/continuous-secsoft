@@ -78,7 +78,7 @@ The following tasks only apply for students enrolled in COMP6700 and COMP6700-D.
 
 #### Task-6 (Additional Task) for the Students in COMP 6700 and COMP6700-D  
 
-> Create an additional column called `VALIDATED` in the CSV from Task-5. It will be a Boolean flag: 1 or 0. You will assign 1 if you see the title or the body of the pull request to be actually related to security based on your knowledge and also based the keyword scan. Otherwise you will assign 0. The new CSV file will have the following header and data: 
+> Create an additional column called `VALIDATED` in the CSV from Task-5. It will be a Boolean flag: 1 or 0. You will assign 1 if you see the title or the body of the pull request to be actually related to security based on your knowledge. You will need to only manually inspect bodies and titles of pull requests for which the *SECURITY* flag is `1`.  Otherwise you will assign 0. The new CSV file will have the following header and data: 
 
 ```
 ID: ID of the pull request 
