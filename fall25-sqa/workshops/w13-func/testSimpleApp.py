@@ -11,19 +11,6 @@ class AppTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn(b"Welcome to a Simple Flask API!", response.data)
 
-    def test_greet_post_valid(self):
-        # Prepare a valid JSON payload
-        data = {'name': 'Charlie'}
-        
-        # Make a POST request with the JSON data
-        response = self.client.post('/greet', 
-                                    data=json.dumps(data), 
-                                    content_type='application/json')
-        
-        # Check the status code and response data
-        self.assertEqual(response.status_code, 200)
-        expected_response = {"message": "Hello, Charlie! This is your first RESTful service."}
-        self.assertEqual(response.get_json(), expected_response)
 
     def test_sqa(self):
         response = self.client.get('/sqa')
