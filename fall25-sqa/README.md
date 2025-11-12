@@ -67,9 +67,9 @@
 | Nov 07  | Functional Testing  (Workshop)                                    |
 | Nov 10  | Concolic Testing                                                  |
 | Nov 12  | Concolic Testing                                                  |
-| Nov 14  | Symbolic Execution (Workshop)                                     |
+| Nov 14  | Symbolic Execution (Demo)                                         |
 | Nov 17  | Project updates                                                   |
-| Nov 19  | Concolic Testing (Workshop)                                       |
+| Nov 19  | Concolic Testing (Final Workshop)                                 |
 | Nov 21  | Software Supply Chain - Secret Management                         |
 | Nov 24  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 26  | Thanksgiving Week [*No Classes*]                                  |
