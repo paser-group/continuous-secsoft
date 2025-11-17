@@ -13,8 +13,9 @@
 
 | Course                             | Taught at                                  |  Link                                            |
 |------------------------------------|--------------------------------------------|--------------------------------------------------|
-| Secure Software Process            | Auburn University, Fall 2025      |  [Link](/fall25-ssp)   |
-| Software Quality Assurance         | Auburn University, Fall 2025      |  [Link](/fall25-sqa)   |
+| Secure Software Process            | Auburn University, Spring 2026    |  [Link](/ssp-spr26)     |
+| Secure Software Process            | Auburn University, Fall 2025      |  [Link](/fall25-ssp)    |
+| Software Quality Assurance         | Auburn University, Fall 2025      |  [Link](/fall25-sqa)    |
 | Software Supply Chain              | Auburn University, Spring 2025    |  [Link](/spring2025)    |
 | Software Quality Assurance         | Auburn University, Fall 2024      |  No longer maintained   |
 | Software Quality Assurance         | Auburn University, Spring 2024    |  No longer maintained   |

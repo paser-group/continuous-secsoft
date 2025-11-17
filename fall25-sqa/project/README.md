@@ -12,7 +12,7 @@ The objective of this project is to integrate software quality assurance activit
 4. Apply the following activities related to software quality assurance:
    - 4.a. Create a `fuzz.py` file that will automatically fuzz 5 Python methods of your choice. Report any bugs you discovered by the `fuzz.py` file. `fuzz.py` will be automatically executed from GitHub actions. (25%)
 
-   - 4.b. Integrate forensics by modifying 5 Python methods of your choice. (25%)
+   - 4.b. Integrate forensics using logging statements by modifying 5 Python methods of your choice. (25%)
 
    - 4.c. Integrate continuous integration with GitHub Actions. (25%)   
 
@@ -24,8 +24,9 @@ The objective of this project is to integrate software quality assurance activit
 1. A repo hosted on GitHub. Name of the repo will be `TEAMNAME-FALL2025-SQA` 
 2. Full completion of all activities as recorded on the GitHub repository 
 3. Report describing what activities your performed and what you have learned 
-4. Code, logs, and screenshots that show execution of forensics, fuzzing, and continuous integration  
-5. One person from the team will submit the URL of the repository on CANVAS
+4. Code, logs, and screenshots that show execution of forensics, fuzzing, and continuous integration
+5. In the case of continuous integration (CI), provide the location of the build.   
+6. One person from the team will submit the URL of the repository on CANVAS
 
 ### Deadline to Complete All Activities 
 
