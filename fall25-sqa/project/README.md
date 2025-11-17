@@ -7,8 +7,7 @@ The objective of this project is to integrate software quality assurance activit
 ### Activities 
 
 1. Unpack the project `MLForensics.zip`. (1%)
-2. Put the names and emails of your teammate in this [spreadsheet](https://tigermailauburn-my.sharepoint.com/:x:/r/personal/azr0154_auburn_edu/Documents/TEACHING/Project-Teams-COMP5710-6710.xlsx?d=wc6ae045b76204f59937f4717def3ec93&csf=1&web=1&e=urd3fe) (1%)
-2. Upload project as a GitHub repo on `github.com`. Format of the repo name is `TEAMNAME-FALL2025-SQA`  (1%)
+2. Upload project as a GitHub repo on `github.com`. Format of the repo name is `TEAMNAME-FALL2025-SQA`  (2%)
 3. In your project repo create `README.md` listing your team name and team members. (2%)
 4. Apply the following activities related to software quality assurance:
    - 4.a. Create a `fuzz.py` file that will automatically fuzz 5 Python methods of your choice. Report any bugs you discovered by the `fuzz.py` file. `fuzz.py` will be automatically executed from GitHub actions. (25%)
