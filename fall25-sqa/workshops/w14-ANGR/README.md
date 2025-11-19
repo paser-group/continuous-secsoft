@@ -8,7 +8,7 @@ ANGR is a tool to implement concolic execution and symbolic execution.
 
 Create a Python program that extracts the following information for all binaries in the `binaries.tar.gz` file. 
 
-- The control flow graph 
+- The control flow graph in text format
 - Number of nodes in the control flow graph 
 - Number of edges in the control flow graph
 - Memory ranges for all objects
@@ -17,7 +17,7 @@ Create a Python program that extracts the following information for all binaries
 
 ### Deliverables
 - Code to achieve the above-mentioned five tasks: [50%] 
-- The output: [50%] 
+- The output in text format: [50%] 
 
 
 ### References:
