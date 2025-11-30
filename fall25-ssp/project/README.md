@@ -149,7 +149,7 @@ Provide the URL of the repository on CANVAS.
 
 ### Late Submission Policies 
 
-The deadline is Dec 01, 2025 11:59 PM CST
+The deadline is Dec 02, 2025 11:59 PM CST
 
-- For any submission between Dec 02, 12:00 AM CST and Dec 04, 11:59 PM CST will receive a 25 point reduction out of 100.
+- For any submission between Dec 03, 12:00 AM CST and Dec 04, 11:59 PM CST will receive a 25 point reduction out of 100.
 - For any submission after Dec 05, 12:00 AM CST, you will be assigned a zero (0) out of 100.  
