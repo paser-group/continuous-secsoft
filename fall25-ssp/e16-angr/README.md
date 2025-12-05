@@ -11,7 +11,7 @@ In the recording, I have covered the basics of the ANGR tool.
 
 - docker pull akondrahman/fuzz4life:latest
 - docker images -a 
-- docker run --rm -it <IMAGEID> bash 
+- docker run --rm -it *IMAGEID* bash 
 - cd /WORKSHOP/symbolic/binary
 - ./comp5700 
 
