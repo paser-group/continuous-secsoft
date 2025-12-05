@@ -77,7 +77,7 @@
 | Dec 01  | Privacy-oriented Secure Software Development                      |
 | Dec 03  | Validation of generative AI output with SAST and DAST (Demo)      |
 | Dec 05  | Review for Final Exam *Last day of classes*                       |
-| Dec 08  | Final Exam (4:00 - 6:00 PM CST)                                   |
+| Dec 08  | Final Exam (1:30 - 3:30 PM CST)                                   |
 
  
 
