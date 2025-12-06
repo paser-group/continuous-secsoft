@@ -1,3 +1,0 @@
-class windows_path {
-}
-

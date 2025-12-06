@@ -1,1 +1,0 @@
-class { '::mistral:workflow': }
