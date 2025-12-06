@@ -12,8 +12,6 @@
 > Web: https://akondrahman.github.io/ 
 
 
-
-
 ## Materials 
 
 > Required Textbook: 
