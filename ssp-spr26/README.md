@@ -23,13 +23,13 @@
 | Date    |  Schedule                                                         |
 |---------|-------------------------------------------------------------------|
 | Jan 07  | Introduction                                                      |
-| Jan 09  | Software Development Processes                                    |
-| Jan 12  | Software Supply Chain Security                                    |
+| Jan 09  | Secure Software Development Lifecycle                             |
+| Jan 12  | Software Development Processes and Software Supply Chain Security |
 | Jan 14  | An Introduction to Generative AI Tools                            |
 | Jan 16  | Security Requirements Engineering                                 |
 | Jan 19  | MLK Day [*No Classes*]                                            |
 | Jan 21  | Security Requirements Engineering (Workshop)                      |
-| Jan 23  | Security Requirements Summarization (Workshop)                    |
+| Jan 23  | Securing the Software Architecture                                |
 | Jan 26  | Threat Modeling                                                   |
 | Jan 28  | Threat Modeling  (Workshop)                                       |
 | Jan 30  | IEEE Secure Software Design                                       |
@@ -37,14 +37,14 @@
 | Feb 04  | Project Debriefing                                                |
 | Feb 06  | Configuration Management                                          |
 | Feb 09  | Security-focused Config. Scanning (Workshop with SLI-KUBE)        |
-| Feb 11  | Automated Program Analysis (LLM Usage - Workshop)                 |
-| Feb 13  | Configuration Violation Detection (Workshop with CUE)             |
-| Feb 16  | Automated Program Analysis (Information Flow)                     |
-| Feb 18  | Automated Program Analysis (Information Flow - Workshop)          |
-| Feb 20  | Event-based Scanning Event-based Scanning                         |  
-| Feb 23  | Event-based Scanning (Workshop)                                   |                                              
-| Feb 25  | Recap for Midterm                                                 |                 
-| Feb 27  | Midterm                                                           |
+| Feb 11  | Recap for Midterm                                                 |
+| Feb 13  | Midterm                                                           |
+| Feb 16  | Configuration Violation Detection (Workshop with CUE)             |
+| Feb 18  | Automated Program Analysis (LLM Usage - Workshop)                 |
+| Feb 20  | Automated Program Analysis (Information Flow)                     |  
+| Feb 23  | Automated Program Analysis (Information Flow -Workshop)           |                                              
+| Feb 25  | Event-based Scanning                                              |                 
+| Feb 27  | Event-based Scanning (Workshop)                                   |
 | Mar 02  | Access control                                                    |
 | Mar 04  | Access control (Workshop)                                         |
 | Mar 06  | Software Forensics                                                |
@@ -65,14 +65,18 @@
 | Apr 10  | Symbolic Execution Preliminaries with ANGR  (Demonstration)       |
 | Apr 13  | Symbolic Execution to Find Vulnerabilities (Final Workshop)       |
 | Apr 15  | Secret Management                                                 |
-| Apr 17  | Secret Management (Demonstration)                                 |
+| Apr 17  | Secret Management (Demonstration)  *Last day to ask for permissions for assignments*                               |
 | Apr 20  | Validation of generative AI output with SAST and DAST (Demo)      |
 | Apr 22  | Privacy-oriented Secure Software Development                      |
-| Apr 24  | Review for Final Exam *Last day of classes*                       |
+| Apr 24  | Review for Final Exam *Last day of classes and to complete any assignment, and to submit the project*                       |
 | TBD     | Final exam                                                        |
 
 
- 
+## Late Submission Policy 
+- All late submissions including assignments, projects, and exams are subject to an automatic deduction of 50%
+- The last date to submit a late assignment is within 2 weeks of the original submission date  
+- After the grades are released for an assignment, the project, or the midterm you have 24 hours to ask for a regrade request. A regrade request will lead to re-evaluation. 
+
 
 
 ## Grading scale: 
@@ -81,3 +85,4 @@
   - C: 70–79 
   - D: 60–69
   - F: less than 59
+
