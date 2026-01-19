@@ -28,8 +28,8 @@
 | Jan 14  | An Introduction to Generative AI Tools                            |
 | Jan 16  | Security Requirements Engineering                                 |
 | Jan 19  | MLK Day [*No Classes*]                                            |
-| Jan 21  | Security Requirements Engineering (Workshop)                      |
-| Jan 23  | Securing the Software Architecture                                |
+| Jan 21  | Securing the Software Architecture                                |
+| Jan 23  | Security Requirements Engineering (Workshop)                      |
 | Jan 26  | Threat Modeling                                                   |
 | Jan 28  | Threat Modeling  (Workshop)                                       |
 | Jan 30  | IEEE Secure Software Design                                       |
