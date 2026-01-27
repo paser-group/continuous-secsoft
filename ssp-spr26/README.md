@@ -1,5 +1,5 @@
 # COMP 5700/6700 (Secure Software Process) 
-> MWF, 09:00-09:50 AM CST, SHELBY 1122, Spring 2026
+> MWF, 09:00-09:50 AM CST, SHELBY 1120, Spring 2026
 
 ## Instructor 
 
