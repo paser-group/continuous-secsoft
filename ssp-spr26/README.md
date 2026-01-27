@@ -5,7 +5,7 @@
 
 > Akond Rahman, PhD 
 
-> Office hours: Wednesday, 10:00 - 10:30 AM CST , Shelby Center 3137
+> Office hours: Wednesday, 12:30 - 1:00 PM CST , Shelby Center 3137
 
 > akond@auburn.edu 
 
@@ -15,7 +15,7 @@
 ## Materials 
 
 > Required Textbook: 
-- None. 
+- None
 
 ## Schedule for Spring 2026
 
@@ -85,4 +85,3 @@
   - C: 70–79 
   - D: 60–69
   - F: less than 59
-
