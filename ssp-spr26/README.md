@@ -34,8 +34,8 @@
 | Jan 28  | Threat Modeling  (Workshop)                                       |
 | Jan 30  | IEEE Secure Software Design                                       |
 | Feb 02  | IEEE Secure Software Design (Workshop)                            |
-| Feb 04  | Project Debriefing                                                |
-| Feb 06  | Configuration Management                                          |
+| Feb 04  | Configuration Management                                          |
+| Feb 06  | Project Debriefing                                                |
 | Feb 09  | Security-focused Config. Scanning (Workshop with SLI-KUBE)        |
 | Feb 11  | Recap for Midterm                                                 |
 | Feb 13  | Midterm                                                           |
