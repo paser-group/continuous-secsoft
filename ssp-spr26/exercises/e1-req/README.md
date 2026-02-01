@@ -13,7 +13,7 @@
 
 ## Deliverables 
 
-- Full output generated for both generative AI tools: 75 for each output 
+- Full output generated for all generative AI tools: 75 for each output 
 - Prompt that you used: 25 
 
 
