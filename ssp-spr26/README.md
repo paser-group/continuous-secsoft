@@ -38,8 +38,8 @@
 | Feb 06  | Security-focused Config. Scanning (Workshop with SLI-KUBE)        |
 | Feb 09  | Recap for Midterm                                                 |
 | Feb 11  | Midterm                                                           |
-| Feb 13  | Project Debriefing                                                |
-| Feb 16  | Configuration Violation Detection (Workshop with CUE)             |
+| Feb 13  | Configuration Violation Detection (Workshop with CUE)             |
+| Feb 16  | Project Debriefing                                                |
 | Feb 18  | Automated Program Analysis (LLM Usage - Workshop)                 |
 | Feb 20  | Automated Program Analysis (Information Flow)                     |  
 | Feb 23  | Automated Program Analysis (Information Flow -Workshop)           |                                              
