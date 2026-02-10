@@ -65,11 +65,11 @@
 | Apr 10  | Symbolic Execution Preliminaries with ANGR  (Demonstration)       |
 | Apr 13  | Symbolic Execution to Find Vulnerabilities (Final Workshop)       |
 | Apr 15  | Secret Management                                                 |
-| Apr 17  | Secret Management (Demonstration)  *Last day to ask for permissions for assignments*                               |
+| Apr 17  | Secret Management (Demonstration)  *Last day to ask for permissions for assignments* |
 | Apr 20  | Validation of generative AI output with SAST and DAST (Demo)      |
 | Apr 22  | Privacy-oriented Secure Software Development                      |
-| Apr 24  | Review for Final Exam *Last day of classes and to complete any assignment, and to submit the project*                       |
-| TBD     | Final exam                                                        |
+| Apr 24  | Review for Final Exam *Last day of classes and to complete any assignment, and to submit the project* |
+| Apr 27  | Final exam (8 AM - 10 AM CST)                                     |
 
 
 ## Late Submission Policy 
