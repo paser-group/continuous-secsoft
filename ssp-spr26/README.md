@@ -39,10 +39,10 @@
 | Feb 09  | Recap for Midterm                                                 |
 | Feb 11  | Midterm                                                           |
 | Feb 13  | Configuration Violation Detection (Workshop with CUE)             |
-| Feb 16  | Project Debriefing                                                |
+| Feb 16  | Automated Program Analysis                                        |
 | Feb 18  | Automated Program Analysis (LLM Usage - Workshop)                 |
-| Feb 20  | Automated Program Analysis (Information Flow)                     |  
-| Feb 23  | Automated Program Analysis (Information Flow -Workshop)           |                                              
+| Feb 20  | Automated Program Analysis (Information Flow -Workshop)           |  
+| Feb 23  | Project Debriefing                                                |                                              
 | Feb 25  | Event-based Scanning                                              |                 
 | Feb 27  | Event-based Scanning (Workshop)                                   |
 | Mar 02  | Access control                                                    |
