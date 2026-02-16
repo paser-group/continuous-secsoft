@@ -49,7 +49,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 - All prompts in a Markdown file called `PROMPT.md`. The file must have three sections: `zero-shot`, `few-shot`, and `chain-of-thought`. Each of these section will include the prompts that you used. So, for `zero-shot`, `few-shot`, and `chain-of-thought` respectively, you will provide the zero shot, few shot, and chain of thought prompts that you used. 
 - Two YAML files as output for the two documents 
 - Source code for the five functions 
-- Test cases for the five functions. One test case for each of the five functions 
+- Test cases for the six functions. One test case for each of the six functions 
 
 
 ### Task-2: Comparator 
