@@ -27,6 +27,19 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
     - req3 
 ```
 
+- Create a function that automatically collects the output all LLMs and dumps the output in a TEXT file. The file needs to be formatted as follows:
+
+```
+*LLM Name* 
+...
+*Prompt Used*
+...
+*Prompt Type*
+...
+*LLM Output*
+...
+```
+
 ##### Input 
 
 - Two documents: [NIST-800-53-V5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) and [NIST-800-53-V4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf) 
