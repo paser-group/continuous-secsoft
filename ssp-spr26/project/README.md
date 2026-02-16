@@ -15,7 +15,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 - Create a function that constructs a zero shot prompt to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a few shot prompt to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a chain of thought prompt to identify key data elements in the two input documents. Output of this function will be a string.
-- Create a function that uses each of the constructed prompts to identify key data elements in the two input documents. As output, the function will generate a nested dictionary will the following fields: 
+- Create a function that uses each of the constructed prompts to identify key data elements in the two input documents. Your function must use the [GPT-OSS-SAFEGUARD-120B](https://huggingface.co/openai/gpt-oss-safeguard-120b) large language model (LLM) or the [GPT-OSS-SAFEGUARD-20B](https://huggingface.co/openai/gpt-oss-safeguard-20b) LLM. As output, the function will generate a nested dictionary will the following fields: 
 
 ```
 - element1:
@@ -92,7 +92,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 ##### Tasks 
 
 - Create a `requirements.txt` file with all the libraries with versions that you used to complete Task-1, 2, and 3. 
-- Create a README with your team members' names, BannerIDs, and university email IDs 
+- Create a README with your team members' names, BannerIDs, and university email IDs. In the README, report the LLM name that you are using for Task-1.  
 - Create a GitHub Action workflow so that every time a user, i.e., a contributor or someone who has forked your repository types `git status`, all test cases created in Task-1, Task-2, and Task-3 are executed automatically. All test cases must pass.  
 - Create a binary so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide three inputs each of which includes two PDF files:
   - Input-1: r5.pdf and r4.pdf
