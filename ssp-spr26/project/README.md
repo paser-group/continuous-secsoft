@@ -15,12 +15,11 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 - Create a function that constructs a zero shot prompt to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a few shot prompt to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a chain of thought prompt to identify key data elements in the two input documents. Output of this function will be a string.
-- Create a function that uses each of the constructed prompts to identify key data elements in the two input documents. Your function must use the [GPT-OSS-SAFEGUARD-120B](https://huggingface.co/openai/gpt-oss-safeguard-120b) large language model (LLM) or the [GPT-OSS-SAFEGUARD-20B](https://huggingface.co/openai/gpt-oss-safeguard-20b) LLM. As output, the function will generate a nested dictionary will the following fields: 
+- Create a function that uses each of the constructed prompts to identify key data elements (KDEs) in the two input documents. Your function must use the [GPT-OSS-SAFEGUARD-120B](https://huggingface.co/openai/gpt-oss-safeguard-120b) large language model (LLM) or the [GPT-OSS-SAFEGUARD-20B](https://huggingface.co/openai/gpt-oss-safeguard-20b) LLM. One KDE can map to multiple requirements. As output, the function will generate a nested dictionary will the following fields: 
 
 ```
 - element1:
   - name:
-  - type:
   - requirements: 
     - req1
     - req2 
@@ -59,8 +58,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 
 - Create a function that automatically takes the two YAML files as input from the Task-1. 
 - Create a function that identifies differences in the two YAML files with respect to names of key data elements. Output of the function will be a TEXT file with the names of the elements that are different across the two YAML files as input. If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT NAMES' in a TEXT file.   
-- Create a function that identifies differences in the two YAML files with respect to names of key data types. Output of the function will be a TEXT file with the names of the elements that are different across the two YAML files as input along with their types. The output should be dumped as a tuple, i.e., `TYPE,NAME`. If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT TYPES' in a TEXT file.   
-- Create a function that identifies differences in the two YAML files with respect to names of key data requirements. Output of the function will be a TEXT file with the names of the elements that are different across the two YAML files as input along with their requirements. The output should be dumped as a tuple, i.e., `TYPE,REQU`. If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT REQUIREMENTS' in a TEXT file.   
+- Create a function that identifies differences in the two YAML files with respect to names of key data requirements. Output of the function will be a TEXT file with the names of the elements that are different across the two YAML files as input along with their requirements. The output should be dumped as a tuple, i.e., `NAME,REQU`. If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT REQUIREMENTS' in a TEXT file.   
 
 
 ##### Input 
@@ -70,8 +68,8 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 ##### Expected Deliverables 
 
 - Three TEXT files as output
-- Source code for the four functions 
-- Test cases for the four functions. One test case for each of the four functions 
+- Source code for the three functions 
+- Test cases for the three functions. One test case for each of the three functions. 
 
 ### Task-3: Executor 
 
@@ -81,7 +79,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 - Create a function that automatically takes the three TEXT files as input from Task-2
 - Create a function that automatically determines if the three TEXT files showcase a difference in data elements and their requirements. If there is at least one difference, then the output of the function is going to be the [controls](https://kubescape.io/docs/controls/) available as part of [Kubescape](https://github.com/kubescape/kubescape/blob/master/docs/getting-started.md#usage) that map to these differences. If there are no differences, then just report 'NO DIFFERENCES FOUND' in a TEXT file. The output is going to be a TEXT file with two possible content: 
     - `NO DIFFERENCES FOUND` or 
-    - the [controls](https://kubescape.io/docs/controls/) of Kubescape that map to the identified differences. 
+    - the [controls](https://kubescape.io/docs/controls/) of Kubescape that map to the identified differences. You can do this mapping manually or using an automated approach, such as an LLM. 
 - Create a function that executes the Kubescape tool from the command line on `project-yamls.zip` based on the content of the TEXT file. If the TEXT file only contains `NO DIFFERENCES FOUND` then run the Kubescape tool with all controls available. Otherwise, run the tool only on the controls that are in the TEXT file. The output of this function will be a [pandas dataframe](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) object with the scan results from the tool. 
 - Create a function that generates a comma separated value (CSV) file with the following headers:
 `FilePath`, `Severity`, `Control name`, `Failed resources`, `All Resources`, `Compliance score`. The output of the function will be a CSV file with these five headers. The data for these fields will come from the function you created above. 
@@ -107,10 +105,16 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 - Create a `requirements.txt` file with all the libraries with versions that you used to complete Task-1, 2, and 3. 
 - Create a README with your team members' names, BannerIDs, and university email IDs. In the README, report the LLM name that you are using for Task-1.  
 - Create a GitHub Action workflow so that every time a user, i.e., a contributor or someone who has forked your repository types `git status`, all test cases created in Task-1, Task-2, and Task-3 are executed automatically. All test cases must pass.  
-- Create a binary so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide three inputs each of which includes two PDF files:
-  - Input-1: r5.pdf and r4.pdf
-  - Input-2: r4.pdf and r4.pdf
-  - Input-3: r5.pdf and r5.pdf
+- Create a binary so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide nine inputs each of which includes two PDF files:
+  - Input-1: cis-r1.pdf and cis-r1.pdf
+  - Input-2: cis-r1.pdf and cis-r2.pdf
+  - Input-3: cis-r1.pdf and cis-r3.pdf
+  - Input-4: cis-r1.pdf and cis-r4.pdf
+  - Input-5: cis-r2.pdf and cis-r2.pdf
+  - Input-6: cis-r2.pdf and cis-r3.pdf  
+  - Input-7: cis-r2.pdf and cis-r4.pdf  
+  - Input-8: cis-r3.pdf and cis-r3.pdf  
+  - Input-9: cis-r3.pdf and cis-r4.pdf    
 
 Please create the binary using [PyInstaller](https://pyinstaller.org/en/stable/). 
 
