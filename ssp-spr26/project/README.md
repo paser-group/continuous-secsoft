@@ -1,6 +1,6 @@
 ## Introduction 
 
-Security requirements documents change constantly. The security tools that we develop need to keep up with these changes. As part of this class project you will be designing and developing a functional software that can automatically detects changes in two security requirements documents and execute a static analysis tool accordingly. The project will involve application of multiple techniques that we discussed and practiced in class. 
+Security requirements documents change constantly. The security tools that we develop need to keep up with these changes. As part of this class project you will be designing and developing a functional software that can automatically detects changes in two security requirements documents and execute a static analysis tool accordingly. The project will involve application of multiple techniques that we discussed and practiced in class. This is a group project, where each group will include at most three students. 
 
 ## Tasks 
 
@@ -12,9 +12,9 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 ##### Tasks 
 
 - Create a function that automatically takes the two documents below as input and applies adequate input validation measures. 
-- Create a function that constructs a zero shot prompt to identify key data elements in the two input documents. Output of this function will be a string. 
-- Create a function that constructs a few shot prompt to identify key data elements in the two input documents. Output of this function will be a string. 
-- Create a function that constructs a chain of thought prompt to identify key data elements in the two input documents. Output of this function will be a string.
+- Create a function that constructs a `zero shot prompt` to identify key data elements in the two input documents. Output of this function will be a string. 
+- Create a function that constructs a `few shot prompt` to identify key data elements in the two input documents. Output of this function will be a string. 
+- Create a function that constructs a `chain of thought prompt` to identify key data elements in the two input documents. Output of this function will be a string.
 - Create a function that uses each of the constructed prompts to identify key data elements (KDEs) in the two input documents. Your function must use the [GPT-OSS-SAFEGUARD-120B](https://huggingface.co/openai/gpt-oss-safeguard-120b) large language model (LLM) or the [GPT-OSS-SAFEGUARD-20B](https://huggingface.co/openai/gpt-oss-safeguard-20b) LLM. One KDE can map to multiple requirements. As output, the function will generate a nested dictionary will the following fields: 
 
 ```
@@ -25,6 +25,8 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
     - req2 
     - req3 
 ```
+
+Save the generated output in a YAML file. 
 
 - Create a function that automatically collects the output all LLMs and dumps the output in a TEXT file. The file needs to be formatted as follows:
 
@@ -41,7 +43,18 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 
 ##### Input 
 
-- Two documents: [NIST-800-53-V5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf) and [NIST-800-53-V4](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf) 
+Nine input combinations:
+
+  - Input-1: cis-r1.pdf and cis-r1.pdf
+  - Input-2: cis-r1.pdf and cis-r2.pdf
+  - Input-3: cis-r1.pdf and cis-r3.pdf
+  - Input-4: cis-r1.pdf and cis-r4.pdf
+  - Input-5: cis-r2.pdf and cis-r2.pdf
+  - Input-6: cis-r2.pdf and cis-r3.pdf  
+  - Input-7: cis-r2.pdf and cis-r4.pdf  
+  - Input-8: cis-r3.pdf and cis-r3.pdf  
+  - Input-9: cis-r3.pdf and cis-r4.pdf    
+
 
 ##### Expected Deliverables 
 
@@ -67,7 +80,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 
 ##### Expected Deliverables 
 
-- Three TEXT files as output
+- Two TEXT files as output
 - Source code for the three functions 
 - Test cases for the three functions. One test case for each of the three functions. 
 
