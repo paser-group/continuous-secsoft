@@ -42,8 +42,8 @@
 | Feb 16  | Automated Program Analysis                                        |
 | Feb 18  | Automated Program Analysis (LLM Usage - Workshop)                 |
 | Feb 20  | Automated Program Analysis (Information Flow -Workshop)           |  
-| Feb 23  | Project Debriefing                                                |                                              
-| Feb 25  | Event-based Scanning                                              |                 
+| Feb 23  | Event-based Scanning                                              |                                              
+| Feb 25  | Project Debriefing                                                |                 
 | Feb 27  | Event-based Scanning (Workshop)                                   |
 | Mar 02  | Access control                                                    |
 | Mar 04  | Access control (Workshop)                                         |
