@@ -33,10 +33,10 @@ Integrated development environments (IDEs) play a pivotal role in developing sof
 - Using the data generated from the steps above, please complete the following table. The `ReportedBy` column is the name of the LLM that reported the problem. It is OK to include multiple LLMs to report the same security vulnerability. Save the table in a Markdown file, and upload it on CANVAS. 
 
 
-| Name  | Definition | Consequence | Rationale | ReportedBy |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Name  | Definition | Consequence | Rationale | Location | ReportedBy |
+|---|---|---|---|---|---|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
 
 
 ## Deliverables 

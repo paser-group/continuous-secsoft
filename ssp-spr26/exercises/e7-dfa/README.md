@@ -19,7 +19,7 @@ In our class lecture we learned the importance on why bugs and security vulnerab
 
 ### Your implementation should: 
 
-- Contain a method/class to extract the parse tree for `calc.py`
+- Contain a method/class to extract the parse tree for `calc.py` that uses the [ast](https://docs.python.org/3/library/ast.html) library
 - Contain a method to parse assignments for the parse tree 
 - Contain a method to extract assignment operations 
 - Contain a method to generate the flow 
