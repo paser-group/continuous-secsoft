@@ -56,16 +56,16 @@
 | Mar 20  | Vulnerability Analysis and Prediction   (Workshop)                |
 | Mar 23  | Software Fuzzing                                                  |
 | Mar 25  | Software Fuzzing (Workshop - Whitebox)                            |
-| Mar 27  | Software Fuzzing  (Workshop - Greybox)                            |
+| Mar 27  | Software Fuzzing  (Greybox Fuzzing Demonstration with AFL++)      |
 | Mar 30  | Combinatorial Interaction Testing                                 |
 | Apr 01  | Combinatorial Interaction Testing  (Workshop)                     |
 | Apr 03  | Project updates                                                   |
 | Apr 06  | Concolic Testing                                                  |
 | Apr 08  | Concolic Testing                                                  |
 | Apr 10  | Symbolic Execution Preliminaries with ANGR  (Demonstration)       |
-| Apr 13  | Symbolic Execution to Find Vulnerabilities (Final Workshop)       |
+| Apr 13  | Symbolic Execution to Find Vulnerabilities (Workshop)             |
 | Apr 15  | Metamorphic Testing                                               |
-| Apr 17  | Metamorphic Testing (Workshop)                                    |
+| Apr 17  | Metamorphic Testing (Final Workshop)                              |
 | Apr 20  | Secret Management                                                 |
 | Apr 22  | Privacy-oriented Secure Software Development                      |
 | Apr 24  | Review for Final Exam *Last day of classes and to complete any assignment, and to submit the project* |
