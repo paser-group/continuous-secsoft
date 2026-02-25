@@ -15,7 +15,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 - Create a function that constructs a `zero shot prompt` to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a `few shot prompt` to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a `chain of thought prompt` to identify key data elements in the two input documents. Output of this function will be a string.
-- Create a function that uses each of the constructed prompts to identify key data elements (KDEs) in the two input documents. Your function must use the [GPT-OSS-SAFEGUARD-120B](https://huggingface.co/openai/gpt-oss-safeguard-120b) large language model (LLM) or the [GPT-OSS-SAFEGUARD-20B](https://huggingface.co/openai/gpt-oss-safeguard-20b) LLM. One KDE can map to multiple requirements. As output, the function will generate a nested dictionary will the following fields: 
+- Create a function that uses each of the constructed prompts to identify key data elements (KDEs) in the two input documents. Your function must use the [Gemma-3-1B](https://huggingface.co/google/gemma-3-1b-it) LLM. One KDE can map to multiple requirements. As output, the function will generate a nested dictionary will the following fields: 
 
 ```
 - element1:
@@ -157,3 +157,15 @@ Please create the binary using [PyInstaller](https://pyinstaller.org/en/stable/)
 - `Task-4`: 10%
 
 
+## Notes 
+- Please start early 
+- Please resolve your installation issues by March 20, 2026. You can use `any installation issue` as an excuse for an incomplete project.
+- A [tutorial](https://huggingface.co/blog/proflead/gemma-3-tutorial) on how to use Gemma3
+- Instructions used for demo: 
+```
+python3 -m venv comp5700-venv 
+source comp5700-venv/bin/activate 
+pip install transformers datasets evaluate accelerate torch
+cd project
+python3 demo.py   
+```
