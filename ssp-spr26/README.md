@@ -43,8 +43,8 @@
 | Feb 18  | Automated Program Analysis (LLM Usage - Workshop)                 |
 | Feb 20  | Automated Program Analysis (Information Flow -Workshop)           |  
 | Feb 23  | Event-based Scanning                                              |                                              
-| Feb 25  | Project Debriefing                                                |                 
-| Feb 27  | Event-based Scanning (Workshop)                                   |
+| Feb 25  | Event-based Scanning (Workshop)                                   |                 
+| Feb 27  | Project Debriefing                                                |
 | Mar 02  | Access control                                                    |
 | Mar 04  | Access control (Workshop)                                         |
 | Mar 06  | Software Forensics                                                |
@@ -64,9 +64,9 @@
 | Apr 08  | Concolic Testing                                                  |
 | Apr 10  | Symbolic Execution Preliminaries with ANGR  (Demonstration)       |
 | Apr 13  | Symbolic Execution to Find Vulnerabilities (Final Workshop)       |
-| Apr 15  | Secret Management                                                 |
-| Apr 17  | Secret Management (Demonstration)  *Last day to ask for permissions for assignments* |
-| Apr 20  | Validation of generative AI output with SAST and DAST (Demo)      |
+| Apr 15  | Metamorphic Testing                                               |
+| Apr 17  | Metamorphic Testing (Workshop)                                    |
+| Apr 20  | Secret Management                                                 |
 | Apr 22  | Privacy-oriented Secure Software Development                      |
 | Apr 24  | Review for Final Exam *Last day of classes and to complete any assignment, and to submit the project* |
 | Apr 27  | Final exam (8 AM - 10 AM CST)                                     |
