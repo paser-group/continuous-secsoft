@@ -29,7 +29,7 @@
 
 ## Due 
 
-- All deliverables in one text file or multiple text files in a zip file. 
+- All deliverables in one text or one doc file or multiple text or doc files in a zip file. 
 
 
 

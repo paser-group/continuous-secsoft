@@ -26,7 +26,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
     - req3 
 ```
 
-Save the generated output in a YAML file. 
+Save the generated output in a YAML file. For the two requirements documents you must generate two separate YAML files. Make sure the file names of the two YAML files include the names of the two input documents. For example, sth. like `cis-r1-kdes.yaml`. 
 
 - Create a function that automatically collects the output all LLMs and dumps the output in a TEXT file. The file needs to be formatted as follows:
 
@@ -60,7 +60,7 @@ Nine input combinations:
 
 - All prompts in a Markdown file called `PROMPT.md`. The file must have three sections: `zero-shot`, `few-shot`, and `chain-of-thought`. Each of these section will include the prompts that you used. So, for `zero-shot`, `few-shot`, and `chain-of-thought` respectively, you will provide the zero shot, few shot, and chain of thought prompts that you used. 
 - Two YAML files as output for the two documents 
-- Source code for the five functions 
+- Source code for the six functions 
 - Test cases for the six functions. One test case for each of the six functions 
 
 
@@ -90,9 +90,9 @@ Nine input combinations:
 ##### Tasks 
 
 - Create a function that automatically takes the three TEXT files as input from Task-2
-- Create a function that automatically determines if the three TEXT files showcase a difference in data elements and their requirements. If there is at least one difference, then the output of the function is going to be the [controls](https://kubescape.io/docs/controls/) available as part of [Kubescape](https://github.com/kubescape/kubescape/blob/master/docs/getting-started.md#usage) that map to these differences. If there are no differences, then just report 'NO DIFFERENCES FOUND' in a TEXT file. The output is going to be a TEXT file with two possible content: 
+- Create a function that automatically determines if the two TEXT files showcase a difference in data elements and their requirements. If there is at least one difference, then the output of the function is going to be the [controls](https://kubescape.io/docs/controls/) available as part of [Kubescape](https://github.com/kubescape/kubescape/blob/master/docs/getting-started.md#usage) that map to these differences. If there are no differences, then just report 'NO DIFFERENCES FOUND' in a TEXT file. The output is going to be a TEXT file with two possible content: 
     - `NO DIFFERENCES FOUND` or 
-    - the [controls](https://kubescape.io/docs/controls/) of Kubescape that map to the identified differences. You can do this mapping manually or using an automated approach, such as an LLM. 
+    - the [controls](https://kubescape.io/docs/controls/) of Kubescape that map to the identified differences. You can do this mapping manually or using an automated approach, such as an LLM or pattern matching.  
 - Create a function that executes the Kubescape tool from the command line on `project-yamls.zip` based on the content of the TEXT file. If the TEXT file only contains `NO DIFFERENCES FOUND` then run the Kubescape tool with all controls available. Otherwise, run the tool only on the controls that are in the TEXT file. The output of this function will be a [pandas dataframe](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) object with the scan results from the tool. 
 - Create a function that generates a comma separated value (CSV) file with the following headers:
 `FilePath`, `Severity`, `Control name`, `Failed resources`, `All Resources`, `Compliance score`. The output of the function will be a CSV file with these five headers. The data for these fields will come from the function you created above. 
@@ -100,7 +100,7 @@ Nine input combinations:
 
 ##### Input 
 
-- Three TEXT files created in Task-2
+- Two TEXT files created in Task-2
 - The [Kubescape](https://github.com/kubescape/kubescape/blob/master/docs/getting-started.md#usage) tool
 
 ##### Expected Deliverables 
