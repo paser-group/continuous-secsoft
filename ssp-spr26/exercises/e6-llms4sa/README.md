@@ -6,14 +6,19 @@
 
 
 ### Tasks For You To Complete
-- Open up Google Gemini 
-- Use Google Gemini and chain-of-thought prompting to identify the following metrics for each of the Python program files in `e6.zip`
-  - Number of functions 
-  - Number of statements 
-  - Number of imported libraries 
-  - Number of variables 
-  - Number of lines of code in total 
-
+- 1. Open up Google Gemini 
+- 2. Use Google Gemini and chain-of-thought prompting to identify the following metrics for each of the Python program files in `e6.zip`
+    - Number of functions 
+    - Number of statements 
+    - Number of imported libraries 
+    - Number of variables 
+    - Number of lines of code in total 
+- 3. Aggregate all the data from Task-2 to calculate the following for all files:
+    - Number of functions for all files 
+    - Number of statements for all files 
+    - Number of imported libraries for all files 
+    - Number of variables for all files 
+    - Number of lines of code in total for all files 
 
 ## Deliverables [Rubric]
 

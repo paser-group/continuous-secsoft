@@ -1,6 +1,6 @@
 ## Access control assignment 
 
-### Overview of the Data
+### Overview of the data
 
 The spreadsheet `data.xlsx` contains data for access control for 250 users across 7 files. The format of storing data is in the `access control matrix` format. Any cell with no entries means that the user has NO permissions for the file. For example, `u249` has no permissions for any of the mentioned files in the spreadsheet. 
 
@@ -17,7 +17,7 @@ The spreadsheet `data.xlsx` contains data for access control for 250 users acros
 - 3. Construct a hashmap to store the users' and their access control permissions for users who have permission for at least 2 files. 
 - 4. Export the hashmap to a YAML file.  
 
-### Rubric and Deliverables 
+### Rubric and deliverables 
 
 - Function/method to read the data in the spreadsheet [10%]
 - 6 separate functions/methods to answer the 6 queries [60%]
