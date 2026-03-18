@@ -11,7 +11,7 @@ You will need to complete the following tasks. Each tasks needs a set of inputs 
 
 ##### Tasks 
 
-- Create a function that automatically takes the two documents below as input and applies adequate input validation measures. 
+- Create a function that automatically takes the two documents below as input and applies adequate input validation measures. Here, you want to make sure that you can open the documents and load all the text in the document in some data structure. 
 - Create a function that constructs a `zero shot prompt` to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a `few shot prompt` to identify key data elements in the two input documents. Output of this function will be a string. 
 - Create a function that constructs a `chain of thought prompt` to identify key data elements in the two input documents. Output of this function will be a string.
