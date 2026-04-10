@@ -71,7 +71,15 @@ Nine input combinations:
 
 - Create a function that automatically takes the two YAML files as input from the Task-1. 
 - Create a function that identifies differences in the two YAML files with respect to names of key data elements. Output of the function will be a TEXT file with the names of the elements that are different across the two YAML files as input. If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT NAMES' in a TEXT file.   
-- Create a function that identifies differences in the two YAML files with respect to (i) names of key data elements; and (ii) requirements for the key data elements. Output of the function will be a TEXT file with the names of the elements that are different across the two YAML files as input along with their requirements. The output should be dumped as a tuple, i.e., `NAME,REQU`. If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT REQUIREMENTS' in a TEXT file.   
+- Create a function that identifies differences in the two YAML files with respect to (i) names of key data elements; and (ii) requirements for the key data elements. Output of the function will be a TEXT file with the names of the elements that are different across the two YAML files as input along with their requirements. The output should be dumped as a tuple as follows:
+
+```
+NAME,ABSENT-IN-<FILENAME>,PRESENT-IN-<FILENAME>,NA  # a KDE is present  in one file but absent in another 
+NAME,ABSENT-IN-<FILENAME>,PRESENT-IN-<FILENAME>,REQ1 # a KDE is present  in both files but one requirement called REQ1 is present in one file but absent in another  
+```
+
+
+If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT REQUIREMENTS' in a TEXT file.   
 
 
 ##### Input 
