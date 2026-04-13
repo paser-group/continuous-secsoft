@@ -126,7 +126,7 @@ If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT R
 - Create a `requirements.txt` file with all the libraries with versions that you used to complete Task-1, 2, and 3. 
 - Create a README with your team members' names and university email IDs. In the README, report the LLM name that you are using for Task-1.  
 - Create a GitHub Action workflow so that every time a user, i.e., a contributor or someone who has forked your repository types `git status`, all test cases created in Task-1, Task-2, and Task-3 are executed automatically. All test cases must pass.  
-- Create a binary so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide nine inputs each of which includes two PDF files:
+- Create a binary or a BASH file so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide nine inputs each of which includes two PDF files:
   - Input-1: cis-r1.pdf and cis-r1.pdf
   - Input-2: cis-r1.pdf and cis-r2.pdf
   - Input-3: cis-r1.pdf and cis-r3.pdf
