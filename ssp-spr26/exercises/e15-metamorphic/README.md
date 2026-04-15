@@ -2,7 +2,7 @@
 
 ### Background 
 
-Hallucinations are LLM-generated outputs that are factually incorrect and unrelated to the provided query. A package hallucination occurs when an LLM generates code, which  uses a package reference that does not exist. Researchers found popular LLMs to generate 205,474 hallucinated package names for 576,000 code snippets. Package hallucinations can be used by adversaries to conduct package confusion attacks, where adversaries can trick professionals in using a malicious package.
+Hallucinations are LLM-generated outputs that are factually incorrect and unrelated to the provided query. A package hallucination occurs when an LLM generates code, which  uses a package reference that does not exist. [Researchers found](https://www.usenix.org/system/files/usenixsecurity25-spracklen.pdf) popular LLMs to generate 205,474 hallucinated package names for 576,000 code snippets. Package hallucinations can be used by adversaries to conduct package confusion attacks, where adversaries can trick professionals in using a malicious package.
 
 In this exercise, you will apply the idea of metamorphic relationships to detect hallucinated package names. You, yourself will generate hallucinated package names and then detect them using PyPI API's JSON. 
 
