@@ -97,7 +97,7 @@ If there are no differences, then report 'NO DIFFERENCES IN REGARDS TO ELEMENT R
 
 ##### Tasks 
 
-- Create a function that automatically takes the three TEXT files as input from Task-2
+- Create a function that automatically takes the two TEXT files as input from Task-2
 - Create a function that automatically determines if the two TEXT files showcase a difference in data elements and their requirements. If there is at least one difference, then the output of the function is going to be the [controls](https://kubescape.io/docs/controls/) available as part of [Kubescape](https://github.com/kubescape/kubescape/blob/master/docs/getting-started.md#usage) that map to these differences. If there are no differences, then just report 'NO DIFFERENCES FOUND' in a TEXT file. The output is going to be a TEXT file with two possible content: 
     - `NO DIFFERENCES FOUND` or 
     - the [controls](https://kubescape.io/docs/controls/) of Kubescape that map to the identified differences. You can do this mapping manually or using an automated approach, such as an LLM or pattern matching.  
