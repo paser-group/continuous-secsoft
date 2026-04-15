@@ -75,7 +75,8 @@ Nine input combinations:
 
 ```
 NAME,ABSENT-IN-<FILENAME>,PRESENT-IN-<FILENAME>,NA  # a KDE is present  in one file but absent in another 
-NAME,ABSENT-IN-<FILENAME>,PRESENT-IN-<FILENAME>,REQ1 # a KDE is present  in both files but one requirement called REQ1 is present in one file but absent in another  
+NAME,ABSENT-IN-<FILENAME>,PRESENT-IN-<FILENAME>,REQ1 # a KDE is present  in both files but one requirement called REQ1 is present in one
+NAME,ABSENT-IN-<FILENAME>,PRESENT-IN-<FILENAME>,REQ1 # a KDE is present  in both files but one requirement called REQ2 is present in one file but absent in another  
 ```
 
 
