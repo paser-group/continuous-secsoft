@@ -36,26 +36,26 @@
 | Aug 26  | Software Process - Scrum                                          |
 | Aug 28  | Requirements Engineering                                          |
 | Aug 31  | An Introduction to Generative AI Tools                            |
-| Sep 02  | Testing with LLMs  (Demonstration)                                |
+| Sep 02  | Usage of generative AI tools  (Demonstration)                     |
 | Sep 04  | Project and literature review debriefing                          |
 | Sep 07  | Labor Day [*No Classes*]                                          |
 | Sep 09  | Requirements Validation with Testing (Workshop)                   |
-| Sep 11  | Dependency Analysis with LLM-generated Package Names (Workshop)   |
-| Sep 14  | Configuration Management                                          |
-| Sep 16  | Security-focused Config. Scanning (Workshop with TIDAL)           |
-| Sep 18  | Design-focused Config. Scanning (Demo with GLITCH)                |
-| Sep 21  | Automated Configuration Management (Workshop with Terraform)      |
+| Sep 11  | Code Translation Using Large Language Models (LLMs) (Workshop)    |
+| Sep 14  | Dependency Analysis with LLM-generated Package Names (Workshop)   |
+| Sep 16  | Configuration Management                                          |
+| Sep 18  | Automated Configuration Management (Workshop with Terraform)      |
+| Sep 21  | Automated Config. Scanning (Demo and Workshop with TIDAL)         |
 | Sep 23  | Automated Program Analysis                                        |
-| Sep 25  | Automated Program Analysis (Information Flow - Workshop)          |
-| Sep 28  | Recap for Midterm                                                 |
-| Sep 30  | Midterm                                                           |  
+| Sep 25  | Recap for Midterm                                                 |
+| Sep 28  | Midterm                                                           |
+| Sep 30  | Automated Program Analysis (Information Flow - Workshop)          |  
 | Oct 02  | Automated Program Analysis (Tool Usage - Workshop)                |                                              
 | Oct 05  | Continuous Integration                                            |                 
-| Oct 07  | Continuous Integration (Workshop)                                 |
+| Oct 07  | Continuous Integration (Workshop with Codacy)                     |
 | Oct 09  | Fall Break [*No Classes*]                                         |
 | Oct 12  | Software Forensics                                                |
-| Oct 14  | Software Forensics (Workshop)                                     |
-| Oct 16  | TDD and BDD                                                       |
+| Oct 14  | TDD                                                               |
+| Oct 16  | BDD                                                               |
 | Oct 19  | Testing Metrics                                                   |
 | Oct 21  | Software Fuzzing                                                  |
 | Oct 23  | Software Fuzzing  (Workshop - Blackbox)                           |     
@@ -70,7 +70,7 @@
 | Nov 13  | ANGR Usage (Demonstration)                                        |
 | Nov 16  | Project updates                                                   |
 | Nov 18  | Metamorphic Testing                                               |
-| Nov 20  | Defect Analysis (Final Workshop)                                  |
+| Nov 20  | Defect Analysis (Final Workshop with Solidity)                    |
 | Nov 23  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 25  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 27  | Thanksgiving Week [*No Classes*]                                  |

@@ -35,11 +35,11 @@
 | Aug 24  | An Introduction to Generative AI Tools                            |
 | Aug 26  | Security Requirements Engineering                                 |
 | Aug 28  | Privacy-oriented Software Development                             |
-| Aug 31  | Securing the Software Architecture                                |
-| Sep 02  | Architectural Analysis  (Exercise)                                |
+| Aug 31  | Validating LLM output through dynamic analysis (Exercise)         |
+| Sep 02  | Securing the Software Architecture                                |
 | Sep 04  | Labor Day [*No Classes*]                                          |
 | Sep 07  | Project  debriefing                                               |
-| Sep 09  | Security requirements summarization (Exercise)                    |
+| Sep 09  | Architectural Analysis  (Exercise)                                |
 | Sep 11  | Threat Modeling                                                   |
 | Sep 14  | IEEE Secure Software Design                                       |
 | Sep 16  | Mirai Botnet                                                      |
@@ -51,14 +51,14 @@
 | Sep 30  | Security-focused Config. Scanning (Exercise with KubeScape)       |  
 | Oct 02  | Automated Program Analysis (Information Flow)                     |                                              
 | Oct 05  | Automated Program Analysis (Information Flow - Exercise)          |                  
-| Oct 07  | Event-based Scanning Event-based Scanning (Exercise)              |
+| Oct 07  | Event-based Scanning (Exercise)                                   |
 | Oct 09  | Fall Break [*No Classes*]                                         |
 | Oct 12  | Access control                                                    |
 | Oct 14  | Access control (Exercise)                                         |
 | Oct 16  | Software Forensics                                                |
 | Oct 19  | Software Forensics (Exercise)                                     |
 | Oct 21  | Vulnerability Analysis and Prediction                             |
-| Oct 23  | Vulnerability Analysis and Prediction   (Exercise)                |     
+| Oct 23  | Vulnerability Analysis with a Tuned Language Model (Exercise)     |     
 | Oct 26  | BSIMM                                                             |
 | Oct 28  | Software Fuzzing                                                  |
 | Oct 30  | Software Fuzzing  (Exercise - Greybox)                            |
