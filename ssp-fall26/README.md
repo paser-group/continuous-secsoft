@@ -62,7 +62,7 @@
 | Oct 26  | BSIMM                                                             |
 | Oct 28  | Software Fuzzing                                                  |
 | Oct 30  | Software Fuzzing  (Exercise - Greybox)                            |
-| Nov 02  | Software Fuzzing (Exercise - Whitebox)                            |
+| Nov 02  | Software Fuzzing (Exercise - Whitebox Fuzzing with Atheris)       |
 | Nov 04  | Combinatorial Interaction Testing                                 |
 | Nov 06  | Project updates                                                   |
 | Nov 09  | Combinatorial Interaction Testing  (Exercise)                     |

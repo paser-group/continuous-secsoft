@@ -59,7 +59,7 @@
 | Oct 19  | Testing Metrics                                                   |
 | Oct 21  | Software Fuzzing                                                  |
 | Oct 23  | Software Fuzzing  (Workshop - Blackbox)                           |     
-| Oct 26  | Software Fuzzing (Workshop - Whitebox)                            |
+| Oct 26  | Software Fuzzing (Workshop - Whitebox with Strings)               |
 | Oct 28  | Software Fuzzing (Workshop - Greybox)                             |
 | Oct 30  | Combinatorial Interaction Testing                                 |
 | Nov 02  | Combinatorial Interaction Testing (Workshop)                      |
