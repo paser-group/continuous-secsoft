@@ -68,16 +68,15 @@
 | Nov 09  | Combinatorial Interaction Testing  (Exercise)                     |
 | Nov 11  | Concolic Testing                                                  |
 | Nov 13  | Concolic Testing                                                  |
-| Nov 16  | Symbolic Execution to Find Vulnerabilities (Exercise)             |
-| Nov 18  | Metamorphic Testing                                               |
-| Nov 20  | Metamorphic Testing (Final Exercise)                              |
+| Nov 16  | Midterm -2                                                        |
+| Nov 18  | Symbolic Execution to Find Vulnerabilities (Exercise)             |
+| Nov 20  |   Metamorphic Testing                                             |
 | Nov 23  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 25  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 27  | Thanksgiving Week [*No Classes*]                                  |
-| Nov 30  | Secret Management                                                 |
-| Dec 02  | Secret Management  (Demo)                                         |
-| Dec 04  | Review for Final Exam *Last day of classes*                       |
-| TBD     | Final Exam (TBD)                                                  |
+| Nov 30  | Metamorphic Testing (Final Exercise)                              |
+| Dec 02  | Secret Management                                                 |
+| Dec 04  | Secret Management  (Demo) *Last day of classes*                   |
 
  
 

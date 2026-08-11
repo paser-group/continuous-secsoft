@@ -5,7 +5,7 @@
 
 > Akond Rahman, PhD 
 
-> Office hours: Friday, 12:00 - 13:00 PM CST , Shelby Center 3137
+> Office hours: Friday, 12:00 - 12:30 PM CST , Shelby Center 3137
 
 > akond@auburn.edu 
 
@@ -68,16 +68,15 @@
 | Nov 09  | Concolic Testing                                                  |
 | Nov 11  | Concolic Testing                                                  |
 | Nov 13  | ANGR Usage (Demonstration)                                        |
-| Nov 16  | Project updates                                                   |
-| Nov 18  | Metamorphic Testing                                               |
+| Nov 16  | Midterm-2                                                         |
+| Nov 18  | Project updates                                                   |
 | Nov 20  | Defect Analysis (Final Workshop with Solidity)                    |
 | Nov 23  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 25  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 27  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 30  | Maintenance Factors in SQA                                        |
 | Dec 02  | Organizational Factors in SQA                                     |
-| Dec 04  | Review for Final Exam *Last day of classes. Last day to submit project and workshops*                       |
-| TBD     | TBD                                                               |
+| Dec 04  | Metamorphic Testing                                               |
 
  
 
