@@ -1,5 +1,5 @@
 # COMP 5710/6710 (Software Quality Assurance)
-> MWF, 10:00-10:50 AM CST, SHELBY TODO, Fall 2026 
+> MWF, 10:00-10:50 AM CST, SHELBY 1122, Fall 2026 
 
 ## Instructor 
 
@@ -24,7 +24,7 @@
 
 
 
-## Schedule for Fall 2025 
+## Schedule for Fall 2026 
 
 
 | Date    |  Schedule                                                         |
@@ -46,8 +46,8 @@
 | Sep 18  | Automated Configuration Management (Workshop with Terraform)      |
 | Sep 21  | Automated Config. Scanning (Demo and Workshop with TIDAL)         |
 | Sep 23  | Automated Program Analysis                                        |
-| Sep 25  | Recap for Midterm                                                 |
-| Sep 28  | Midterm                                                           |
+| Sep 25  | Recap for Midterm-1                                               |
+| Sep 28  | Midterm-1                                                         |
 | Sep 30  | Automated Program Analysis (Information Flow - Workshop)          |  
 | Oct 02  | Automated Program Analysis (Tool Usage - Workshop)                |                                              
 | Oct 05  | Continuous Integration                                            |                 
@@ -67,7 +67,7 @@
 | Nov 06  | Functional Testing  (Workshop)                                    |
 | Nov 09  | Concolic Testing                                                  |
 | Nov 11  | Concolic Testing                                                  |
-| Nov 13  | ANGR Usage (Demonstration)                                        |
+| Nov 13  | Recap for Midterm-2                                               |
 | Nov 16  | Midterm-2                                                         |
 | Nov 18  | Project updates                                                   |
 | Nov 20  | Defect Analysis (Final Workshop with Solidity)                    |

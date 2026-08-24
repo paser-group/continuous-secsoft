@@ -24,7 +24,7 @@
 
 
 
-## Schedule for Fall 2025 
+## Schedule for Fall 2026
 
 
 | Date    |  Schedule                                                         |
@@ -49,7 +49,7 @@
 | Sep 25  | Recap for Midterm                                                 |
 | Sep 28  | Midterm                                                           |
 | Sep 30  | Security-focused Config. Scanning (Exercise with KubeScape)       |  
-| Oct 02  | Automated Program Analysis (Information Flow)                     |                                              
+| Oct 02  | Automated Program Analysis (Information Flow)|                                              
 | Oct 05  | Automated Program Analysis (Information Flow - Exercise)          |                  
 | Oct 07  | Event-based Scanning (Exercise)                                   |
 | Oct 09  | Fall Break [*No Classes*]                                         |
@@ -64,19 +64,19 @@
 | Oct 30  | Software Fuzzing  (Exercise - Greybox)                            |
 | Nov 02  | Software Fuzzing (Exercise - Whitebox Fuzzing with Atheris)       |
 | Nov 04  | Combinatorial Interaction Testing                                 |
-| Nov 06  | Project updates                                                   |
-| Nov 09  | Combinatorial Interaction Testing  (Exercise)                     |
+| Nov 06  | Combinatorial Interaction Testing (Exercise)                      |
+| Nov 09  | Concolic Testing                                                  |
 | Nov 11  | Concolic Testing                                                  |
-| Nov 13  | Concolic Testing                                                  |
+| Nov 13  | Recap for Midterm-2                                               |
 | Nov 16  | Midterm -2                                                        |
-| Nov 18  | Symbolic Execution to Find Vulnerabilities (Exercise)             |
-| Nov 20  |   Metamorphic Testing                                             |
+| Nov 18  | Combinatorial Interaction Testing  (Exercise)                     |
+| Nov 20  | Symbolic Execution to Find Vulnerabilities (Exercise)             |
 | Nov 23  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 25  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 27  | Thanksgiving Week [*No Classes*]                                  |
-| Nov 30  | Metamorphic Testing (Final Exercise)                              |
-| Dec 02  | Secret Management                                                 |
-| Dec 04  | Secret Management  (Demo) *Last day of classes*                   |
+| Nov 30  | Metamorphic Testing                                               |
+| Dec 02  | Metamorphic Testing (Final Exercise)                              |
+| Dec 04  | Secret Management         *Last day of classes*                   |
 
  
 

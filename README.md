@@ -13,13 +13,15 @@
 
 | Course                             | Taught at                                  |  Link                                            |
 |------------------------------------|--------------------------------------------|--------------------------------------------------|
-| Secure Software Process            | Auburn University, Spring 2026    |  [Link](/ssp-spr26)     |
-| Secure Software Process            | Auburn University, Fall 2025      |  No longer maintained   |
-| Software Quality Assurance         | Auburn University, Fall 2025      |  No longer maintained   |
-| Software Supply Chain              | Auburn University, Spring 2025    |  No longer maintained   |
-| Software Quality Assurance         | Auburn University, Fall 2024      |  No longer maintained   |
-| Software Quality Assurance         | Auburn University, Spring 2024    |  No longer maintained   |
-| Software Quality Assurance         | Auburn University, Fall  2023     |  No longer maintained   |
-| Software Quality Assurance         | Auburn University, Spring 2023    |  No longer maintained   |
-| Software Quality Assurance         | Auburn University, Fall 2022      |  No longer maintained   |
+| Software Quality Assurance         | Auburn University, Fall 2026   |  [Link](/sqa-fall26)    |
+| Secure Software Process            | Auburn University, Fall 2026   |  [Link](/ssp-fall26)    |
+| Secure Software Process            | Auburn University, Spring 2026 |  No longer maintained   |
+| Secure Software Process            | Auburn University, Fall 2025   |  No longer maintained   |
+| Software Quality Assurance         | Auburn University, Fall 2025   |  No longer maintained   |
+| Software Supply Chain              | Auburn University, Spring 2025 |  No longer maintained   |
+| Software Quality Assurance         | Auburn University, Fall 2024   |  No longer maintained   |
+| Software Quality Assurance         | Auburn University, Spring 2024 |  No longer maintained   |
+| Software Quality Assurance         | Auburn University, Fall  2023  |  No longer maintained   |
+| Software Quality Assurance         | Auburn University, Spring 2023 |  No longer maintained   |
+| Software Quality Assurance         | Auburn University, Fall 2022   |  No longer maintained   |
 | Software and Systems Security      | Tennessee Tech University, Fall 2021 | No longer maintained |
