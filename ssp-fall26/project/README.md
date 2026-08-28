@@ -43,17 +43,13 @@ Save the generated output in a YAML file. For the two requirements documents you
 
 ##### Input 
 
-Nine input combinations:
+Input combinations:
 
-  - Input-1: cis-r1.pdf and cis-r1.pdf
-  - Input-2: cis-r1.pdf and cis-r2.pdf
-  - Input-3: cis-r1.pdf and cis-r3.pdf
-  - Input-4: cis-r1.pdf and cis-r4.pdf
-  - Input-5: cis-r2.pdf and cis-r2.pdf
-  - Input-6: cis-r2.pdf and cis-r3.pdf  
-  - Input-7: cis-r2.pdf and cis-r4.pdf  
-  - Input-8: cis-r3.pdf and cis-r3.pdf  
-  - Input-9: cis-r3.pdf and cis-r4.pdf    
+  - Input-1: docker-cis-v0.pdf and docker-cis-v1.pdf
+  - Input-2: docker-cis-v0.pdf and docker-cis-v2.pdf
+  - Input-3: docker-cis-v1.pdf and docker-cis-v2.pdf
+  - Input-4: docker-cis-v1.pdf and docker-cis-v1.pdf  
+  - Input-5: docker-cis-v2.pdf and docker-cis-v2.pdf  
 
 
 ##### Expected Deliverables 
