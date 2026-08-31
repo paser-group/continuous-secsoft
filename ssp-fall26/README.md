@@ -37,7 +37,7 @@
 | Aug 28  | Privacy-oriented Software Development                             |
 | Aug 31  | Validating LLM output through dynamic analysis (Exercise)         |
 | Sep 02  | Securing the Software Architecture                                |
-| Sep 04  | Departmental Retreat[*No classes*]                                |
+| Sep 04  | Departmental Retreat [*No classes*]                                |
 | Sep 07  | Labor Day [*No Classes*]                                          |
 | Sep 09  | Project Debriefing                                                |
 | Sep 11  | Threat Modeling                                                   |
