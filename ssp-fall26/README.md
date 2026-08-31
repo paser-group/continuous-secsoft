@@ -37,9 +37,9 @@
 | Aug 28  | Privacy-oriented Software Development                             |
 | Aug 31  | Validating LLM output through dynamic analysis (Exercise)         |
 | Sep 02  | Securing the Software Architecture                                |
-| Sep 04  | Labor Day [*No Classes*]                                          |
-| Sep 07  | Project  debriefing                                               |
-| Sep 09  | Architectural Analysis  (Exercise)                                |
+| Sep 04  | Departmental Retreat[*No classes*]                                |
+| Sep 07  | Labor Day [*No Classes*]                                          |
+| Sep 09  | Project Debriefing                                                |
 | Sep 11  | Threat Modeling                                                   |
 | Sep 14  | IEEE Secure Software Design                                       |
 | Sep 16  | Mirai Botnet                                                      |
@@ -49,7 +49,7 @@
 | Sep 25  | Recap for Midterm                                                 |
 | Sep 28  | Midterm                                                           |
 | Sep 30  | Security-focused Config. Scanning (Exercise with KubeScape)       |  
-| Oct 02  | Automated Program Analysis (Information Flow)|                                              
+| Oct 02  | Automated Program Analysis (Information Flow)                     | 
 | Oct 05  | Automated Program Analysis (Information Flow - Exercise)          |                  
 | Oct 07  | Event-based Scanning (Exercise)                                   |
 | Oct 09  | Fall Break [*No Classes*]                                         |
