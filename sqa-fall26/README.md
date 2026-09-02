@@ -36,7 +36,7 @@
 | Aug 26  | Software Process - Scrum                                          |
 | Aug 28  | Requirements Engineering                                          |
 | Aug 31  | An Introduction to Generative AI Tools                            |
-| Sep 02  | Project and literature review debriefing +  Usage of generative AI tools  (Demonstration)                     |
+| Sep 02  | Project debriefing +  Usage of generative AI tools  (Demo)        |
 | Sep 04  | Departmental Retreat [*No Classes*]                               |
 | Sep 07  | Labor Day [*No Classes*]                                          |
 | Sep 09  | Requirements Validation with Testing (Workshop)                   |
