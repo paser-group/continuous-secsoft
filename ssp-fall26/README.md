@@ -37,32 +37,32 @@
 | Aug 28  | Privacy-oriented Software Development                             |
 | Aug 31  | Validating LLM output through dynamic analysis (Exercise)         |
 | Sep 02  | Securing the Software Architecture                                |
-| Sep 04  | Departmental Retreat [*No classes*]                                |
+| Sep 04  | Departmental Retreat [*No classes*]                               |
 | Sep 07  | Labor Day [*No Classes*]                                          |
 | Sep 09  | Project Debriefing                                                |
 | Sep 11  | Threat Modeling                                                   |
 | Sep 14  | IEEE Secure Software Design                                       |
 | Sep 16  | Mirai Botnet                                                      |
-| Sep 18  | Threat Modeling  (Exercise)                                       |
+| Sep 18  | Threat Modeling  (Demonstration)                                  |
 | Sep 21  | IEEE Secure Software Design (Exercise)                            |
 | Sep 23  | Configuration Management                                          |
 | Sep 25  | Recap for Midterm                                                 |
 | Sep 28  | Midterm                                                           |
-| Sep 30  | Security-focused Config. Scanning (Exercise with KubeScape)       |  
+| Sep 30  | Security-focused Config. Scanning (Demonstration)                 |  
 | Oct 02  | Automated Program Analysis (Information Flow)                     | 
 | Oct 05  | Automated Program Analysis (Information Flow - Exercise)          |                  
-| Oct 07  | Event-based Scanning (Exercise)                                   |
+| Oct 07  | Event-based Scanning (Demonstration)                              |
 | Oct 09  | Fall Break [*No Classes*]                                         |
 | Oct 12  | Access control                                                    |
 | Oct 14  | Access control (Exercise)                                         |
 | Oct 16  | Software Forensics                                                |
-| Oct 19  | Software Forensics (Exercise)                                     |
+| Oct 19  | Software Forensics (Demonstration)                                |
 | Oct 21  | Vulnerability Analysis and Prediction                             |
 | Oct 23  | Vulnerability Analysis with a Tuned Language Model (Exercise)     |     
 | Oct 26  | BSIMM                                                             |
 | Oct 28  | Software Fuzzing                                                  |
-| Oct 30  | Software Fuzzing  (Exercise - Greybox)                            |
-| Nov 02  | Software Fuzzing (Exercise - Whitebox Fuzzing with Atheris)       |
+| Oct 30  | Software Fuzzing  (Demonstration with AFL++)                      |
+| Nov 02  | Software Fuzzing (Demonstration with Atheris)                     |
 | Nov 04  | Combinatorial Interaction Testing                                 |
 | Nov 06  | Combinatorial Interaction Testing (Exercise)                      |
 | Nov 09  | Concolic Testing                                                  |
