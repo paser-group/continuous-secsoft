@@ -45,11 +45,9 @@ Save the generated output in a YAML file. For the two requirements documents you
 
 Input combinations:
 
-  - Input-1: docker-cis-v0.pdf and docker-cis-v1.pdf
-  - Input-2: docker-cis-v0.pdf and docker-cis-v2.pdf
-  - Input-3: docker-cis-v1.pdf and docker-cis-v2.pdf
-  - Input-4: docker-cis-v1.pdf and docker-cis-v1.pdf  
-  - Input-5: docker-cis-v2.pdf and docker-cis-v2.pdf  
+  - Input-1: docker-cis-v0.pdf 
+  - Input-3: docker-cis-v1.pdf 
+  - Input-5: docker-cis-v2.pdf 
 
 
 ##### Expected Deliverables 
@@ -114,7 +112,7 @@ Input combinations:
 - Create a `requirements.txt` file with all the libraries with versions that you used to complete Task-1, 2, and 3. 
 - Create a README with your team members' names, BannerIDs, and university email IDs. In the README, report the LLM name that you are using for Task-1.  
 - Create a GitHub Action workflow so that every time a user, i.e., a contributor or someone who has forked your repository types `git status`, all test cases created in Task-1, Task-2, and Task-3 are executed automatically. All test cases must pass.  
-- Create a binary so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide five inputs each of which includes two PDF files:
+- Create a binary so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide three files as inputs:
   - Input-1: docker-cis-v0.pdf and docker-cis-v1.pdf
   - Input-2: docker-cis-v0.pdf and docker-cis-v2.pdf
   - Input-3: docker-cis-v1.pdf and docker-cis-v2.pdf

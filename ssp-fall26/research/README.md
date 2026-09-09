@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-In this research project, you will need to use generative AI tools for deriving defects and threat models for Visual Studi Code (VSCode) extensions. 
+In this research project, you will need to use generative AI tools for deriving defects and threat models for Visual Studio Code (VSCode) extensions. 
 
 
 ## Task-1
@@ -15,7 +15,7 @@ In this research project, you will need to use generative AI tools for deriving 
 - `defect-categories.txt`: this will contain all the defect categories that you identified 
 - `defect-consequences.txt`: this will contain all the defect consequences that you identified 
 - `defect-mapping.txt`: this will contain a table that maps each defect category and defect consequence that you have identified 
-- `defect-prompt.txt`:  this will contain all the prompts you used for Task1-Task3. 
+- `defect-prompt.txt`:  this will contain all the prompts you used for Task1.1-Task1.3.    
 
 
 ## Task-2
