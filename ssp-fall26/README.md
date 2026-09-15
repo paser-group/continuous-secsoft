@@ -75,7 +75,7 @@
 | Nov 25  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 27  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 30  | Metamorphic Testing                                               |
-| Dec 02  | Metamorphic Testing (Final Exercise)                              |
+| Dec 02  | Metamorphic Testing (Demonstration)                               |
 | Dec 04  | Secret Management         *Last day of classes*                   |
 
  
