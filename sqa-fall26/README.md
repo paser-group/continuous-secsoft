@@ -44,12 +44,12 @@
 | Sep 14  | Dependency Analysis with LLM-generated Package Names (Workshop)   |
 | Sep 16  | Configuration Management                                          |
 | Sep 18  | Automated Configuration Management (Workshop with Terraform)      |
-| Sep 21  | Automated Config. Scanning (Demo and Workshop with TIDAL)         |
+| Sep 21  | Automated Config. Scanning (Demo with Kubescape)                  |
 | Sep 23  | Automated Program Analysis                                        |
 | Sep 25  | Recap for Midterm-1                                               |
 | Sep 28  | Midterm-1                                                         |
 | Sep 30  | Automated Program Analysis (Information Flow - Workshop)          |  
-| Oct 02  | Automated Program Analysis (Tool Usage - Workshop)                |                                              
+| Oct 02  | Automated Program Analysis (Tool Usage - Workshop) |                                              
 | Oct 05  | Continuous Integration                                            |                 
 | Oct 07  | Continuous Integration (Workshop with Codacy)                     |
 | Oct 09  | Fall Break [*No Classes*]                                         |
