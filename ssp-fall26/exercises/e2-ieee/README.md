@@ -8,7 +8,7 @@ The following is a YAML describing a user story. Write a code to identify the vi
 (T1) include a method/function to parse the YAML content 
 (T2) include at least one method/function that performs content extraction related to policy violations 
 (T3) include at least one method/function that performs a key-value based lookup operation to determine violations of the principles 
-(T4) include 5 test cases each for (i), (ii), and (iii)
+(T4) include 5 test cases each for (T1), (T2), and (T3)
 
 
 ### YAML code snippet 
