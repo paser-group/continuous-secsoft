@@ -48,10 +48,10 @@
 | Sep 23  | Automated Program Analysis                                        |
 | Sep 25  | Recap for Midterm-1                                               |
 | Sep 28  | Midterm-1                                                         |
-| Sep 30  | Automated Program Analysis (Information Flow - Workshop)          |  
-| Oct 02  | Automated Program Analysis (Tool Usage - Workshop) |                                              
+| Sep 30  | Automated Program Analysis (Tool Usage - Demonstration)           |  
+| Oct 02  | Automated Program Analysis (Information Flow - Workshop)    |                                              
 | Oct 05  | Continuous Integration                                            |                 
-| Oct 07  | Continuous Integration (Workshop with Codacy)                     |
+| Oct 07  | Continuous Integration (Demonstration with Codacy)                |
 | Oct 09  | Fall Break [*No Classes*]                                         |
 | Oct 12  | Software Forensics                                                |
 | Oct 14  | TDD                                                               |
