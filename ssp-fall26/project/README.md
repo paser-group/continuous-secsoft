@@ -83,7 +83,7 @@ Input combinations:
 
 ##### Tasks 
 
-- Create a function that automatically takes the three TEXT files as input from Task-2
+- Create a function that automatically takes the two TEXT files as input from Task-2
 - Create a function that automatically determines if the two TEXT files showcase a difference in data elements and their requirements. If there is at least one difference, then the output of the function is going to be the [rules](https://github.com/hadolint/hadolint#rules) available as part of [Hadolint](https://github.com/hadolint/hadolint) that map to these differences. If there are no differences, then just report 'NO DIFFERENCES FOUND' in a TEXT file. The output is going to be a TEXT file with two possible content: 
     - `NO DIFFERENCES FOUND` or 
     - the [rules](https://github.com/hadolint/hadolint#rules) of Hadolint that map to the identified differences. You can do this mapping manually or using an automated approach, such as an LLM or pattern matching.  
@@ -111,7 +111,7 @@ Input combinations:
 
 - Create a `requirements.txt` file with all the libraries with versions that you used to complete Task-1, 2, and 3. 
 - Create a README with your team members' names, BannerIDs, and university email IDs. In the README, report the LLM name that you are using for Task-1.  
-- Create a GitHub Action workflow so that every time a user, i.e., a contributor or someone who has forked your repository types `git status`, all test cases created in Task-1, Task-2, and Task-3 are executed automatically. All test cases must pass.  
+- Create a GitHub Action workflow so that every time a user, i.e., a contributor or someone who has forked your repository types `git pull`, all test cases created in Task-1, Task-2, and Task-3 are executed automatically. All test cases must pass.  
 - Create a binary so that the TA can run your project automatically using a Python-based virtual environment. As input the TA will provide three files as inputs:
   - Input-1: docker-cis-v0.pdf and docker-cis-v1.pdf
   - Input-2: docker-cis-v0.pdf and docker-cis-v2.pdf
