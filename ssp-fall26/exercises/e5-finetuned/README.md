@@ -23,7 +23,6 @@ Large language models (LLMs) perform a wide range of tasks. But, is there a way 
 
 ### References 
 
-- [Dataset Used In Class](https://www.kaggle.com/datasets/jiscecseaiml/vulnerability-fix-dataset)
 - [Dataset for You](https://www.kaggle.com/datasets/maratsaratov/source-code-vulnerability)
 - [Tutorial](https://huggingface.co/docs/transformers/v4.14.1/training)
 - [Common Error Resolution](https://discuss.huggingface.co/t/the-model-did-not-return-a-loss-from-the-inputs-only-the-following-keys-logits-for-reference-the-inputs-it-received-are-input-values/25420/2)
