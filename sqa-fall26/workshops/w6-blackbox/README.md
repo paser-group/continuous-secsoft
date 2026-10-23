@@ -17,5 +17,6 @@
 
 
 ### Deliverables 
-- Your test cases as one or multiple files 
-- Your crashes 
+- Your test cases as one or multiple files : 40% 
+- Your program that generates the test cases : 30%
+- Your crashes : 30% 
