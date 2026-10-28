@@ -17,9 +17,6 @@ Large language models (LLMs) perform a wide range of tasks. But, is there a way 
 - output.txt: 25%
 - missing.txt: 25% 
 
-### Warning 
-
-**If the TA or the instructor finds a student to directly copy and paste the instructor's code partially or fully, then the student will get a direct `ZERO` for this assignment.**  
 
 ### References 
 
