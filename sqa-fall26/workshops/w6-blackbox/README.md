@@ -13,7 +13,7 @@
 
 ### Tasks For You To Do 
 
-- Generate five test inputs using a computer program that will lead to errors for the binary `FileOpener`
+- Generate five test inputs using a computer program that will lead to crashes for the binary `FileOpener`. A crash is defined as an abrupt termination of a computer program in response to an input.
 
 
 ### Deliverables 
