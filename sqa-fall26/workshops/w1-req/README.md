@@ -11,7 +11,7 @@
 - Create a virtual environment 
 
 > python3 -m venv course-venv
-> source course-venv/bin/activate
+> source w1-venv/bin/activate
 
 - Apply test driven development by first creating test cases with `unittest`
 

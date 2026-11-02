@@ -84,10 +84,11 @@ Input combinations:
 ##### Tasks 
 
 - Create a function that automatically takes the two TEXT files as input from Task-2
-- Create a function that automatically determines if the two TEXT files showcase a difference in data elements and their requirements. If there is at least one difference, then the output of the function is going to be the [rules](https://github.com/hadolint/hadolint#rules) available as part of [Hadolint](https://github.com/hadolint/hadolint) that map to these differences. If there are no differences, then just report 'NO DIFFERENCES FOUND' in a TEXT file. The output is going to be a TEXT file with two possible content: 
+- Create a function that automatically determines if the two TEXT files showcase a difference in data elements and their requirements. If there is at least one difference, then the output of the function is going to be the [rules](https://github.com/hadolint/hadolint#rules) available as part of [Hadolint](https://github.com/hadolint/hadolint) that map to these differences. Map only CIS rules that relate to Dockerfiles. If there are no differences, then just report 'NO DIFFERENCES FOUND' in a TEXT file. If there are differences found but none of the rules map to the identified differences, then just report "NO MAPPING FOUND" in a TEXT file.  The output is going to be a TEXT file with three possible content: 
     - `NO DIFFERENCES FOUND` or 
-    - the [rules](https://github.com/hadolint/hadolint#rules) of Hadolint that map to the identified differences. You can do this mapping manually or using an automated approach, such as an LLM or pattern matching.  
-- Create a function that executes the Hadolint tool from the command line on [dockerfiles.zip](https://tigermailauburn-my.sharepoint.com/:u:/r/personal/azr0154_auburn_edu/Documents/TEACHING/FALL2026/dokcerfiles.zip?d=w599e9e59b5334dcfa924a9dcc58ae6b4&csf=1&web=1&e=18i6Ce) based on the content of the TEXT file. If the TEXT file only contains `NO DIFFERENCES FOUND` then run the Hadolint tool with all rules available. Otherwise, run the tool only on the rules that are in the TEXT file. The output of this function will be a [pandas dataframe](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) object with the scan results from the tool. 
+    - `NO MAPPING FOUND` or 
+    - the [rules](https://github.com/hadolint/hadolint#rules) of Hadolint that map to the identified differences. 
+- Create a function that executes the Hadolint tool from the command line on [dockerfiles.zip](https://tigermailauburn-my.sharepoint.com/:u:/r/personal/azr0154_auburn_edu/Documents/TEACHING/FALL2026/dokcerfiles.zip?d=w599e9e59b5334dcfa924a9dcc58ae6b4&csf=1&web=1&e=18i6Ce) based on the content of the TEXT file. If the TEXT file only contains `NO DIFFERENCES FOUND` or `NO MAPPING FOUND` then run the Hadolint tool with all rules available. Otherwise, run the tool only on the rules that are in the TEXT file. The output of this function will be a [pandas dataframe](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html) object with the scan results from the tool. 
 - Create a function that generates a comma separated value (CSV) file with the following headers:
 `FilePath`, `DefaultSeverity`, `RULEID`, `COUNT`. The output of the function will be a CSV file with these four headers. The data for these fields will come from the function you created above. 
 
@@ -118,6 +119,7 @@ Input combinations:
   - Input-3: docker-cis-v1.pdf and docker-cis-v2.pdf
   - Input-4: docker-cis-v1.pdf and docker-cis-v1.pdf  
   - Input-5: docker-cis-v2.pdf and docker-cis-v2.pdf  
+- No need to upload the Dockerfile dataset in your GitHub repo 
 
 
 Please create the binary using [PyInstaller](https://pyinstaller.org/en/stable/). 

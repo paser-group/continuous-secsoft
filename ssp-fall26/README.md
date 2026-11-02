@@ -69,12 +69,12 @@
 | Nov 11  | Concolic Testing                                                  |
 | Nov 13  | Recap for Midterm-2                                               |
 | Nov 16  | Midterm -2                                                        |
-| Nov 18  | Symbolic Execution to Find Vulnerabilities (Exercise)             |
+| Nov 18  | Symbolic Execution with ANGR (Demonstration)             |
 | Nov 20  | Metamorphic Testing                                               |
 | Nov 23  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 25  | Thanksgiving Week [*No Classes*]                                  |
 | Nov 27  | Thanksgiving Week [*No Classes*]                                  |
-| Nov 30  | Metamorphic Testing (Demonstration)                               |
+| Nov 30  | Metamorphic Testing (Exercise)                               |
 | Dec 02  | Secret Management                                                 |
 | Dec 04  | Secret Management (Demonstration) *Last day of classes*           |
 
