@@ -17,7 +17,11 @@ The objective of this project is to integrate software quality assurance activit
 
    - 4.c. Integrate continuous integration with GitHub Actions. (25%)   
 
-5. Report your activities and lessons learned. Put the report in your repo as `SQA-REPO.md` (20%)   
+5. Report your activities and lessons learned. Put the report in your repo as `SQA-REPO.md` (20%). The project report should discuss: 
+      - If you have completed all tasks 
+      - How to identify your implementation 
+      - How to replicate your work 
+      - Three sentences on what you learned while doing the project 
 
 
 ### Deliverables 
