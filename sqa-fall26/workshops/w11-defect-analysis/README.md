@@ -1,4 +1,4 @@
-## Workshop for Predictive Security Testing 
+## Workshop for Predictive Security Testing (Final Workshop)
 
 Predictive security testing uses AI techniques, such as decision trees to predict the location of vulnerabilities in source code. One example of predictive security testing is construction of vulnerability prediction models (VPMs), where source code metrics are used to develop a model that can identify if a source code file includes a vulnerability. As part of this workshop, you will develop a prediction model for vulnerabilities in Solidity files. Solidity  is used for Ethereum-based smart contracts. 
 
